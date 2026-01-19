@@ -1,3 +1,6 @@
 [submodule "domains/quanttide-data"]
 	path = domains/quanttide-data
 	url = https://github.com/quanttide/quanttide-data
+[submodule "assets/specification"]
+	path = assets/specification
+	url = https://github.com/quanttide/quanttide-specification.git
