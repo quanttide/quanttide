@@ -2,6 +2,14 @@
 
 量潮知识管理体系的根仓库，整合领域知识与资产标准。
 
+## 许可证
+
+本项目采用 [CC BY 4.0](LICENSE) 许可证。
+
+## 贡献指南
+
+欢迎贡献！详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
 ## 目录结构
 
 ```
@@ -9,8 +17,13 @@ quanttide/
 ├── asset/                   # 量潮资产
 │   ├── specification/       # 工程标准
 │   └── profile/             # 工作档案
-└── domain/                  # 量潮领域
-    └── quanttide-data/      # 数据工程
+├── domain/                  # 量潮领域
+│   └── quanttide-data/      # 数据工程
+├── CHANGELOG.md             # 版本变更记录
+├── CONTRIBUTING.md          # 贡献指南
+├── index.md                 # 项目概述
+├── LICENSE                  # 许可证
+└── README.md                # 本文件
 ```
 
 ## 子项目
@@ -59,6 +72,68 @@ cd ..
 git add <submodule-path>
 git commit -m "Update <submodule-path>"
 ```
+
+## 格式规范
+
+### 文件命名
+
+- 使用小写字母
+- 单词之间用下划线 `_` 分隔
+- 示例：`agent.md`、`product_roadmap.md`
+
+### 目录命名
+
+- 使用小写字母
+- 使用复数形式
+- 示例：`asset/`、`domain/`、`docs/`
+
+### Markdown 规范
+
+- 标题使用 ATX 风格（`#`、`##`、`###`）
+- 代码块使用 fenced code（```）
+- 列表使用 `-` 或 `1.`
+- 链接使用 `[文字](路径)` 格式
+- 区块之间保留空行
+
+## 构建命令
+
+对于 Jupyter Book 文档项目：
+
+```bash
+# 进入子模块目录
+cd asset/profile/entity/founder
+
+# 构建 HTML（单文件方式，避免 EISDIR 错误）
+jupyter-book build index.md --site
+
+# 构建并预览
+jupyter-book start .
+
+# 清理构建文件
+jupyter-book clean .
+```
+
+对于 Python 项目：
+
+```bash
+cd domain/quanttide-data
+
+# 显示所有可用命令
+make help
+
+# 运行所有测试
+make test
+```
+
+## 质量检查
+
+### 验证清单
+
+- [ ] 所有内部链接指向已存在的文件
+- [ ] `_toc.yml` 中引用的文件均已创建
+- [ ] YAML 文件语法正确
+- [ ] 新增文件已添加到 `_toc.yml`
+- [ ] 构建无错误
 
 ## 子项目详情
 
