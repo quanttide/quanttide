@@ -2,18 +2,16 @@
 
 ## 量潮第二大脑
 
-量潮第二大脑已发布 0.0.1 版本
+量潮第二大脑已发布 0.0.2 版本
 链接：GitHub - quanttide/quanttide: 量潮第二大脑
 要点：
-- 量潮知识管理体系的根仓库，整合领域知识与资产标准
-- 采用 Git 子模块架构管理多个独立的文档和代码模块
-- 核心架构思想：正交分解、单一事实源、知识即代码
-- 新增 AGENTS.md：Agent 工作指南（兼容多 Code Agent）
-- 新增 CHANGELOG.md、ROADMAP.md、CONTRIBUTING.md 完善文档体系
+- 新增 meta/ 目录：元数据统一管理
+- 更新子模块引用：asset/profile v0.0.4, domain/asset v0.0.3
+- 元数据迁移至主仓库统一管理
 
 ## 量潮工作档案
 
-量潮工作档案已发布 0.0.2 版本
+量潮工作档案已发布 0.0.4 版本
 链接：GitHub - quanttide/quanttide-profile: 量潮工作档案
 要点：
 - 父仓库采用 Git 子模块结构管理多个独立文档模块
