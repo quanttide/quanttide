@@ -23,7 +23,9 @@
 | [CHANGELOG.md](CHANGELOG.md) | 版本变更记录 |
 | [ROADMAP.md](ROADMAP.md) | 产品路线图、版本规划 |
 | [index.md](index.md) | 项目概述、架构思想 |
-| [meta/metadata.md](meta/metadata.md) | 元数据信息（版本信息等） |
+| [meta/README.md](meta/README.md) | 元数据目录说明 |
+| [meta/metadata.md](meta/metadata.md) | 各子项目版本信息 |
+| [meta/self.md](meta/self.md) | 系统自我介绍 |
 
 ### 人机协作范式
 
@@ -89,6 +91,21 @@
 - [ ] 构建无错误
 
 ## 重要提醒
+
+### Meta 目录
+
+Meta 目录是系统的元认知层，包含三个核心文件：
+
+| 文件 | 用途 | 更新时机 |
+|------|------|----------|
+| `metadata.md` | 版本档案 | 发布版本时更新对应子项目条目 |
+| `self.md` | 自我介绍 | 系统定位/能力变化时更新 |
+| `README.md` | 目录说明 | 新增/删除文件时更新 |
+
+**使用规则：**
+- 发布任何子模块版本后，必须同步更新 `meta/metadata.md`
+- 发布主仓库版本后，必须更新 `meta/metadata.md` 中的"量潮第二大脑"条目
+- `self.md` 由人类维护，Agent 仅在明确请求时修改
 
 ### 子模块管理
 - 子模块独立维护，父仓库只追踪引用
