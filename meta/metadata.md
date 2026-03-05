@@ -2,12 +2,11 @@
 
 ## 量潮第二大脑
 
-量潮第二大脑已发布 0.0.3 版本
+量潮第二大脑已发布 0.0.4 版本
 链接：GitHub - quanttide/quanttide: 量潮第二大脑
 要点：
-- 新增子模块：asset/handbook, asset/specification, domain/quanttide-data
-- 重构元数据管理架构：各子模块独立维护 meta/ 目录
-- 精简主仓库 metadata.md，指向子模块元数据避免重复维护
+- 更新子模块引用：asset/handbook, asset/profile v0.0.5, asset/specification, domain/quanttide-data
+- 各子模块独立维护元数据，主仓库仅记录概览
 
 ## 子模块概览
 

@@ -10,6 +10,16 @@
 
 ## [Unreleased]
 
+## [0.0.4] - 2026-03-05
+
+### 变更
+
+- 更新子模块引用：
+  - asset/handbook v0.0.1-1：新增 AGENTS.md
+  - asset/profile v0.0.5：更新子模块和元数据
+  - asset/specification 0.0.1-1：新增工程规范
+  - domain/quanttide-data：新增数据领域
+
 ## [0.0.3] - 2026-03-05
 
 ### 新增
