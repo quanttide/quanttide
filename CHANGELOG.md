@@ -10,6 +10,22 @@
 
 ## [Unreleased]
 
+## [0.0.3] - 2026-03-05
+
+### 新增
+
+- 新增 asset/handbook 子模块：量潮工作手册
+- 新增 asset/specification 子模块：量潮工程规范
+- 新增 domain/quanttide-data 子模块：量潮数据领域
+
+### 变更
+
+- 重构元数据管理架构：各子模块独立维护 meta/ 目录
+- 精简主仓库 metadata.md，指向子模块元数据避免重复维护
+- 更新子模块引用：
+  - asset/profile：新增 meta 目录
+  - asset/handbook：新增 meta 目录
+
 ## [0.0.2] - 2026-03-05
 
 ### 变更
