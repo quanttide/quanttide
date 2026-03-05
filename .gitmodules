@@ -7,3 +7,6 @@
 [submodule "asset/profile"]
 	path = asset/profile
 	url = https://github.com/quanttide/quanttide-profile.git
+[submodule "asset/handbook"]
+	path = asset/handbook
+	url = https://github.com/quanttide/quanttide-handbook.git
