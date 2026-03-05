@@ -6,43 +6,31 @@
 链接：GitHub - quanttide/quanttide: 量潮第二大脑
 要点：
 - 新增 meta/ 目录：元数据统一管理
-- 更新子模块引用：asset/profile v0.0.4, domain/asset v0.0.3
-- 元数据迁移至主仓库统一管理
+- 更新子模块引用：asset/profile, asset/handbook, asset/specification, domain/quanttide-data
+- 各子模块独立维护元数据，主仓库仅记录概览
 
-## 量潮工作档案
+## 子模块概览
 
-量潮工作档案已发布 0.0.4 版本
-链接：GitHub - quanttide/quanttide-profile: 量潮工作档案
-要点：
-- 父仓库采用 Git 子模块结构管理多个独立文档模块
-- domain/ 模块：领域知识模块（asset, innov, knowl, stdn, think, write）
-- entity/ 模块：实体档案模块（company, founder）
-- 新增 AGENTS.md：Agent 工作指南
+### asset/ 能力轴
 
-### 量潮创始人档案
+我如何运行——工程标准、工作档案、平台资源。
 
-量潮创始人档案已发布 0.2.1 版本
-链接：GitHub - quanttide/quanttide-profile-of-founder: 量潮创始人档案
-要点：
-- 本档案是我向公司提交海量碎片化想法的渠道。当前我正在验证个人提交流程的有效性，团队验证其作为人机协作资料的有效性。
-- 本档案的 AGENTS 提供了一套 Vibe Coding 人机协同的新范式。核心原则在于 AGENTS 作为元认知，各级 index 提供陈述性记忆、README、ROADMAP、CHANGELOG 等提供程序性记忆。
-- 本轮更新：文档结构调整与内容润色
+| 子模块 | 说明 | 元数据位置 |
+|--------|------|------------|
+| asset/profile | 量潮工作档案 | [meta/metadata.md](../asset/profile/meta/metadata.md) |
+| asset/handbook | 量潮工作手册 | [meta/metadata.md](../asset/handbook/meta/metadata.md) |
+| asset/specification | 量潮工程规范 | 独立维护 |
 
-### 量潮科技档案
+### domain/ 领域轴
 
-量潮科技档案已发布 0.1.2 版本
-链接：GitHub - quanttide/quanttide-profile-of-business-entity: 量潮科技档案
-要点：
-- 新增 qtclass/：量潮课堂（培训品牌）
-- 新增 qtdata/：量潮数据（数据品牌）
-- 新增多个工作区模块（agent、brand、code、delib、enterpr、execute、hr、iam、learn、mr、product、scm）
-- 本轮更新：新增 Jupyter Book 配置和 AGENTS.md
+我关心什么——数据工程、认知科学、叙事方法等。
 
-### 领域档案
+| 子模块 | 说明 |
+|--------|------|
+| domain/quanttide-data | 量潮数据领域 |
 
-- domain/asset：数字资产 v0.0.3 - 元数据迁移至主仓库统一管理
-- domain/innov：创新管理 v0.0.1
-- domain/knowl：知识工程 v0.0.1
-- domain/stdn：标准化 v0.0.2 - 新增 stdn 领域文档
-- domain/think：认知工程 v0.0.2 - 新增 asset 思考目录
-- domain/write：叙事工程 v0.0.2 - 新增 devops 手册目录
+## 更新说明
+
+各子模块的详细版本信息、发布记录请查阅对应的 `meta/metadata.md` 文件。
+
+主仓库仅记录整体架构和子模块引用关系，避免重复维护。
