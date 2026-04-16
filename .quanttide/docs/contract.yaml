@@ -7,21 +7,21 @@ standards:
   format:
     syntax: markdown
     markdown_flavor: gfm
-    
+
   headings:
     max_level: 3
     document_title: h1
     section: h2
     subsection: h3
-    
+
   code_blocks:
     language_required: true
     fence_style: fenced
-    
+
   lists:
     unordered: "-"
     ordered: "1."
-    
+
   links:
     reference: "[text](url)"
     inline: "[text](url)"
@@ -31,11 +31,11 @@ standards:
 naming:
   filename:
     case: lowercase
-    separator: ["_", "-"]
+    separators: ["_", "-"]
     example: my-document-name.md
-    
+
   directory:
     case: lowercase
-    separator: ["_", "-"]
+    separators: ["_", "-"]
     plural: true
     example: my_directory/
