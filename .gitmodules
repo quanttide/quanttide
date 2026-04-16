@@ -1,5 +1,5 @@
-[submodule "domain/quanttide-data"]
-	path = domain/quanttide-data
+[submodule "domains/quanttide-data"]
+	path = domains/quanttide-data
 	url = https://github.com/quanttide/quanttide-data.git
 [submodule "assets/specification"]
 	path = assets/specification

@@ -17,7 +17,7 @@ quanttide/
 ├── assets/                   # 量潮资产
 │   ├── specification/       # 工程标准
 │   └── profile/             # 工作档案
-├── domain/                  # 量潮领域
+├── domains/                  # 量潮领域
 │   └── quanttide-data/      # 数据工程
 ├── CHANGELOG.md             # 版本变更记录
 ├── CONTRIBUTING.md          # 贡献指南
@@ -35,11 +35,11 @@ quanttide/
 - [asset/specification](asset/specification/) - 量潮工程标准
 - [asset/profile](asset/profile/) - 量潮工作档案
 
-### 领域 (domain)
+### 领域 (domains)
 
 量潮领域仓库，包含各技术领域的项目集合。
 
-- [domain/quanttide-data](domain/quanttide-data/) - 量潮数据工程
+- [domains/quanttide-data](domains/quanttide-data/) - 量潮数据工程
 
 ## 快速开始
 
@@ -85,7 +85,7 @@ git commit -m "Update <submodule-path>"
 
 - 使用小写字母
 - 使用复数形式
-- 示例：`asset/`、`domain/`、`docs/`
+- 示例：`assets/`、`domains/`、`docs/`
 
 ### Markdown 规范
 
@@ -116,7 +116,7 @@ jupyter-book clean .
 对于 Python 项目：
 
 ```bash
-cd domain/quanttide-data
+cd domains/quanttide-data
 
 # 显示所有可用命令
 make help
@@ -139,9 +139,9 @@ make test
 
 请进入各子目录查看详细说明：
 
-- [asset/README.md](asset/README.md) - 资产项目说明
-- [domain/README.md](domain/README.md) - 领域项目说明
+- [assets/README.md](assets/README.md) - 资产项目说明
+- [domains/README.md](domains/README.md) - 领域项目说明
 
 ## 说明
 
-各领域（如 `domain/quanttide-data`）内部的文档、实现及其子模块由该领域仓库统一维护，父仓库只负责记录与引用领域级别的子模块。
+各领域（如 `domains/quanttide-data`）内部的文档、实现及其子模块由该领域仓库统一维护，父仓库只负责记录与引用领域级别的子模块。

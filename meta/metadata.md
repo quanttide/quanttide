@@ -20,13 +20,13 @@
 | assets/handbook | 量潮工作手册 | [meta/metadata.md](../assets/handbook/meta/metadata.md) |
 | assets/specification | 量潮工程规范 | 独立维护 |
 
-### domain/ 领域轴
+### domains/ 领域轴
 
 我关心什么——数据工程、认知科学、叙事方法等。
 
 | 子模块 | 说明 |
 |--------|------|
-| domain/quanttide-data | 量潮数据工程领域 |
+| domains/quanttide-data | 量潮数据工程领域 |
 
 ## 更新说明
 

@@ -9,7 +9,7 @@ quanttide/
 ├── assets/              # 量潮资产
 │   ├── specification/  # 工程标准
 │   └── profile/        # 工作档案
-├── domain/             # 量潮领域
+├── domains/             # 量潮领域
 │   └── quanttide-data/ # 数据工程
 ├── CHANGELOG.md        # 更新日志
 ├── CONTRIBUTING.md     # 本文件
@@ -60,10 +60,10 @@ jupyter-book start .
 jupyter-book clean .
 ```
 
-对于 Python 项目（如 domain/quanttide-data）：
+对于 Python 项目（如 domains/quanttide-data）：
 
 ```bash
-cd domain/quanttide-data
+cd domains/quanttide-data
 
 # 显示所有可用命令
 make help
