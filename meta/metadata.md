@@ -16,9 +16,9 @@
 
 | 子模块 | 说明 | 元数据位置 |
 |--------|------|------------|
-| assets/profile | 量潮工作档案 | [meta/metadata.md](../assets/profile/meta/metadata.md) |
-| assets/handbook | 量潮工作手册 | [meta/metadata.md](../assets/handbook/meta/metadata.md) |
-| assets/specification | 量潮工程规范 | 独立维护 |
+| assets/quanttide-profile | 量潮工作档案 | [meta/metadata.md](../assets/quanttide-profile/meta/metadata.md) |
+| assets/quanttide-handbook | 量潮工作手册 | [meta/metadata.md](../assets/quanttide-handbook/meta/metadata.md) |
+| assets/quanttide-specification | 量潮工程规范 | 独立维护 |
 
 ### domains/ 领域轴
 
