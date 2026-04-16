@@ -10,15 +10,15 @@
 
 ## 子模块概览
 
-### asset/ 能力轴
+### assets/ 能力轴
 
 我如何运行——工程标准、工作档案、平台资源。
 
 | 子模块 | 说明 | 元数据位置 |
 |--------|------|------------|
-| asset/profile | 量潮工作档案 | [meta/metadata.md](../asset/profile/meta/metadata.md) |
-| asset/handbook | 量潮工作手册 | [meta/metadata.md](../asset/handbook/meta/metadata.md) |
-| asset/specification | 量潮工程规范 | 独立维护 |
+| assets/profile | 量潮工作档案 | [meta/metadata.md](../assets/profile/meta/metadata.md) |
+| assets/handbook | 量潮工作手册 | [meta/metadata.md](../assets/handbook/meta/metadata.md) |
+| assets/specification | 量潮工程规范 | 独立维护 |
 
 ### domain/ 领域轴
 

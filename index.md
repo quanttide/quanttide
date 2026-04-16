@@ -22,7 +22,7 @@
 
 ```
 quanttide/
-├── asset/              # 工程标准与工作档案
+├── assets/              # 工程标准与工作档案
 └── domain/             # 领域知识集合
     └── quanttide-data/ # 数据工程
 ```

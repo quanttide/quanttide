@@ -14,7 +14,7 @@
 
 ```
 quanttide/
-├── asset/                   # 量潮资产
+├── assets/                   # 量潮资产
 │   ├── specification/       # 工程标准
 │   └── profile/             # 工作档案
 ├── domain/                  # 量潮领域

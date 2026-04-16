@@ -6,7 +6,7 @@
 
 ```
 quanttide/
-├── asset/              # 量潮资产
+├── assets/              # 量潮资产
 │   ├── specification/  # 工程标准
 │   └── profile/        # 工作档案
 ├── domain/             # 量潮领域
@@ -39,16 +39,16 @@ git submodule update --init --recursive
 git submodule update --remote
 
 # 更新特定子模块
-git submodule update --init --remote asset/profile
+git submodule update --init --remote assets/profile
 ```
 
 ### 构建命令
 
-对于 Jupyter Book 文档项目（如 asset/profile/entity/founder）：
+对于 Jupyter Book 文档项目（如 assets/profile/entity/founder）：
 
 ```bash
 # 进入子模块目录
-cd asset/profile/entity/founder
+cd assets/profile/entity/founder
 
 # 构建 HTML（单文件方式，避免 EISDIR 错误）
 jupyter-book build index.md --site
@@ -172,7 +172,7 @@ docs: 更新数据工程教程
 git submodule update --init --recursive
 
 # 进入子模块并切换到最新
-cd asset/profile/entity/founder
+cd assets/profile/entity/founder
 git checkout origin/main
 
 # 更新父仓库引用
@@ -190,10 +190,10 @@ git commit -m "Update founder submodule to latest"
 **2. 更新子模块流程**
 ```bash
 # 方式一：在父仓库中更新（推荐）
-git submodule update --init --remote asset/profile/entity/founder
+git submodule update --init --remote assets/profile/entity/founder
 
 # 方式二：进入子模块手动更新
-cd asset/profile/entity/founder
+cd assets/profile/entity/founder
 git fetch origin
 git checkout origin/main
 cd ..
