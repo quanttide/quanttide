@@ -10,6 +10,30 @@
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-04-16
+
+### 验证期
+
+从探索期进入验证期，架构重构为双轴模型。
+
+#### 新增
+
+- 新增 `default/` 目录：默认模板仓库
+- 新增 `default/quanttide-founder` 子模块：创始人档案
+- 新增 `default/quanttide-tech` 子模块：科技档案
+- 新增 `assets/quanttide-platform` 子模块：量潮平台
+- 新增 `assets/quanttide-journal` 子模块：工作日志
+- 新增 `.agents/` 目录：Agent 技能
+- 新增 `.quanttide/` 目录：配置契约文件
+- 新增 GitHub releases：v0.0.2, v0.0.3, v0.0.4
+
+#### 变更
+
+- 架构重构：`asset/` → `assets/`、`domain/` → `domains/`
+- 子模块命名：使用仓库名作为目录名
+- 简化文档：删除 index.md、meta/ 目录
+- 合并文档：meta/self.md 内容合并到 README.md
+
 ## [0.0.4] - 2026-03-05
 
 ### 变更
