@@ -2,21 +2,6 @@
 
 欢迎贡献量潮第二大脑项目！本文档提供贡献相关指南。
 
-## 项目结构
-
-```
-quanttide/
-├── assets/              # 量潮资产
-│   ├── specification/  # 工程标准
-│   └── profile/        # 工作档案
-├── domains/             # 量潮领域
-│   └── quanttide-data/ # 数据工程
-├── CHANGELOG.md        # 更新日志
-├── CONTRIBUTING.md     # 本文件
-├── index.md            # 项目概述
-├── LICENSE             # 许可证
-└── README.md           # 快速开始
-```
 
 ## 贡献方式
 

@@ -37,52 +37,6 @@ quanttide/
 └── README.md                # 本文件
 ```
 
-## 子项目
-
-### 资产 (assets)
-
-量潮资产库，包含工程标准和工作档案。
-
-- [assets/quanttide-specification](assets/quanttide-specification/) - 量潮工程规范
-- [assets/quanttide-profile](assets/quanttide-profile/) - 量潮工作档案
-- [assets/quanttide-handbook](assets/quanttide-handbook/) - 量潮工作手册
-- [assets/quanttide-platform](assets/quanttide-platform/) - 量潮平台
-
-### 默认模板 (default)
-
-量潮默认模板仓库。
-
-- [default/quanttide-founder](default/quanttide-founder/) - 创始人档案
-- [default/quanttide-tech](default/quanttide-tech/) - 科技档案
-
-### 领域 (domains)
-
-量潮领域仓库，包含各技术领域的项目集合。
-
-- [domains/quanttide-data](domains/quanttide-data/) - 量潮数据工程
-
-## 子项目详情
-
-请进入各子目录查看详细说明：
-
-- [assets/README.md](assets/README.md) - 资产项目说明
-- [domains/README.md](domains/README.md) - 领域项目说明
-
-## 说明
-
-各领域（如 `domains/quanttide-data`）内部的文档、实现及其子模块由该领域仓库统一维护，父仓库只负责记录与引用领域级别的子模块。
-
-## 记忆组织
-
-我有多层记忆，就像人脑一样：
-
-- **元认知层**（AGENTS.md）——告诉我如何思考、如何与人协作
-- **陈述性记忆**（各级 index.md）——我知道什么、信息如何关联
-- **程序性记忆**（README、ROADMAP、CONTRIBUTING）——我如何执行任务
-- **历史记忆**（CHANGELOG）——我经历过什么变化
-
-我是一个正在生长的数字器官。我的价值不在于静态存储了多少知识，而在于能否帮助人类在信息洪流中保持清晰的思考。
-
 ## 许可证
 
 本项目采用 [CC BY 4.0](LICENSE) 许可证。
