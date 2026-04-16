@@ -10,3 +10,6 @@
 [submodule "assets/quanttide-handbook"]
 	path = assets/quanttide-handbook
 	url = https://github.com/quanttide/quanttide-handbook.git
+[submodule "assets/quanttide-platform"]
+	path = assets/quanttide-platform
+	url = https://github.com/quanttide/quanttide-platform.git
