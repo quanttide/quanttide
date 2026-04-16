@@ -31,11 +31,11 @@ standards:
 naming:
   filename:
     case: lowercase
-    separator: "_"
-    example: my_document_name.md
+    separator: ["_", "-"]
+    example: my-document-name.md
     
   directory:
     case: lowercase
-    separator: "_"
+    separator: ["_", "-"]
     plural: true
     example: my_directory/
