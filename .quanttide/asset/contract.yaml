@@ -1,0 +1,71 @@
+# 量潮第二大脑 — 数字资产契约
+# 模块定位：知识管理多仓架构
+# 分类依据：能力轴 + 领域轴
+
+# ── 资产组成 ──────────────────────────────────────────
+
+# 按双轴组织，与 .gitmodules 对齐
+
+assets:
+  # ── 能力轴（How it runs） ──
+
+  quanttide_handbook:
+    title: 量潮工作手册
+    type: docs
+    category: asset
+    audience: human
+    path: assets/quanttide-handbook
+    description: 量潮工作手册
+
+  quanttide_platform:
+    title: 量潮平台
+    type: app
+    category: asset
+    audience: engine
+    path: assets/quanttide-platform
+    description: 量潮平台
+
+  quanttide_profile:
+    title: 量潮工作档案
+    type: docs
+    category: asset
+    audience: human
+    path: assets/quanttide-profile
+    description: 量潮工作档案
+
+  quanttide_specification:
+    title: 量潮工程规范
+    type: docs
+    category: asset
+    audience: ai
+    path: assets/quanttide-specification
+    description: 量潮工程规范
+
+  # ── 默认模板 ──
+
+  quanttide_founder:
+    title: 创始人档案
+    type: docs
+    category: default
+    audience: human
+    path: default/quanttide-founder
+    description: 创始人档案
+
+  quanttide_tech:
+    title: 科技档案
+    type: docs
+    category: default
+    audience: human
+    path: default/quanttide-tech
+    description: 科技档案
+
+domains:
+  # ── 领域轴（What it expresses） ──
+
+  quanttide_data:
+    title: 量潮数据工程
+    type: app
+    category: domain
+    audience: engine
+    path: domains/quanttide-data
+    description: 量潮数据工程领域

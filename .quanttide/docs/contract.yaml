@@ -1,0 +1,41 @@
+# 量潮第二大脑 — 文档工程契约
+# 模块定位：知识管理文档规范
+
+# ── 文档规范 ──────────────────────────────────────────
+
+standards:
+  format:
+    syntax: markdown
+    markdown_flavor: gfm
+    
+  headings:
+    max_level: 3
+    document_title: h1
+    section: h2
+    subsection: h3
+    
+  code_blocks:
+    language_required: true
+    fence_style: fenced
+    
+  lists:
+    unordered: "-"
+    ordered: "1."
+    
+  links:
+    reference: "[text](url)"
+    inline: "[text](url)"
+
+# ── 文件命名规范 ──────────────────────────────────────
+
+naming:
+  filename:
+    case: lowercase
+    separator: "_"
+    example: my_document_name.md
+    
+  directory:
+    case: lowercase
+    separator: "_"
+    plural: true
+    example: my_directory/
