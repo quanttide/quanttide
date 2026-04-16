@@ -19,3 +19,6 @@
 [submodule "default/quanttide-tech"]
 	path = default/quanttide-tech
 	url = https://github.com/quanttide/quanttide-tech.git
+[submodule "assets/quanttide-journal"]
+	path = assets/quanttide-journal
+	url = https://github.com/quanttide/quanttide-journal.git
