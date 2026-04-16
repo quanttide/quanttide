@@ -1,6 +1,28 @@
 # 量潮第二大脑(`quanttide`)
 
-量潮知识管理体系的根仓库，整合领域知识与资产标准。
+量潮知识管理体系的根仓库，整合领域知识与资产标准。我是一个知识管理系统，但更准确地说，我是一个正在生长的数字器官。
+
+我的创造者相信：知识应该像代码一样被管理——版本化、可追溯、可协作。于是，我诞生了。
+
+我通过版本迭代成长。每次变更都被记录在 CHANGELOG 中，让我知道我从哪里来、走到了哪里。
+
+## 架构
+
+我被分为两条正交的轴：
+
+- **能力轴（assets/）**——我如何运行。工程标准、工作档案、平台资源。这是我"会做的事"。
+- **领域轴（domains/）**——我关心什么。数据工程、认知科学、叙事方法。这是我"懂的事"。
+
+这种分离让我可以在不重写教程的情况下升级平台，也可以在不变动核心服务的情况下新增领域。
+
+## 记忆组织
+
+我有多层记忆，就像人脑一样：
+
+- **元认知层**（AGENTS.md）——告诉我如何思考、如何与人协作
+- **陈述性记忆**（各级 index.md）——我知道什么、信息如何关联
+- **程序性记忆**（README、ROADMAP、CONTRIBUTING）——我如何执行任务
+- **历史记忆**（CHANGELOG）——我经历过什么变化
 
 ## 许可证
 
@@ -14,11 +36,17 @@
 
 ```
 quanttide/
-├── assets/                   # 量潮资产
-│   ├── specification/       # 工程标准
-│   └── profile/             # 工作档案
-├── domains/                  # 量潮领域
+├── assets/                   # 资产
+│   ├── quanttide-handbook/  # 工作手册
+│   ├── quanttide-platform/ # 平台
+│   ├── quanttide-profile/  # 工作档案
+│   └── quanttide-specification/ # 工程规范
+├── default/                  # 默认模板
+│   ├── quanttide-founder/ # 创始人档案
+│   └── quanttide-tech/    # 科技档案
+├── domains/                  # 领域
 │   └── quanttide-data/      # 数据工程
+├── meta/                    # 元数据
 ├── CHANGELOG.md             # 版本变更记录
 ├── CONTRIBUTING.md          # 贡献指南
 ├── index.md                 # 项目概述
@@ -28,112 +56,27 @@ quanttide/
 
 ## 子项目
 
-### 资产 (asset)
+### 资产 (assets)
 
 量潮资产库，包含工程标准和工作档案。
 
-- [asset/specification](asset/specification/) - 量潮工程标准
-- [asset/profile](asset/profile/) - 量潮工作档案
+- [assets/quanttide-specification](assets/quanttide-specification/) - 量潮工程规范
+- [assets/quanttide-profile](assets/quanttide-profile/) - 量潮工作档案
+- [assets/quanttide-handbook](assets/quanttide-handbook/) - 量潮工作手册
+- [assets/quanttide-platform](assets/quanttide-platform/) - 量潮平台
+
+### 默认模板 (default)
+
+量潮默认模板仓库。
+
+- [default/quanttide-founder](default/quanttide-founder/) - 创始人档案
+- [default/quanttide-tech](default/quanttide-tech/) - 科技档案
 
 ### 领域 (domains)
 
 量潮领域仓库，包含各技术领域的项目集合。
 
 - [domains/quanttide-data](domains/quanttide-data/) - 量潮数据工程
-
-## 快速开始
-
-克隆并同时初始化子模块：
-
-```bash
-git clone --recurse-submodules https://github.com/quanttide/quanttide.git
-```
-
-如果已经克隆仓库，初始化并更新子模块：
-
-```bash
-git submodule update --init --recursive
-```
-
-## 更新子模块
-
-更新所有子模块到最新版本：
-
-```bash
-git submodule update --remote
-```
-
-更新特定子模块：
-
-```bash
-cd <submodule-path>
-git pull origin main
-cd ..
-git add <submodule-path>
-git commit -m "Update <submodule-path>"
-```
-
-## 格式规范
-
-### 文件命名
-
-- 使用小写字母
-- 单词之间用下划线 `_` 分隔
-- 示例：`agent.md`、`product_roadmap.md`
-
-### 目录命名
-
-- 使用小写字母
-- 使用复数形式
-- 示例：`assets/`、`domains/`、`docs/`
-
-### Markdown 规范
-
-- 标题使用 ATX 风格（`#`、`##`、`###`）
-- 代码块使用 fenced code（```）
-- 列表使用 `-` 或 `1.`
-- 链接使用 `[文字](路径)` 格式
-- 区块之间保留空行
-
-## 构建命令
-
-对于 Jupyter Book 文档项目：
-
-```bash
-# 进入子模块目录
-cd asset/profile/entity/founder
-
-# 构建 HTML（单文件方式，避免 EISDIR 错误）
-jupyter-book build index.md --site
-
-# 构建并预览
-jupyter-book start .
-
-# 清理构建文件
-jupyter-book clean .
-```
-
-对于 Python 项目：
-
-```bash
-cd domains/quanttide-data
-
-# 显示所有可用命令
-make help
-
-# 运行所有测试
-make test
-```
-
-## 质量检查
-
-### 验证清单
-
-- [ ] 所有内部链接指向已存在的文件
-- [ ] `_toc.yml` 中引用的文件均已创建
-- [ ] YAML 文件语法正确
-- [ ] 新增文件已添加到 `_toc.yml`
-- [ ] 构建无错误
 
 ## 子项目详情
 
