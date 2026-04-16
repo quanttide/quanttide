@@ -22,3 +22,6 @@
 [submodule "assets/quanttide-journal"]
 	path = assets/quanttide-journal
 	url = https://github.com/quanttide/quanttide-journal.git
+[submodule "domains/quanttide-asset"]
+	path = domains/quanttide-asset
+	url = https://github.com/quanttide/quanttide-asset.git
