@@ -10,6 +10,23 @@
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-04-25
+
+### 新增
+
+- 新增 `domains/quanttide-asset` 子模块：资产管理领域
+
+### 变更
+
+- 更新子模块引用：
+  - `default/quanttide-founder` → v0.2.1-378
+  - `default/quanttide-tech` → v0.1.2-82
+  - `domains/quanttide-data` → 0.0.1-22
+  - `assets/quanttide-profile` → v0.0.5-2
+  - `assets/quanttide-specification` → 0.0.1-2
+  - `assets/quanttide-handbook` → v0.0.1-2
+  - `assets/quanttide-journal`
+
 ## [0.1.0] - 2026-04-16
 
 ### 验证期
