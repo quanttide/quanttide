@@ -28,3 +28,6 @@
 [submodule "domains/quanttide-think"]
 	path = domains/quanttide-think
 	url = https://github.com/quanttide/quanttide-think.git
+[submodule "domains/quanttide-media"]
+	path = domains/quanttide-media
+	url = https://github.com/quanttide/quanttide-media.git
