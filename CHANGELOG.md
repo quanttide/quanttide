@@ -10,6 +10,26 @@
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-04-30
+
+### 新增
+
+- 新增 `assets/quanttide-tutorial` 子模块：教程指南
+- 新增 `domains/quanttide-media` 子模块：媒体资产领域
+
+### 变更
+
+- 更新子模块引用：
+  - `assets/quanttide-handbook` → v0.0.1-2
+  - `assets/quanttide-journal` → heads/master
+  - `assets/quanttide-platform` → v0.1.2-118
+  - `assets/quanttide-profile` → v0.0.5-1
+  - `assets/quanttide-specification` → 0.0.1-2
+  - `default/quanttide-founder` → v0.2.1-376
+  - `default/quanttide-tech` → v0.1.2-60
+  - `domains/quanttide-asset` → v0.1.1-14
+  - `domains/quanttide-data` → 0.0.1-5
+
 ## [0.1.3] - 2026-04-26
 
 ### 变更
