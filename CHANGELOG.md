@@ -10,6 +10,16 @@
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-05-18
+
+### 变更
+
+- 更新子模块引用：
+  - `assets/quanttide-platform`
+  - `default/quanttide-founder`
+  - `default/quanttide-tech`
+  - `domains/quanttide-asset`
+
 ## [0.2.2] - 2026-05-08
 
 ### 变更
