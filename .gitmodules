@@ -40,3 +40,6 @@
 [submodule "domains/quanttide-devops"]
 	path = domains/quanttide-devops
 	url = https://github.com/quanttide/quanttide-devops.git
+[submodule "domains/quanttide-agent"]
+	path = domains/quanttide-agent
+	url = https://github.com/quanttide/quanttide-agent.git
