@@ -37,3 +37,6 @@
 [submodule "domains/quanttide-knowl"]
 	path = domains/quanttide-knowl
 	url = https://github.com/quanttide/quanttide-knowl.git
+[submodule "domains/quanttide-devops"]
+	path = domains/quanttide-devops
+	url = https://github.com/quanttide/quanttide-devops.git
