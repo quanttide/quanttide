@@ -10,6 +10,19 @@
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-05-22
+
+### 新增
+
+- 新增 `domains/quanttide-knowl` 子模块：知识工程领域
+- 新增 `domains/quanttide-devops` 子模块：DevOps 工程领域
+- 新增 `domains/quanttide-agent` 子模块：智能体工程领域
+
+### 变更
+
+- AGENTS.md：从 assets/quanttide-platform 同步 CLI 工具、SKILL 索引、AI 执行指引
+- 更新子模块引用：`domains/quanttide-knowl` → v0.1.0（含 packages/toolkit）
+
 ## [0.2.4] - 2026-05-22
 
 ### 变更
