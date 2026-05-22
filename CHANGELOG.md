@@ -10,6 +10,20 @@
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-05-22
+
+### 新增
+
+- 新增 `domains/quanttide-code` 子模块：软件工程领域
+- 新增 `domains/quanttide-code/apps/qtcloud-code` 子模块
+- 新增 `domains/quanttide-code/examples/default` 子模块
+
+### 变更
+
+- 更新子模块引用：
+  - `default/quanttide-founder`
+  - `domains/quanttide-knowl`
+
 ## [0.3.0] - 2026-05-22
 
 ### 新增
