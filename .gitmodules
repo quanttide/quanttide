@@ -43,3 +43,6 @@
 [submodule "domains/quanttide-agent"]
 	path = domains/quanttide-agent
 	url = https://github.com/quanttide/quanttide-agent.git
+[submodule "domains/quanttide-code"]
+	path = domains/quanttide-code
+	url = https://github.com/quanttide/quanttide-code.git
