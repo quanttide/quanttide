@@ -10,6 +10,14 @@
 
 ## [Unreleased]
 
+## [0.3.3] - 2026-05-23
+
+### 变更
+
+- 更新子模块引用：
+  - `assets/quanttide-roadmap`（新增 default/company）
+  - `assets/quanttide-tutorial`（重命名 qtdata/ 为 data/）
+
 ## [0.3.2] - 2026-05-23
 
 ### 新增
