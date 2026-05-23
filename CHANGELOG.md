@@ -10,6 +10,22 @@
 
 ## [Unreleased]
 
+## [0.3.2] - 2026-05-23
+
+### 新增
+
+- 新增 `assets/quanttide-roadmap` 子模块：量潮工作蓝图
+- 新增 `assets/quanttide-roadmap/default/founder` 子模块（quanttide-memory-of-founder）
+- 新增 `assets/quanttide-roadmap/domains/agent` 子模块（quanttide-roadmap-of-agent-engineering）
+- 新增 `assets/quanttide-roadmap/domains/devops` 子模块（quanttide-roadmap-of-devops）
+
+### 变更
+
+- 更新子模块引用：
+  - `default/quanttide-founder`（更新 docs/memory 子模块引用）
+  - `domains/quanttide-agent`（新增 docs/roadmap 子模块）
+  - `assets/quanttide-roadmap`（初始化并添加 3 个子模块）
+
 ## [0.3.1] - 2026-05-22
 
 ### 新增
