@@ -6,9 +6,15 @@
 
 ```
 domains/
-├── quanttide-think/       # 量潮认知工程
+├── quanttide-think/       # 认知工程
 ├── quanttide-data/        # 数据工程
 ├── quanttide-agent/       # 智能体工程
+├── quanttide-knowl/       # 知识工程
+├── quanttide-code/        # 软件工程
+├── quanttide-devops/      # DevOps 工程
+├── quanttide-asset/       # 资产管理
+├── quanttide-media/       # 媒体资产
+├── quanttide-meta/        # 元工程
 └── index.md               # 领域索引
 ```
 

@@ -49,3 +49,6 @@
 [submodule "assets/quanttide-roadmap"]
 	path = assets/quanttide-roadmap
 	url = https://github.com/quanttide/quanttide-roadmap.git
+[submodule "domains/quanttide-meta"]
+	path = domains/quanttide-meta
+	url = https://github.com/quanttide/quanttide-meta.git
