@@ -10,6 +10,17 @@
 
 ## [Unreleased]
 
+## [0.4.1] - 2026-05-27
+
+### 新增
+
+- 新增 `domains/quanttide-meta` 子模块：元工程
+- 新增 `domains/quanttide-econ` 子模块：经济建模
+
+### 变更
+
+- 更新 domains/README.md：补充新增领域到目录清单
+
 ## [0.4.0] - 2026-05-25
 
 ### 变更
