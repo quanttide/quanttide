@@ -52,3 +52,6 @@
 [submodule "domains/quanttide-meta"]
 	path = domains/quanttide-meta
 	url = https://github.com/quanttide/quanttide-meta.git
+[submodule "domains/quanttide-econ"]
+	path = domains/quanttide-econ
+	url = https://github.com/quanttide/quanttide-econ.git
