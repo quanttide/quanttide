@@ -154,43 +154,35 @@ Vault key 只需在路径范围内自描述即可，不要跟应用字段名强�
 
 AI 应在完成工作后主动提醒用户是否需要更新这些文档，而非等用户提出。
 
-## 子模块
+## 子模块业务规范
 
-各子模块有自己的 AGENTS.md，开发前查阅具体模块。
-各子模块的 `docs/drd/` 包含数据需求文档，开发前查阅对应模块的 DRD。
+### 子模块路径约定
 
-## 财务管理领域子模块业务规范
+整个仓库的子模块按以下三级路径组织：
 
-`domains/quanttide-finance` 及其嵌套子模块遵循以下结构：
+| 根路径 | 用途 | 例子 |
+|--------|------|------|
+| `domains/{name}` | 领域知识仓库，核心事实源，通常有独立的文档站 | `domains/quanttide-finance` |
+| `default/{name}` | 默认实现/配置/基础设施 | `default/quanttide-tech` |
+| `assets/{name}` | 资产仓库（文档站、教程、手册、规范等） | `assets/quanttide-handbook` |
+
+### 领域仓库内部结构
+
+每个领域仓库 (`domains/{name}`) 内部统一按以下目录组织子模块：
 
 ```
-domains/quanttide-finance/          ← 财务管理领域仓库
-├── apps/                           ← 应用子模块
-│   ├── qtcloud-finance/            ← 云端财务应用
-│   └── qtadmin/                    ← 管理后台
-├── packages/
-│   └── toolkit/                    ← 财务管理工具箱 (quanttide-finance-toolkit)
-├── examples/
-│   └── default/                    ← 财务管理实验室 (quanttide-laboratory-of-finance)
-│       └── apps/
-│           └── qtbudget/           ← 量潮预算管家（Flutter Web 客户端）
-└── docs/                           ← 领域文档
+domains/{name}/
+├── apps/{app}/             # 面向用户的可部署应用
+├── packages/toolkit        # 领域共享库/工具集（独立仓库 {name}-toolkit）
+├── examples/default        # 实验室——实验性/原型项目（独立仓库 laboratory-of-{name}）
+│   └── apps/{app}/         # 实验室内的应用原型
+└── docs/                   # 领域文档（通常也是子模块）
 ```
-
-### 层级职责
-
-| 层级 | 职责 | 所有者 | 维护方式 |
-|------|------|--------|---------|
-| `quanttide-finance` | 领域主仓库，追踪所有子模块引用 | 领域负责人 | 独立提交推送 |
-| `apps/*` | 面向用户的可部署应用 | 应用团队 | 各自独立仓库 |
-| `packages/toolkit` | 领域共享库/工具集 | 领域负责人 | 独立仓库 |
-| `examples/default` | 实验性项目、原型验证 | 实验室负责人 | 独立仓库 |
-| `examples/default/apps/qtbudget` | 最简 Flutter Web 客户端，离线预算+记账 | 实验项目 | 包含在实验室仓库中 |
 
 ### 业务规则
 
-- **记账与预算分离**：`qtbudget` 专注核心记账（凭证录入 → 总账 → 试算平衡表），预算分析作为衍生功能
-- **科目体系**：采用标准会计科目（资产/负债/权益/收入/费用），支持自定义扩展
-- **借贷平衡**：每笔凭证 `debit.sum == credit.sum`，客户端本地校验
-- **数据导出**：支持导出 Beancount 格式，供 Fava/bean-check 等外部工具使用
-- **离线优先**：所有数据存储在浏览器 localStorage，无需服务端
+1. **独立维护**：每个子模块是独立仓库，父仓库只追踪引用指针
+2. **禁止越级**：不在子仓库里做父仓库的事（如改父仓库的 ROADMAP），反之亦然
+3. **分层提交**：修改子模块内容→在子模块提交推送→回到父仓库更新指针→提交推送
+4. **`apps/` 放可部署应用**，`packages/toolkit` 放共享代码库，`examples/default` 放实验原型，三者不混用
+5. `examples/default` 是实验室的入口，其内部结构自由，不受领域仓库约束
