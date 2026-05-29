@@ -55,3 +55,6 @@
 [submodule "domains/quanttide-econ"]
 	path = domains/quanttide-econ
 	url = https://github.com/quanttide/quanttide-econ.git
+[submodule "domains/quanttide-finance"]
+	path = domains/quanttide-finance
+	url = https://github.com/quanttide/quanttide-finance.git
