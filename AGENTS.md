@@ -158,3 +158,39 @@ AI 应在完成工作后主动提醒用户是否需要更新这些文档，而�
 
 各子模块有自己的 AGENTS.md，开发前查阅具体模块。
 各子模块的 `docs/drd/` 包含数据需求文档，开发前查阅对应模块的 DRD。
+
+## 财务管理领域子模块业务规范
+
+`domains/quanttide-finance` 及其嵌套子模块遵循以下结构：
+
+```
+domains/quanttide-finance/          ← 财务管理领域仓库
+├── apps/                           ← 应用子模块
+│   ├── qtcloud-finance/            ← 云端财务应用
+│   └── qtadmin/                    ← 管理后台
+├── packages/
+│   └── toolkit/                    ← 财务管理工具箱 (quanttide-finance-toolkit)
+├── examples/
+│   └── default/                    ← 财务管理实验室 (quanttide-laboratory-of-finance)
+│       └── apps/
+│           └── qtbudget/           ← 量潮预算管家（Flutter Web 客户端）
+└── docs/                           ← 领域文档
+```
+
+### 层级职责
+
+| 层级 | 职责 | 所有者 | 维护方式 |
+|------|------|--------|---------|
+| `quanttide-finance` | 领域主仓库，追踪所有子模块引用 | 领域负责人 | 独立提交推送 |
+| `apps/*` | 面向用户的可部署应用 | 应用团队 | 各自独立仓库 |
+| `packages/toolkit` | 领域共享库/工具集 | 领域负责人 | 独立仓库 |
+| `examples/default` | 实验性项目、原型验证 | 实验室负责人 | 独立仓库 |
+| `examples/default/apps/qtbudget` | 最简 Flutter Web 客户端，离线预算+记账 | 实验项目 | 包含在实验室仓库中 |
+
+### 业务规则
+
+- **记账与预算分离**：`qtbudget` 专注核心记账（凭证录入 → 总账 → 试算平衡表），预算分析作为衍生功能
+- **科目体系**：采用标准会计科目（资产/负债/权益/收入/费用），支持自定义扩展
+- **借贷平衡**：每笔凭证 `debit.sum == credit.sum`，客户端本地校验
+- **数据导出**：支持导出 Beancount 格式，供 Fava/bean-check 等外部工具使用
+- **离线优先**：所有数据存储在浏览器 localStorage，无需服务端
