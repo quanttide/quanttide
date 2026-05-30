@@ -10,6 +10,13 @@
 
 ## [Unreleased]
 
+## [0.4.2] - 2026-05-30
+
+### 新增
+
+- 新增 `domains/quanttide-finance` 子模块：财务管理
+- 新增 `domains/quanttide-innov` 子模块：创新管理
+
 ## [0.4.1] - 2026-05-27
 
 ### 新增
