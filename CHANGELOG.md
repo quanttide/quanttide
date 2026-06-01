@@ -10,6 +10,16 @@
 
 ## [Unreleased]
 
+## [0.4.3] - 2026-05-30
+
+### 新增
+
+- 新增 `domains/quanttide-hr` 子模块：人力资源
+
+### 变更
+
+- 更新子模块引用：`assets/quanttide-platform`、`default/quanttide-founder`、`default/quanttide-tech`、`domains/quanttide-innov`
+
 ## [0.4.2] - 2026-05-30
 
 ### 新增
