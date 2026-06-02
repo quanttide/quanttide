@@ -64,3 +64,6 @@
 [submodule "domains/quanttide-hr"]
 	path = domains/quanttide-hr
 	url = https://github.com/quanttide/quanttide-hr.git
+[submodule "domains/quanttide-write"]
+	path = domains/quanttide-write
+	url = https://github.com/quanttide/quanttide-write.git
