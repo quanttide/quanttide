@@ -10,6 +10,13 @@
 
 ## [Unreleased]
 
+## [0.4.4] - 2026-06-04
+
+### 变更
+
+- `domains/quanttide-human` 初始化为 v0.1.0（含 apps/、docs/、examples/、packages/ 子模块）
+- 更新子模块引用：`default/quanttide-tech`、`domains/quanttide-write`
+
 ## [0.4.3] - 2026-05-30
 
 ### 新增
