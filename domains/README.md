@@ -16,6 +16,7 @@ domains/
 ├── quanttide-media/       # 媒体资产
 ├── quanttide-meta/        # 元工程
 ├── quanttide-econ/        # 经济建模
+├── quanttide-product/     # 产品研发
 └── index.md               # 领域索引
 ```
 
