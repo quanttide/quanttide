@@ -79,3 +79,6 @@
 [submodule "packages/default"]
 	path = packages/default
 	url = https://github.com/quanttide/quanttide-course-toolkit.git
+[submodule "data/profile"]
+	path = data/profile
+	url = https://github.com/quanttide/quanttide-profile-of-course-development.git
