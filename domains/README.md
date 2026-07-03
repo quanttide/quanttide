@@ -11,7 +11,7 @@ domains/
 ├── quanttide-agent/       # 智能体工程
 ├── quanttide-knowl/       # 知识工程
 ├── quanttide-code/        # 软件工程
-├── quanttide-course/      # 课程工程
+├── quanttide-course/      # 课程研发
 ├── quanttide-devops/      # DevOps 工程
 ├── quanttide-asset/       # 资产管理
 ├── quanttide-media/       # 媒体资产
@@ -40,7 +40,7 @@ domains/
 | 知识工程 | knowledge-engineering | `knowl` | 知识表示、建模、推理与应用的工程化实践。 |
 | 智能体工程 | agent-engineering | `agent` | 侧重多智能体与人机协作。 |
 | 云计算工程 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
-| 课程工程 | course-engineering | `course` | 课程研发全生命周期的工程化实践。 |
+| 课程研发 | course-engineering | `course` | 课程研发全生命周期的工程化实践。 |
 | 写作管理 | writing-management | `writing` | 面向内容创作者的写作流程管理。 |
 | **沟通与管理** |
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
@@ -109,7 +109,7 @@ git submodule update --remote
 
 ### quanttide-course
 
-量潮课程工程，专注于课程研发全生命周期的工程化实践。
+量潮课程研发，专注于课程研发全生命周期的工程化实践。
 
 **功能：**
 - 课程设计与开发
