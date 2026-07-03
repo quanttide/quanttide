@@ -74,5 +74,5 @@
 	path = domains/quanttide-course
 	url = https://github.com/quanttide/quanttide-course.git
 [submodule "assets/course/big-data"]
-	path = assets/course/big-data
+	path = assets/courses/big-data
 	url = https://github.com/quanttide/quanttide-course-of-big-data.git
