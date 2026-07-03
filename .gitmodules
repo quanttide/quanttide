@@ -76,3 +76,6 @@
 [submodule "assets/course/big-data"]
 	path = assets/courses/big-data
 	url = https://github.com/quanttide/quanttide-course-of-big-data.git
+[submodule "packages/default"]
+	path = packages/default
+	url = https://github.com/quanttide/quanttide-course-toolkit.git
