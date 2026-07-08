@@ -18,6 +18,7 @@ domains/
 ├── quanttide-meta/        # 元工程
 ├── quanttide-econ/        # 经济建模
 ├── quanttide-product/     # 产品研发
+├── quanttide-strategy/    # 战略管理
 └── index.md               # 领域索引
 ```
 

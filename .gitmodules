@@ -73,3 +73,6 @@
 [submodule "domains/quanttide-course"]
 	path = domains/quanttide-course
 	url = https://github.com/quanttide/quanttide-course.git
+[submodule "domains/quanttide-strategy"]
+	path = domains/quanttide-strategy
+	url = https://github.com/quanttide/quanttide-strategy.git
