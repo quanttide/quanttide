@@ -76,3 +76,6 @@
 [submodule "domains/quanttide-strategy"]
 	path = domains/quanttide-strategy
 	url = https://github.com/quanttide/quanttide-strategy.git
+[submodule "domains/quanttide-connect"]
+	path = domains/quanttide-connect
+	url = https://github.com/quanttide/quanttide-connect.git

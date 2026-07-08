@@ -19,6 +19,7 @@ domains/
 ├── quanttide-econ/        # 经济建模
 ├── quanttide-product/     # 产品研发
 ├── quanttide-strategy/    # 战略管理
+├── quanttide-connect/     # 沟通管理
 └── index.md               # 领域索引
 ```
 
@@ -116,3 +117,12 @@ git submodule update --remote
 - 课程设计与开发
 - 课程内容管理
 - 课程交付与评估
+
+### quanttide-connect
+
+量潮沟通管理，专注于组织内外部沟通的标准化管理实践。
+
+**功能：**
+- 沟通策略与标准化
+- 消息与通知管理
+- 沟通渠道管理
