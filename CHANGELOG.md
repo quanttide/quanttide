@@ -10,6 +10,16 @@
 
 ## [Unreleased]
 
+## [0.4.6] - 2026-07-08
+
+### 新增
+
+- 新增 `domains/quanttide-connect` 子模块：沟通管理（CC BY 4.0 许可证）
+
+### 变更
+
+- 更新子模块引用：`default/quanttide-tech`、`domains/quanttide-agent`、`domains/quanttide-data`、`domains/quanttide-strategy`
+
 ## [0.4.5] - 2026-07-08
 
 ### 新增
