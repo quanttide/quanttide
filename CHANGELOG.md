@@ -10,6 +10,18 @@
 
 ## [Unreleased]
 
+## [0.4.5] - 2026-07-08
+
+### 新增
+
+- 新增 `domains/quanttide-product` 子模块：产品研发
+- 新增 `domains/quanttide-strategy` 子模块：战略管理（CC BY 4.0 许可证）
+- 新增 `domains/quanttide-course` 子模块：课程研发
+
+### 变更
+
+- 更新子模块引用：`default/quanttide-founder`、`default/quanttide-tech`、`domains/quanttide-agent`、`domains/quanttide-think` 等
+
 ## [0.4.4] - 2026-06-04
 
 ### 变更
