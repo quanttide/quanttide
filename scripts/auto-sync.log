@@ -1,2 +1,6 @@
 [07-11 18:40] === commit start ===
 [07-11 18:40] === commit done ===
+[07-11 18:40] === pull start ===
+[07-11 18:40] fetch
+[07-11 18:40] submodule
+[07-11 18:40] submodule update failed: /home/iguo/repos/quanttide
