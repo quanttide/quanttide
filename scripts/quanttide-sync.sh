@@ -3,9 +3,19 @@ set -euo pipefail
 
 PARENT_REPO="$(cd "$(dirname "$0")/.." && pwd)"
 LOCKFILE="/tmp/quanttide-sync.lock"
-LOGFILE="$PARENT_REPO/scripts/auto-sync.log"
+LOGFILE="$HOME/logs/quanttide-sync.log"
+LAST_RUN_FILE="/tmp/quanttide-sync-lastrun"
 exec 200>"$LOCKFILE"
 flock -n 200 || exit 0
+
+now=$(date +%s)
+if [ -f "$LAST_RUN_FILE" ]; then
+    last_run=$(cat "$LAST_RUN_FILE")
+    if [ $((now - last_run)) -lt 300 ]; then
+        exit 0
+    fi
+fi
+echo "$now" > "$LAST_RUN_FILE"
 
 log() { echo "[$(date '+%m-%d %H:%M')] $*" >> "$LOGFILE"; }
 
@@ -50,7 +60,6 @@ pull_repo() {
 
 case "${1:-commit}" in
     commit)
-        log "=== commit start ==="
         while IFS= read -r sub; do
             [ -n "$sub" ] && [ -d "$sub" ] && commit_repo "$PARENT_REPO/$sub"
         done < <(git config --file .gitmodules --get-regexp path | awk '{print $2}')
@@ -60,11 +69,8 @@ case "${1:-commit}" in
             git commit -m "chore(auto-sync): update pointers $(date '+%m-%d %H:%M')"
             git push origin "$branch" 2>&1 | log "push" || log "parent push failed"
         fi
-        log "=== commit done ==="
         ;;
     pull)
-        log "=== pull start ==="
         pull_repo "$PARENT_REPO"
-        log "=== pull done ==="
         ;;
 esac
