@@ -10,6 +10,8 @@
 
 ## [Unreleased]
 
+## [0.4.7] - 2026-07-11
+
 ### 新增
 
 - 新增 `domains/quanttide-auth` 子模块：身份认证（CC BY 4.0 许可证）
