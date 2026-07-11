@@ -6,20 +6,26 @@
 
 ```
 domains/
-├── quanttide-think/       # 认知工程
-├── quanttide-data/        # 数据工程
 ├── quanttide-agent/       # 智能体工程
-├── quanttide-knowl/       # 知识工程
-├── quanttide-code/        # 软件工程
-├── quanttide-course/      # 课程研发
-├── quanttide-devops/      # DevOps 工程
 ├── quanttide-asset/       # 资产管理
+├── quanttide-auth/        # 身份认证
+├── quanttide-code/        # 软件工程
+├── quanttide-connect/     # 沟通管理
+├── quanttide-course/      # 课程研发
+├── quanttide-data/        # 数据工程
+├── quanttide-devops/      # DevOps 工程
+├── quanttide-econ/        # 经济建模
+├── quanttide-finance/     # 财务管理
+├── quanttide-human/       # 人力资源
+├── quanttide-innov/       # 创新管理
+├── quanttide-knowl/       # 知识工程
 ├── quanttide-media/       # 媒体资产
 ├── quanttide-meta/        # 元工程
-├── quanttide-econ/        # 经济建模
+├── quanttide-pay/         # 支付工程
 ├── quanttide-product/     # 产品研发
 ├── quanttide-strategy/    # 战略管理
-├── quanttide-connect/     # 沟通管理
+├── quanttide-think/       # 认知工程
+├── quanttide-write/       # 写作管理
 └── index.md               # 领域索引
 ```
 
@@ -117,6 +123,26 @@ git submodule update --remote
 - 课程设计与开发
 - 课程内容管理
 - 课程交付与评估
+
+### quanttide-auth
+
+量潮身份认证，专注于统一身份管理与权限控制的工程化实践。
+
+**功能：**
+- 身份生命周期管理
+- 认证协议与实现（OAuth 2.0、OIDC、SAML）
+- 授权与权限模型（RBAC、ABAC）
+- 安全策略（多因素认证、会话管理）
+
+### quanttide-pay
+
+量潮支付工程，专注于支付流程与账务处理的工程化实践。
+
+**功能：**
+- 支付流程（收银台、支付网关、路由策略）
+- 账务处理（账户体系、会计分录、余额管理）
+- 对账结算（交易对账、资金结算、差错处理）
+- 风控合规（交易风控、反欺诈、监管合规）
 
 ### quanttide-connect
 

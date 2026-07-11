@@ -10,6 +10,11 @@
 
 ## [Unreleased]
 
+### 新增
+
+- 新增 `domains/quanttide-auth` 子模块：身份认证（CC BY 4.0 许可证）
+- 新增 `domains/quanttide-pay` 子模块：支付工程（CC BY 4.0 许可证）
+
 ## [0.4.6] - 2026-07-08
 
 ### 新增
