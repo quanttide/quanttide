@@ -10,6 +10,10 @@
 
 ## [Unreleased]
 
+### 移除
+
+- 删除 `scripts/quanttide-sync.sh`：自动同步脚本（改用 qtcloud-devops 替代）
+
 ## [0.4.8] - 2026-07-12
 
 ### 新增
