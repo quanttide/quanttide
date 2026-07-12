@@ -85,3 +85,6 @@
 [submodule "domains/quanttide-pay"]
 	path = domains/quanttide-pay
 	url = https://github.com/quanttide/quanttide-pay.git
+[submodule "domains/quanttide-business"]
+	path = domains/quanttide-business
+	url = https://github.com/quanttide/quanttide-business.git

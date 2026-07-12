@@ -9,6 +9,7 @@ domains/
 ├── quanttide-agent/       # 智能体工程
 ├── quanttide-asset/       # 资产管理
 ├── quanttide-auth/        # 身份认证
+├── quanttide-business/    # 商务拓展
 ├── quanttide-code/        # 软件工程
 ├── quanttide-connect/     # 沟通管理
 ├── quanttide-course/      # 课程研发
@@ -133,6 +134,16 @@ git submodule update --remote
 - 认证协议与实现（OAuth 2.0、OIDC、SAML）
 - 授权与权限模型（RBAC、ABAC）
 - 安全策略（多因素认证、会话管理）
+
+### quanttide-business
+
+量潮商务拓展，专注于合作伙伴关系与市场开拓的管理实践。
+
+**功能：**
+- 合作伙伴管理（筛选、评估、关系维护）
+- 市场开拓（目标市场分析、渠道建设、商机挖掘）
+- 销售策略（定价、合同谈判、成交管理）
+- 客户关系（信息管理、售前支持、售后维护）
 
 ### quanttide-pay
 

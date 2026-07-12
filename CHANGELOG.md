@@ -10,6 +10,10 @@
 
 ## [Unreleased]
 
+### 新增
+
+- 新增 `domains/quanttide-business` 子模块：商务拓展（CC BY 4.0 许可证）
+
 ## [0.4.7] - 2026-07-11
 
 ### 新增
