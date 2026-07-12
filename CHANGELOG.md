@@ -10,9 +10,16 @@
 
 ## [Unreleased]
 
+## [0.4.8] - 2026-07-12
+
 ### 新增
 
 - 新增 `domains/quanttide-business` 子模块：商务拓展（CC BY 4.0 许可证）
+
+### 变更
+
+- 更新子模块引用：`assets/quanttide-handbook`、`default/quanttide-tech`、`domains/quanttide-data`
+- 移除废弃子模块引用：`qtcloud-auth`
 
 ## [0.4.7] - 2026-07-11
 
