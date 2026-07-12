@@ -10,9 +10,15 @@
 
 ## [Unreleased]
 
+## [0.4.9] - 2026-07-12
+
 ### 新增
 
 - 新增 `domains/quanttide-org` 子模块：组织管理（CC BY 4.0 许可证）
+
+### 变更
+
+- 更新子模块引用：`domains/quanttide-business`、`domains/quanttide-strategy`
 
 ### 移除
 
