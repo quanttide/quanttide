@@ -16,7 +16,7 @@ domains/
 ├── quanttide-data/        # 数据工程
 ├── quanttide-devops/      # DevOps 工程
 ├── quanttide-econ/        # 经济建模
-├── quanttide-execute/     # 执行工程
+├── quanttide-execute/     # 执行管理
 ├── quanttide-finance/     # 财务管理
 ├── quanttide-human/       # 人力资源
 ├── quanttide-innov/       # 创新管理
@@ -149,7 +149,7 @@ git submodule update --remote
 
 ### quanttide-execute
 
-量潮执行工程，专注于任务执行与流程编排的工程化实践。
+量潮执行管理，专注于任务执行与流程编排的管理实践。
 
 **功能：**
 - 任务执行（任务定义、调度策略、执行引擎）
