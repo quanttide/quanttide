@@ -10,6 +10,11 @@
 
 ## [Unreleased]
 
+### 新增
+
+- 新增 `domains/quanttide-execute` 子模块：执行工程（CC BY 4.0 许可证）
+   - 新增 `apps/qtcloud-execute` 子模块：执行云服务
+
 ## [0.4.9] - 2026-07-12
 
 ### 新增

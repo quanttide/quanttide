@@ -16,6 +16,7 @@ domains/
 ├── quanttide-data/        # 数据工程
 ├── quanttide-devops/      # DevOps 工程
 ├── quanttide-econ/        # 经济建模
+├── quanttide-execute/     # 执行工程
 ├── quanttide-finance/     # 财务管理
 ├── quanttide-human/       # 人力资源
 ├── quanttide-innov/       # 创新管理
@@ -145,6 +146,19 @@ git submodule update --remote
 - 市场开拓（目标市场分析、渠道建设、商机挖掘）
 - 销售策略（定价、合同谈判、成交管理）
 - 客户关系（信息管理、售前支持、售后维护）
+
+### quanttide-execute
+
+量潮执行工程，专注于任务执行与流程编排的工程化实践。
+
+**功能：**
+- 任务执行（任务定义、调度策略、执行引擎）
+- 流程编排（流程建模、规则引擎、状态管理）
+- 工作流管理（工作流设计、审批流转、版本管理）
+- 自动化调度（定时任务、事件触发、重试机制）
+
+**应用：**
+- `apps/qtcloud-execute` - 量潮执行云服务
 
 ### quanttide-org
 
