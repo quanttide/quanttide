@@ -22,6 +22,7 @@ domains/
 ├── quanttide-knowl/       # 知识工程
 ├── quanttide-media/       # 媒体资产
 ├── quanttide-meta/        # 元工程
+├── quanttide-org/         # 组织管理
 ├── quanttide-pay/         # 支付工程
 ├── quanttide-product/     # 产品研发
 ├── quanttide-strategy/    # 战略管理
@@ -144,6 +145,16 @@ git submodule update --remote
 - 市场开拓（目标市场分析、渠道建设、商机挖掘）
 - 销售策略（定价、合同谈判、成交管理）
 - 客户关系（信息管理、售前支持、售后维护）
+
+### quanttide-org
+
+量潮组织管理，专注于组织架构设计与行政管理的工程化实践。
+
+**功能：**
+- 组织架构（部门设置、岗位体系、权责划分）
+- 行政管理（日常事务、资产管理、办公流程）
+- 组织发展（人才发展、绩效管理、文化建设）
+- 制度规范（管理制度、流程标准、合规运营）
 
 ### quanttide-pay
 

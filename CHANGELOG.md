@@ -10,6 +10,10 @@
 
 ## [Unreleased]
 
+### 新增
+
+- 新增 `domains/quanttide-org` 子模块：组织管理（CC BY 4.0 许可证）
+
 ### 移除
 
 - 删除 `scripts/quanttide-sync.sh`：自动同步脚本（改用 qtcloud-devops 替代）
