@@ -94,3 +94,9 @@
 [submodule "domains/quanttide-execute"]
 	path = domains/quanttide-execute
 	url = https://github.com/quanttide/quanttide-execute.git
+[submodule "data/journal"]
+	path = data/journal
+	url = https://github.com/quanttide/quanttide-journal-of-execution-management.git
+[submodule "domains/data/context"]
+	path = domains/data/context
+	url = https://github.com/quanttide/quanttide-context-of-execution-management.git
