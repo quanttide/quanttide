@@ -1,102 +1,102 @@
 [submodule "domains/quanttide-data"]
 	path = domains/quanttide-data
-	url = https://github.com/quanttide/quanttide-data.git
+	url = git@github.com:quanttide/quanttide-data.git
 [submodule "assets/quanttide-specification"]
 	path = assets/quanttide-specification
-	url = https://github.com/quanttide/quanttide-specification.git
+	url = git@github.com:quanttide/quanttide-specification.git
 [submodule "assets/quanttide-profile"]
 	path = assets/quanttide-profile
-	url = https://github.com/quanttide/quanttide-profile.git
+	url = git@github.com:quanttide/quanttide-profile.git
 [submodule "assets/quanttide-handbook"]
 	path = assets/quanttide-handbook
-	url = https://github.com/quanttide/quanttide-handbook.git
+	url = git@github.com:quanttide/quanttide-handbook.git
 [submodule "assets/quanttide-platform"]
 	path = assets/quanttide-platform
-	url = https://github.com/quanttide/quanttide-platform.git
+	url = git@github.com:quanttide/quanttide-platform.git
 [submodule "default/quanttide-founder"]
 	path = default/quanttide-founder
-	url = https://github.com/quanttide/quanttide-laboratory-of-founder.git
+	url = git@github.com:quanttide/quanttide-laboratory-of-founder.git
 [submodule "default/quanttide-tech"]
 	path = default/quanttide-tech
-	url = https://github.com/quanttide/quanttide-tech.git
+	url = git@github.com:quanttide/quanttide-tech.git
 [submodule "assets/quanttide-journal"]
 	path = assets/quanttide-journal
-	url = https://github.com/quanttide/quanttide-journal.git
+	url = git@github.com:quanttide/quanttide-journal.git
 [submodule "domains/quanttide-asset"]
 	path = domains/quanttide-asset
-	url = https://github.com/quanttide/quanttide-asset.git
+	url = git@github.com:quanttide/quanttide-asset.git
 [submodule "assets/quanttide-tutorial"]
 	path = assets/quanttide-tutorial
-	url = https://github.com/quanttide/quanttide-tutorial.git
+	url = git@github.com:quanttide/quanttide-tutorial.git
 [submodule "domains/quanttide-think"]
 	path = domains/quanttide-think
-	url = https://github.com/quanttide/quanttide-think.git
+	url = git@github.com:quanttide/quanttide-think.git
 [submodule "domains/quanttide-media"]
 	path = domains/quanttide-media
-	url = https://github.com/quanttide/quanttide-media.git
+	url = git@github.com:quanttide/quanttide-media.git
 [submodule "domains/quanttide-knowl"]
 	path = domains/quanttide-knowl
-	url = https://github.com/quanttide/quanttide-knowl.git
+	url = git@github.com:quanttide/quanttide-knowl.git
 [submodule "domains/quanttide-devops"]
 	path = domains/quanttide-devops
-	url = https://github.com/quanttide/quanttide-devops.git
+	url = git@github.com:quanttide/quanttide-devops.git
 [submodule "domains/quanttide-agent"]
 	path = domains/quanttide-agent
-	url = https://github.com/quanttide/quanttide-agent.git
+	url = git@github.com:quanttide/quanttide-agent.git
 [submodule "domains/quanttide-code"]
 	path = domains/quanttide-code
-	url = https://github.com/quanttide/quanttide-code.git
+	url = git@github.com:quanttide/quanttide-code.git
 [submodule "assets/quanttide-roadmap"]
 	path = assets/quanttide-roadmap
-	url = https://github.com/quanttide/quanttide-roadmap.git
+	url = git@github.com:quanttide/quanttide-roadmap.git
 [submodule "domains/quanttide-meta"]
 	path = domains/quanttide-meta
-	url = https://github.com/quanttide/quanttide-meta.git
+	url = git@github.com:quanttide/quanttide-meta.git
 [submodule "domains/quanttide-econ"]
 	path = domains/quanttide-econ
-	url = https://github.com/quanttide/quanttide-econ.git
+	url = git@github.com:quanttide/quanttide-econ.git
 [submodule "domains/quanttide-finance"]
 	path = domains/quanttide-finance
-	url = https://github.com/quanttide/quanttide-finance.git
+	url = git@github.com:quanttide/quanttide-finance.git
 [submodule "domains/quanttide-innov"]
 	path = domains/quanttide-innov
-	url = https://github.com/quanttide/quanttide-innov.git
+	url = git@github.com:quanttide/quanttide-innov.git
 [submodule "domains/quanttide-human"]
 	path = domains/quanttide-human
-	url = https://github.com/quanttide/quanttide-human.git
+	url = git@github.com:quanttide/quanttide-human.git
 [submodule "domains/quanttide-write"]
 	path = domains/quanttide-write
-	url = https://github.com/quanttide/quanttide-write.git
+	url = git@github.com:quanttide/quanttide-write.git
 [submodule "domains/quanttide-product"]
 	path = domains/quanttide-product
-	url = https://github.com/quanttide/quanttide-product.git
+	url = git@github.com:quanttide/quanttide-product.git
 [submodule "domains/quanttide-course"]
 	path = domains/quanttide-course
-	url = https://github.com/quanttide/quanttide-course.git
+	url = git@github.com:quanttide/quanttide-course.git
 [submodule "domains/quanttide-strategy"]
 	path = domains/quanttide-strategy
-	url = https://github.com/quanttide/quanttide-strategy.git
+	url = git@github.com:quanttide/quanttide-strategy.git
 [submodule "domains/quanttide-auth"]
 	path = domains/quanttide-auth
-	url = https://github.com/quanttide/quanttide-auth.git
+	url = git@github.com:quanttide/quanttide-auth.git
 [submodule "domains/quanttide-connect"]
 	path = domains/quanttide-connect
-	url = https://github.com/quanttide/quanttide-connect.git
+	url = git@github.com:quanttide/quanttide-connect.git
 [submodule "domains/quanttide-pay"]
 	path = domains/quanttide-pay
-	url = https://github.com/quanttide/quanttide-pay.git
+	url = git@github.com:quanttide/quanttide-pay.git
 [submodule "domains/quanttide-business"]
 	path = domains/quanttide-business
-	url = https://github.com/quanttide/quanttide-business.git
+	url = git@github.com:quanttide/quanttide-business.git
 [submodule "domains/quanttide-org"]
 	path = domains/quanttide-org
-	url = https://github.com/quanttide/quanttide-org.git
+	url = git@github.com:quanttide/quanttide-org.git
 [submodule "domains/quanttide-execute"]
 	path = domains/quanttide-execute
-	url = https://github.com/quanttide/quanttide-execute.git
+	url = git@github.com:quanttide/quanttide-execute.git
 [submodule "data/journal"]
 	path = data/journal
-	url = https://github.com/quanttide/quanttide-journal-of-execution-management.git
+	url = git@github.com:quanttide/quanttide-journal-of-execution-management.git
 [submodule "domains/data/context"]
 	path = domains/data/context
-	url = https://github.com/quanttide/quanttide-context-of-execution-management.git
+	url = git@github.com:quanttide/quanttide-context-of-execution-management.git
