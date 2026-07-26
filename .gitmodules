@@ -103,6 +103,3 @@
 [submodule "domains/quanttide-customer"]
 	path = domains/quanttide-customer
 	url = git@github.com:quanttide/quanttide-customer.git
-[submodule "data/journal-of-customer-relations"]
-	path = data/journal-of-customer-relations
-	url = git@github.com:quanttide/quanttide-journal-of-customer-relations.git
