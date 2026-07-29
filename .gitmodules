@@ -15,7 +15,7 @@
 	url = git@github.com:quanttide/quanttide-platform.git
 [submodule "default/quanttide-founder"]
 	path = default/quanttide-founder
-	url = git@github.com:quanttide/quanttide-laboratory-of-founder.git
+	url = git@github.com:quanttide/quanttide-founder.git
 [submodule "default/quanttide-tech"]
 	path = default/quanttide-tech
 	url = git@github.com:quanttide/quanttide-tech.git
@@ -94,12 +94,7 @@
 [submodule "domains/quanttide-execute"]
 	path = domains/quanttide-execute
 	url = git@github.com:quanttide/quanttide-execute.git
-[submodule "data/journal"]
-	path = data/journal
-	url = git@github.com:quanttide/quanttide-journal-of-execution-management.git
-[submodule "domains/data/context"]
-	path = domains/data/context
-	url = git@github.com:quanttide/quanttide-context-of-execution-management.git
 [submodule "domains/quanttide-customer"]
 	path = domains/quanttide-customer
 	url = git@github.com:quanttide/quanttide-customer.git
+
