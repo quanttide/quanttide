@@ -104,3 +104,6 @@
 [submodule "domains/quanttide-delib"]
 	path = domains/quanttide-delib
 	url = https://github.com/quanttide/quanttide-delib.git
+[submodule "assets/quanttide-intention"]
+	path = assets/quanttide-intention
+	url = https://github.com/quanttide/quanttide-intention.git
