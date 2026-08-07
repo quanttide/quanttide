@@ -107,3 +107,10 @@
 [submodule "assets/quanttide-intention"]
 	path = assets/quanttide-intention
 	url = https://github.com/quanttide/quanttide-intention.git
+	url = git@github.com:quanttide/quanttide-customer.git
+[submodule "assets/quanttide-toolkit"]
+	path = assets/quanttide-toolkit
+	url = git@github.com:quanttide/quanttide-toolkit.git
+[submodule "assets/quanttide-laboratory"]
+	path = assets/quanttide-laboratory
+	url = git@github.com:quanttide/quanttide-laboratory.git
