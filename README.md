@@ -15,26 +15,42 @@
 
 这种分离让我可以在不重写教程的情况下升级平台，也可以在不变动核心服务的情况下新增领域。
 
+平台资源按"一分为三"组织，各自独立演进：
+
+- **quanttide-platform**——系统发布。收敛为 apps（可部署应用）+ manifests（发布清单）。
+- **quanttide-toolkit**——工具集元仓库。聚合语言无关的 toolkit 包（packages/）。
+- **quanttide-laboratory**——实验室元仓库。聚合实验性/原型项目。
+
 ## 目录结构
 
 ```
 quanttide/
-├── assets/                   # 资产
-│   ├── quanttide-handbook/  # 工作手册
-│   ├── quanttide-platform/ # 平台
-│   ├── quanttide-profile/  # 工作档案
-│   └── quanttide-specification/ # 工程规范
-├── default/                  # 默认模板
-│   ├── quanttide-founder/ # 创始人档案
-│   └── quanttide-tech/    # 科技档案
-├── domains/                  # 领域
-│   └── quanttide-data/      # 数据工程
-├── meta/                    # 元数据
-├── CHANGELOG.md             # 版本变更记录
-├── CONTRIBUTING.md          # 贡献指南
-├── index.md                 # 项目概述
-├── LICENSE                  # 许可证
-└── README.md                # 本文件
+├── assets/                      # 能力轴：资产仓库
+│   ├── quanttide-handbook/      # 工作手册
+│   ├── quanttide-intention/     # 意图资产
+│   ├── quanttide-journal/       # 工作日志
+│   ├── quanttide-laboratory/    # 实验室（实验原型元仓库）
+│   ├── quanttide-platform/      # 平台（系统发布：apps + manifests）
+│   ├── quanttide-profile/       # 工作档案
+│   ├── quanttide-roadmap/       # 路线图
+│   ├── quanttide-specification/ # 工程规范
+│   ├── quanttide-toolkit/       # 工具集元仓库（toolkit 包聚合）
+│   └── quanttide-tutorial/      # 教程
+├── default/                     # 默认模板
+│   ├── quanttide-founder/       # 创始人档案
+│   └── quanttide-tech/          # 科技档案
+├── domains/                     # 领域轴：26 个领域仓库
+│   ├── quanttide-data/          # 数据工程
+│   ├── quanttide-course/        # 课程研发
+│   ├── quanttide-finance/       # 财务管理
+│   ├── quanttide-knowl/         # 知识工程
+│   └── ...                      # 完整列表见 domains/README.md
+├── .quanttide/                  # 元数据与契约文件
+├── AGENTS.md                    # AI 协作指南
+├── CHANGELOG.md                 # 版本变更记录
+├── CONTRIBUTING.md              # 贡献指南
+├── LICENSE                      # 许可证
+└── README.md                    # 本文件
 ```
 
 ## 许可证

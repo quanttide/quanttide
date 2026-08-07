@@ -23,21 +23,18 @@
 
 | 文档 | 用途 |
 |------|------|
-| [README.md](README.md) | 快速开始、格式规范、构建命令 |
+| [README.md](README.md) | 快速开始、目录结构、架构思想 |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | 贡献指南、开发环境、提交流程、常见任务 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本变更记录 |
 | [ROADMAP.md](ROADMAP.md) | 产品路线图、版本规划 |
-| [index.md](index.md) | 项目概述、架构思想 |
-| [meta/README.md](meta/README.md) | 元数据目录说明 |
-| [meta/metadata.md](meta/metadata.md) | 各子项目版本信息 |
-| [meta/self.md](meta/self.md) | 系统自我介绍 |
+| [.quanttide/README.md](.quanttide/README.md) | 元数据与契约文件说明 |
 
 ### 人机协作范式
 
 1. **最小干预**：仅在用户明确请求时操作
 2. **信息复用**：优先使用已有文档内容
-3. **查询 index**：维护前先查询相关 index.md
-4. **维护 index**：修改后同步更新 index.md
+3. **查询契约**：维护前先读取 .quanttide/ 获取资产契约与上下文
+4. **维护记录**：修改后同步更新 CHANGELOG.md
 5. **验证优先**：完成后运行构建命令验证
 6. **原子提交**：每次提交包含完整独立变更
 
@@ -47,7 +44,7 @@
 
 | 顺序 | 文档 | 查阅内容 |
 |------|------|----------|
-| 1 | [README.md](README.md) | 项目结构、快速开始命令、格式规范、构建命令 |
+| 1 | [README.md](README.md) | 项目结构、快速开始命令、目录结构 |
 | 3 | 本文件 (AGENTS.md) | 人机协作范式、工作流程 |
 
 ### 执行具体任务时必查
@@ -62,7 +59,7 @@
 | **运行测试** | [README.md](README.md) | 构建命令、测试命令 |
 | **发布版本** | [CHANGELOG.md](CHANGELOG.md) | 版本记录格式、最新版本 |
 | **发布版本** | [ROADMAP.md](ROADMAP.md) | 版本规划、阶段目标 |
-| **发布版本** | [meta/metadata.md](meta/metadata.md) | 维护元数据信息，更新版本记录 |
+| **发布版本** | [.quanttide/devops/release-journal.jsonl](.quanttide/devops/release-journal.jsonl) | 记录发布日志 |
 | **了解变更历史** | [CHANGELOG.md](CHANGELOG.md) | 历史变更记录 |
 | **了解未来规划** | [ROADMAP.md](ROADMAP.md) | 路线图、里程碑 |
 
@@ -149,7 +146,6 @@ Vault key 只需在路径范围内自描述即可，不要跟应用字段名强�
 | [CHANGELOG.md](CHANGELOG.md) | 对用户可见的变更（新功能、重构、修复） |
 | [ROADMAP.md](ROADMAP.md) | 方向调整、阶段性成果达成 |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | 目录结构或 packages/apps 约定变化 |
-| [docs/prd/index.md](docs/prd/index.md) | 工作方式或原则发生变化 |
 | [README.md](README.md) | 产品功能或仓库结构变化 |
 | [AGENTS.md](AGENTS.md) | AI 工作经验增加 |
 
@@ -166,6 +162,16 @@ AI 应在完成工作后主动提醒用户是否需要更新这些文档，而�
 | `domains/{name}` | 领域知识仓库，核心事实源，通常有独立的文档站 | `domains/quanttide-finance` |
 | `default/{name}` | 默认实现/配置/基础设施 | `default/quanttide-tech` |
 | `assets/{name}` | 资产仓库（文档站、教程、手册、规范等） | `assets/quanttide-handbook` |
+
+### 元仓库（一分为三）
+
+平台资源按职能拆分为三个独立仓库，各自演进：
+
+| 元仓库 | 路径 | 职能 |
+|--------|------|------|
+| quanttide-platform | `assets/quanttide-platform` | 系统发布：apps/（可部署应用）+ manifests/（发布清单） |
+| quanttide-toolkit | `assets/quanttide-toolkit` | 工具集聚合：packages/（语言无关 toolkit 包） |
+| quanttide-laboratory | `assets/quanttide-laboratory` | 实验原型聚合 |
 
 ### 领域仓库内部结构
 
