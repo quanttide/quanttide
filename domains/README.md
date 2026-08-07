@@ -13,7 +13,9 @@ domains/
 ├── quanttide-code/        # 软件工程
 ├── quanttide-connect/     # 沟通管理
 ├── quanttide-course/      # 课程研发
+├── quanttide-customer/    # 客户关系
 ├── quanttide-data/        # 数据工程
+├── quanttide-delib/       # 议事管理
 ├── quanttide-devops/      # DevOps 工程
 ├── quanttide-econ/        # 经济建模
 ├── quanttide-execute/     # 执行管理
@@ -26,10 +28,10 @@ domains/
 ├── quanttide-org/         # 组织管理
 ├── quanttide-pay/         # 支付工程
 ├── quanttide-product/     # 产品研发
+├── quanttide-sales/       # 销售管理
 ├── quanttide-strategy/    # 战略管理
 ├── quanttide-think/       # 认知工程
-├── quanttide-write/       # 写作管理
-└── index.md               # 领域索引
+└── quanttide-write/       # 写作管理
 ```
 
 ## 领域定义

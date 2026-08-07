@@ -1,24 +1,32 @@
 # 量潮资产
 
-量潮资产库，包含工程标准和工作档案。
+量潮资产库（能力轴），包含工程标准、工作档案与平台资源。每个子目录对应一个独立资产仓库（子模块）。
 
 ## 目录结构
 
-- [**specification/**](./specification/) - 量潮工程标准
-- [**profile/**](./profile/) - 量潮工作档案
+```
+assets/
+├── quanttide-handbook/      # 工作手册
+├── quanttide-intention/     # 意图资产
+├── quanttide-journal/       # 工作日志
+├── quanttide-laboratory/    # 实验室（实验原型元仓库）
+├── quanttide-platform/      # 平台（系统发布：apps + manifests）
+├── quanttide-profile/       # 工作档案
+├── quanttide-roadmap/       # 路线图
+├── quanttide-specification/ # 工程规范
+├── quanttide-toolkit/       # 工具集元仓库（toolkit 包聚合）
+└── quanttide-tutorial/      # 教程
+```
 
-## 子项目
+## 元仓库（一分为三）
 
-### 工程标准
+平台资源按职能拆分为三个独立仓库，各自演进：
 
-- [quanttide-specification-of-strategic-management](./specification/quanttide-specification-of-strategic-management/) - 量潮战略管理规范
-
-### 工作档案
-
-- [profile/entity/company](./profile/entity/company/) - 公司实体档案
-- [profile/entity/founder](./profile/entity/founder/) - 创始人实体档案
-- [profile/domain/think](./profile/domain/think/) - 思考领域档案
-- [profile/domain/stdn](./profile/domain/stdn/) - 标准领域档案
+| 元仓库 | 路径 | 职能 |
+|--------|------|------|
+| quanttide-platform | `assets/quanttide-platform` | 系统发布：apps/（可部署应用）+ manifests/（发布清单） |
+| quanttide-toolkit | `assets/quanttide-toolkit` | 工具集聚合：packages/（语言无关 toolkit 包） |
+| quanttide-laboratory | `assets/quanttide-laboratory` | 实验原型聚合 |
 
 ## 使用说明
 
