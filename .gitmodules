@@ -114,6 +114,6 @@
 [submodule "assets/quanttide-laboratory"]
 	path = assets/quanttide-laboratory
 	url = git@github.com:quanttide/quanttide-laboratory.git
-[submodule "assets/quanttide-meta-toolkit"]
-	path = assets/quanttide-meta-toolkit
-	url = git@github.com:quanttide/quanttide-meta-toolkit.git
+[submodule "assets/quanttide-index-toolkit"]
+	path = assets/quanttide-index-toolkit
+	url = git@github.com:quanttide/quanttide-index-toolkit.git
