@@ -120,3 +120,6 @@
 [submodule "domains/quanttide-project"]
 	path = domains/quanttide-project
 	url = https://github.com/quanttide/quanttide-project.git
+[submodule "assets/quanttide-meta-toolkit"]
+	path = assets/quanttide-meta-toolkit
+	url = git@github.com:quanttide/quanttide-meta-toolkit.git
