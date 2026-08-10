@@ -10,6 +10,13 @@
 
 ## [Unreleased]
 
+## [0.4.11] - 2026-08-10
+
+### 新增
+
+- 新增 `domains/quanttide-project` 子模块：项目管理（CC BY 4.0 许可证）
+   - 注册子模块：`apps/qtcloud-project`、`docs/handbook`、`docs/tutorial`、`docs/specification`、`packages/quanttide-project-toolkit`
+
 ## [0.4.10] - 2026-07-12
 
 ### 新增

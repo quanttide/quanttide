@@ -117,3 +117,6 @@
 [submodule "assets/quanttide-index-toolkit"]
 	path = assets/quanttide-index-toolkit
 	url = git@github.com:quanttide/quanttide-index-toolkit.git
+[submodule "domains/quanttide-project"]
+	path = domains/quanttide-project
+	url = https://github.com/quanttide/quanttide-project.git

@@ -28,6 +28,7 @@ domains/
 ├── quanttide-org/         # 组织管理
 ├── quanttide-pay/         # 支付工程
 ├── quanttide-product/     # 产品研发
+├── quanttide-project/     # 项目管理
 ├── quanttide-sales/       # 销售管理
 ├── quanttide-strategy/    # 战略管理
 ├── quanttide-think/       # 认知工程
@@ -181,6 +182,19 @@ git submodule update --remote
 - 账务处理（账户体系、会计分录、余额管理）
 - 对账结算（交易对账、资金结算、差错处理）
 - 风控合规（交易风控、反欺诈、监管合规）
+
+### quanttide-project
+
+量潮项目管理，专注于项目全生命周期的管理实践与工程化支持。
+
+**功能：**
+- 项目规划（立项评估、范围界定、计划制定）
+- 项目执行（任务分解、进度跟踪、资源协调）
+- 项目监控（里程碑管理、风险控制、质量保障）
+- 项目收尾（验收交付、复盘总结、经验沉淀）
+
+**应用：**
+- `apps/qtcloud-project` - 量潮项目管理云服务
 
 ### quanttide-connect
 
