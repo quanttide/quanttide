@@ -7,12 +7,14 @@
 | 主体 | 路径 | 状态 |
 |:-----|:-----|:-----|
 | 公司 | `default/quanttide-tech` | 已接入 |
-| 实训基地 | — | 预留 |
-| 联盟 | — | 预留 |
+| 实训基地 | `default/quanttide-bootcamp` | 预留 |
+| 联盟 | `default/quanttide-alliance` | 预留 |
 
 当前仅接入**公司**主体，即 `quanttide-tech` 科技档案。
 
 实训基地、联盟等其他法人主体按需创建独立仓库后接入。目录即语义，未接入前不预留空目录。
+
+命名沿革：`bootcamp` 沿用量潮内部教学制度中「训练营」惯例（见 qtclass 内部教学：`ceo_assistant_bootcamp.md`），指实训营形态的主体。
 
 ## 接入约定
 
