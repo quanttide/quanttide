@@ -10,9 +10,15 @@
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-08-10
+
 ### 移除
 
 - 移除 `default/quanttide-founder` 子模块引用：创始人档案不再纳入根仓库体系（远端仓库保留，独立演进）
+
+### 变更
+
+- 更新子模块引用：`assets/quanttide-platform`、`default/quanttide-tech`、`domains/quanttide-business`、`domains/quanttide-course`、`domains/quanttide-execute`
 
 ## [0.4.11] - 2026-08-10
 
