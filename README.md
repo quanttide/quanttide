@@ -36,7 +36,7 @@ quanttide/
 │   ├── quanttide-specification/ # 工程规范
 │   ├── quanttide-toolkit/       # 工具集元仓库（toolkit 包聚合）
 │   └── quanttide-tutorial/      # 教程
-├── default/                     # 默认模板
+├── default/                     # 法人主体档案
 │   └── quanttide-tech/          # 科技档案
 ├── domains/                     # 领域轴：26 个领域仓库
 │   ├── quanttide-data/          # 数据工程
