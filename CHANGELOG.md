@@ -14,6 +14,13 @@
 
 - 新增 `default/README.md`：法人主体档案说明（公司已接入，预留实训基地、联盟等主体）
 
+### 变更
+
+- README：架构补充主体轴（default/ 法人主体档案），领域数量修正为 27
+- CONTRIBUTING：构建与子模块示例路径改为现有仓库（quanttide-handbook）
+- ROADMAP：推进至 0.5.0 已达成，新增 0.6.x 目标
+- AGENTS：三轴架构、default 路径约定更新为法人主体档案
+
 ## [0.5.0] - 2026-08-10
 
 ### 移除

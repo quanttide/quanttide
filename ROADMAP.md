@@ -8,10 +8,22 @@
 
 核心问题：这个结构能否支撑持续产出？asset → domain → product 的模式是否顺畅？
 
-### 0.2.0 目标
+### 0.2.0 已达成（2026-04-30）
 
-- **模块增加**：添加更多领域模块
-- **关联索引**：建立领域间的关联索引
+- 模块增加：领域模块持续扩展
+- 关联索引：建立领域间的关联索引（domains/README.md 领域清单、.quanttide 资产契约）
+
+### 0.5.0 已达成（2026-08-10）
+
+- 主体轴建立：default/ 重定义为法人主体档案，公司主体（quanttide-tech）接入
+- 多主体预留：实训基地（quanttide-bootcamp）、联盟（quanttide-alliance）
+- 体系去个人化：移除 default/quanttide-founder，根仓库聚焦组织知识体系
+- 领域体系成型：27 个领域仓库，契约文件与子模块注册对齐
+
+### 0.6.x 目标
+
+- 主体接入：实训基地（bootcamp）、联盟（alliance）档案仓库落地，同步资产契约
+- 契约完备：资产契约（contract.yaml）与 .gitmodules 完全对齐
 
 ## 正式期（x.y.z）
 

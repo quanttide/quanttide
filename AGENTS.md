@@ -10,8 +10,8 @@
 
 ### 核心架构思想
 
-1. **正交分解**：分离"平台能力轴"（How it runs）与"领域知识轴"（What it expresses）
-2. **单一事实源**：qtcloud-data 作为共享子模块，既是可部署服务也是开发依赖
+1. **正交分解**：分离"能力轴"（How it runs，assets/）、"领域轴"（What it expresses，domains/）与"主体轴"（Who it is，default/ 法人主体档案）
+2. **单一事实源**：子模块独立演进，父仓库只追踪引用；共享服务（如 qtcloud-data）既是可部署服务也是开发依赖
 3. **知识即代码**：文档、标准、工具、示例统一版本控制
 
 ### 子模块管理
@@ -160,7 +160,7 @@ AI 应在完成工作后主动提醒用户是否需要更新这些文档，而�
 | 根路径 | 用途 | 例子 |
 |--------|------|------|
 | `domains/{name}` | 领域知识仓库，核心事实源，通常有独立的文档站 | `domains/quanttide-finance` |
-| `default/{name}` | 默认实现/配置/基础设施 | `default/quanttide-tech` |
+| `default/{name}` | 法人主体档案（公司、实训基地、联盟等） | `default/quanttide-tech` |
 | `assets/{name}` | 资产仓库（文档站、教程、手册、规范等） | `assets/quanttide-handbook` |
 
 ### 元仓库（一分为三）

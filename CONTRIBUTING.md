@@ -29,11 +29,11 @@ git submodule update --init --remote assets/quanttide-profile
 
 ### 构建命令
 
-对于 Jupyter Book 文档项目（如 assets/quanttide-profile/entity/founder）：
+对于 Jupyter Book 文档项目（如 assets/quanttide-handbook）：
 
 ```bash
 # 进入子模块目录
-cd assets/quanttide-profile/entity/founder
+cd assets/quanttide-handbook
 
 # 构建 HTML（单文件方式，避免 EISDIR 错误）
 jupyter-book build index.md --site
@@ -157,13 +157,13 @@ docs: 更新数据工程教程
 git submodule update --init --recursive
 
 # 进入子模块并切换到最新
-cd assets/quanttide-profile/entity/founder
+cd assets/quanttide-handbook
 git checkout origin/main
 
 # 更新父仓库引用
 cd ../..
-git add entity/founder
-git commit -m "Update founder submodule to latest"
+git add quanttide-handbook
+git commit -m "Update handbook submodule to latest"
 ```
 
 ### 子模块最佳实践
@@ -175,14 +175,14 @@ git commit -m "Update founder submodule to latest"
 **2. 更新子模块流程**
 ```bash
 # 方式一：在父仓库中更新（推荐）
-git submodule update --init --remote assets/quanttide-profile/entity/founder
+git submodule update --init --remote assets/quanttide-handbook
 
 # 方式二：进入子模块手动更新
-cd assets/quanttide-profile/entity/founder
+cd assets/quanttide-handbook
 git fetch origin
 git checkout origin/main
 cd ..
-git add entity/founder
+git add quanttide-handbook
 git commit -m "Update submodule"
 ```
 
@@ -192,7 +192,7 @@ git commit -m "Update submodule"
 git submodule status
 
 # 查看特定子模块是否有新提交
-git submodule summary asset/profile/entity/founder
+git submodule summary assets/quanttide-handbook
 ```
 
 ## 注意事项
