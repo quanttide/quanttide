@@ -13,9 +13,6 @@
 [submodule "assets/quanttide-platform"]
 	path = assets/quanttide-platform
 	url = https://github.com/quanttide/quanttide-platform.git
-[submodule "default/quanttide-founder"]
-	path = default/quanttide-founder
-	url = https://github.com/quanttide/quanttide-founder.git
 [submodule "default/quanttide-tech"]
 	path = default/quanttide-tech
 	url = https://github.com/quanttide/quanttide-tech.git

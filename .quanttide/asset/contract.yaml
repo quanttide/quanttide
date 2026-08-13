@@ -43,14 +43,6 @@ assets:
 
   # ── 默认模板 ──
 
-  quanttide_founder:
-    title: 创始人档案
-    type: docs
-    category: default
-    audience: human
-    path: default/quanttide-founder
-    description: 创始人档案
-
   quanttide_tech:
     title: 科技档案
     type: docs
