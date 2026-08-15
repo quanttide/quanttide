@@ -39,11 +39,12 @@ quanttide/
 │   └── quanttide-tutorial/      # 教程
 ├── default/                     # 法人主体档案
 │   └── quanttide-tech/          # 科技档案
-├── domains/                     # 领域轴：27 个领域仓库
+├── domains/                     # 领域轴：28 个领域仓库
 │   ├── quanttide-data/          # 数据工程
 │   ├── quanttide-course/        # 课程研发
 │   ├── quanttide-finance/       # 财务管理
 │   ├── quanttide-knowl/         # 知识工程
+│   ├── quanttide-secret/        # 密码管理
 │   └── ...                      # 完整列表见 domains/README.md
 ├── .quanttide/                  # 元数据与契约文件
 ├── AGENTS.md                    # AI 协作指南

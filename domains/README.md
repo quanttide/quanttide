@@ -30,6 +30,7 @@ domains/
 ├── quanttide-product/     # 产品研发
 ├── quanttide-project/     # 项目管理
 ├── quanttide-sales/       # 销售管理
+├── quanttide-secret/      # 密码管理
 ├── quanttide-strategy/    # 战略管理
 ├── quanttide-think/       # 认知工程
 └── quanttide-write/       # 写作管理
@@ -67,6 +68,7 @@ domains/
 | 项目管理 | project-management | `project` | 项目全周期管理。 |
 | **业务与客户** |
 | 数字身份 | identity-management | `iam` | 统一身份与权限管理。 |
+| 密码管理 | secret-management | `secret` | 凭证、密钥与敏感信息的全生命周期管理。 |
 | 支付工程 | payment-engineering | `pay` | 支付流程与账务处理。 |
 | 算法工程 | algorithm-engineering | `alg` | 算法开发与部署工程化。 |
 | 商务拓展 | business-development | `bd` | 合作伙伴关系与市场开拓。 |
@@ -204,3 +206,13 @@ git submodule update --remote
 - 沟通策略与标准化
 - 消息与通知管理
 - 沟通渠道管理
+
+### quanttide-secret
+
+量潮密码管理，专注于凭证、密钥与敏感信息全生命周期的管理实践。
+
+**功能：**
+- 凭证管理（口令、API Key、Token 的登记、轮换与回收）
+- 密钥管理（签名密钥、加密密钥的生成、存储与分发）
+- 敏感信息（分类、脱敏、访问控制与审计）
+- 工具规范（Vault 等密钥管理服务的接入规范）
