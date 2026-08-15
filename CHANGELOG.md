@@ -14,6 +14,7 @@
 
 - 新增 `default/README.md`：法人主体档案说明（公司已接入，预留实训基地、联盟等主体）
 - 新增 `domains/quanttide-secret` 子模块：密码管理（CC BY 4.0 许可证）
+   - 注册子模块：`apps/qtcloud-secret`、`packages/quanttide-secret-toolkit`、`examples/default`
 
 ### 变更
 
