@@ -20,6 +20,7 @@
 - 新增 `domains/quanttide-security` 子模块：安全工程（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-security`、`packages/quanttide-security-toolkit`、`examples/default`
    - 注册子模块：`data/context`、`data/journal`
+   - 注册子模块：`data/intention`（意图仓库，含统一规范三原则产品思路）
 
 ### 变更
 
