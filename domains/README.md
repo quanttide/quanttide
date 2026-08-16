@@ -58,7 +58,7 @@ domains/
 | 云计算工程 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
 | 课程研发 | course-engineering | `course` | 课程研发全生命周期的工程化实践。 |
 | 写作管理 | writing-management | `writing` | 面向内容创作者的写作流程管理。 |
-| 网络安全 | security-engineering | `sec` | 网络、应用与数据安全的防护与运营实践。 |
+| 网络安全 | software-security | `sec` | 网络、应用与数据安全的防护与运营实践。 |
 | **沟通与管理** |
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |
