@@ -25,6 +25,7 @@
 - ROADMAP：推进至 0.5.0 已达成，新增 0.6.x 目标
 - AGENTS：三轴架构、default 路径约定更新为法人主体档案
 - 移除 `assets/quanttide-index-toolkit`、`assets/quanttide-meta-toolkit` 子模块，收纳至 `assets/quanttide-toolkit/packages/`（工具集元仓库）
+- 网络安全领域英文命名定为 `security-engineering`（实验室仓库同步更名：quanttide-laboratory-of-software-security → quanttide-laboratory-of-security-engineering）
 
 ## [0.5.0] - 2026-08-10
 
