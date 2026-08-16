@@ -20,6 +20,7 @@ domains/
 ├── quanttide-econ/        # 经济建模
 ├── quanttide-execute/     # 执行管理
 ├── quanttide-finance/     # 财务管理
+├── quanttide-health/      # 健康管理
 ├── quanttide-human/       # 人力资源
 ├── quanttide-innov/       # 创新管理
 ├── quanttide-knowl/       # 知识工程
@@ -65,6 +66,7 @@ domains/
 | 沟通管理 | communication-management | `comm` | 组织内外部沟通的标准化管理。 |
 | **职能与人力** |
 | 人力资源 | human-resources | `hr` | 组织架构、招聘、绩效管理。 |
+| 健康管理 | health-management | `health` | 身心健康平衡管理，面向个人、家庭与企业。 |
 | 财务管理 | finance-management | `finance` | 预算、核算、税务管理。 |
 | 法务管理 | legal-management | `legal` | 合同、合规与风险控制。 |
 | 项目管理 | project-management | `project` | 项目全周期管理。 |
@@ -229,3 +231,14 @@ git submodule update --remote
 - 数据安全与加密（加密、脱敏、防泄漏、密钥体系应用）
 - 身份与访问安全（认证授权机制加固、权限治理）
 - 安全运营（威胁监测、应急响应、安全审计与合规）
+
+### quanttide-health
+
+量潮健康管理，强调身心健康的平衡，面向个人、家庭、企业等主体。
+
+**功能：**
+- 身体健康（体检、运动、睡眠、营养管理）
+- 心理健康（情绪与压力管理、心理测评与干预）
+- 家庭健康（家庭成员协同健康管理）
+- 企业健康（员工健康、职业健康与健康福利）
+- 健康数据（健康档案与指标的集中管理、关联分析）
