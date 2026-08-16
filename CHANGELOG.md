@@ -29,6 +29,7 @@
 - AGENTS：三轴架构、default 路径约定更新为法人主体档案
 - 移除 `assets/quanttide-index-toolkit`、`assets/quanttide-meta-toolkit` 子模块，收纳至 `assets/quanttide-toolkit/packages/`（工具集元仓库）
 - 网络安全领域更名「安全工程」：中文名定为安全工程，英文命名定为 `security-engineering`（实验室仓库同步更名：quanttide-laboratory-of-software-security → quanttide-laboratory-of-security-engineering）
+- README/ROADMAP/AGENTS：新增「统一规范」元原则（统一结构/信息集中/关联分析），0.6.x 目标补充关联声明与统一云模式
 
 ## [0.5.0] - 2026-08-10
 
