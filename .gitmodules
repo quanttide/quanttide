@@ -117,3 +117,6 @@
 [submodule "domains/quanttide-secret"]
 	path = domains/quanttide-secret
 	url = https://github.com/quanttide/quanttide-secret.git
+[submodule "domains/quanttide-security"]
+	path = domains/quanttide-security
+	url = https://github.com/quanttide/quanttide-security.git

@@ -31,6 +31,7 @@ domains/
 ├── quanttide-project/     # 项目管理
 ├── quanttide-sales/       # 销售管理
 ├── quanttide-secret/      # 密码管理
+├── quanttide-security/    # 网络安全
 ├── quanttide-strategy/    # 战略管理
 ├── quanttide-think/       # 认知工程
 └── quanttide-write/       # 写作管理
@@ -57,6 +58,7 @@ domains/
 | 云计算工程 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
 | 课程研发 | course-engineering | `course` | 课程研发全生命周期的工程化实践。 |
 | 写作管理 | writing-management | `writing` | 面向内容创作者的写作流程管理。 |
+| 网络安全 | security-engineering | `sec` | 网络、应用与数据安全的防护与运营实践。 |
 | **沟通与管理** |
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |
@@ -216,3 +218,13 @@ git submodule update --remote
 - 密钥管理（签名密钥、加密密钥的生成、存储与分发）
 - 敏感信息（分类、脱敏、访问控制与审计）
 - 工具规范（Vault 等密钥管理服务的接入规范）
+
+### quanttide-security
+
+量潮网络安全，专注于网络、应用与数据安全的防护与运营实践。
+
+**功能：**
+- 网络防护（边界安全、访问控制、入侵检测与防御）
+- 应用安全（Web 安全、漏洞管理、代码安全审计）
+- 数据安全（加密、脱敏、数据防泄漏）
+- 安全运营（威胁监测、应急响应、安全审计与合规）
