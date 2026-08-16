@@ -16,6 +16,7 @@
 - 新增 `domains/quanttide-secret` 子模块：密码管理（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-secret`、`packages/quanttide-secret-toolkit`、`examples/default`
 - 新增 `domains/quanttide-security` 子模块：网络安全（CC BY 4.0 许可证）
+   - 注册子模块：`apps/qtcloud-security`、`packages/quanttide-security-toolkit`、`examples/default`
 
 ### 变更
 
