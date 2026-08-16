@@ -10,6 +10,12 @@
 
 ## [Unreleased]
 
+### 新增
+
+- 新增 `domains/quanttide-design` 子模块：交互设计（CC BY 4.0 许可证）
+   - 注册子模块：`apps/qtcloud-design`、`packages/quanttide-design-toolkit`、`examples/default`
+   - 注册子模块：`data/context`、`data/journal`、`data/intention`
+
 ## [0.5.1] - 2026-08-16
 
 ### 新增

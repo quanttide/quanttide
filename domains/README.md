@@ -16,6 +16,7 @@ domains/
 ├── quanttide-customer/    # 客户关系
 ├── quanttide-data/        # 数据工程
 ├── quanttide-delib/       # 议事管理
+├── quanttide-design/      # 交互设计
 ├── quanttide-devops/      # DevOps 工程
 ├── quanttide-econ/        # 经济建模
 ├── quanttide-execute/     # 执行管理
@@ -60,6 +61,7 @@ domains/
 | 课程研发 | course-engineering | `course` | 课程研发全生命周期的工程化实践。 |
 | 写作管理 | writing-management | `writing` | 面向内容创作者的写作流程管理。 |
 | 安全工程 | security-engineering | `sec` | 网络、应用与数据安全的防护与运营工程化实践。 |
+| 交互设计 | interaction-design | `ixd` | 产品界面布局与交互流程的设计工程化实践。 |
 | **沟通与管理** |
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |
@@ -242,3 +244,13 @@ git submodule update --remote
 - 家庭健康（家庭成员协同健康管理）
 - 企业健康（员工健康、职业健康与健康福利）
 - 健康数据（健康档案与指标的集中管理、关联分析）
+
+### quanttide-design
+
+量潮交互设计，专注于产品界面布局与交互流程的设计工程化实践。
+
+**功能：**
+- 界面布局（页面结构、信息层级、导航与组件摆放）
+- 交互流程（操作路径、状态流转与反馈设计）
+- 设计原则（一致性、反馈即时、极简主义）
+- 设计工程化（设计文档标准化、设计稿与代码衔接）

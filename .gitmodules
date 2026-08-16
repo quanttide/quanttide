@@ -123,3 +123,6 @@
 [submodule "domains/quanttide-health"]
 	path = domains/quanttide-health
 	url = https://github.com/quanttide/quanttide-health.git
+[submodule "domains/quanttide-design"]
+	path = domains/quanttide-design
+	url = https://github.com/quanttide/quanttide-design.git
