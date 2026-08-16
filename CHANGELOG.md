@@ -23,6 +23,7 @@
    - 注册子模块：`data/intention`（意图仓库，含统一规范三原则产品思路）
 - 新增 `domains/quanttide-health` 子模块：健康管理（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-health`、`packages/quanttide-health-toolkit`、`examples/default`
+   - 注册子模块：`data/context`、`data/journal`
 
 ### 变更
 
