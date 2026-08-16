@@ -45,7 +45,7 @@ quanttide/
 │   ├── quanttide-finance/       # 财务管理
 │   ├── quanttide-knowl/         # 知识工程
 │   ├── quanttide-secret/        # 密码管理
-│   ├── quanttide-security/      # 网络安全
+│   ├── quanttide-security/      # 安全工程
 │   └── ...                      # 完整列表见 domains/README.md
 ├── .quanttide/                  # 元数据与契约文件
 ├── AGENTS.md                    # AI 协作指南

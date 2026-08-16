@@ -15,7 +15,7 @@
 - 新增 `default/README.md`：法人主体档案说明（公司已接入，预留实训基地、联盟等主体）
 - 新增 `domains/quanttide-secret` 子模块：密码管理（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-secret`、`packages/quanttide-secret-toolkit`、`examples/default`
-- 新增 `domains/quanttide-security` 子模块：网络安全（CC BY 4.0 许可证）
+- 新增 `domains/quanttide-security` 子模块：安全工程（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-security`、`packages/quanttide-security-toolkit`、`examples/default`
 
 ### 变更
@@ -25,7 +25,7 @@
 - ROADMAP：推进至 0.5.0 已达成，新增 0.6.x 目标
 - AGENTS：三轴架构、default 路径约定更新为法人主体档案
 - 移除 `assets/quanttide-index-toolkit`、`assets/quanttide-meta-toolkit` 子模块，收纳至 `assets/quanttide-toolkit/packages/`（工具集元仓库）
-- 网络安全领域英文命名定为 `security-engineering`（实验室仓库同步更名：quanttide-laboratory-of-software-security → quanttide-laboratory-of-security-engineering）
+- 网络安全领域更名「安全工程」：中文名定为安全工程，英文命名定为 `security-engineering`（实验室仓库同步更名：quanttide-laboratory-of-software-security → quanttide-laboratory-of-security-engineering）
 
 ## [0.5.0] - 2026-08-10
 
