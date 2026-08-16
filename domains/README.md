@@ -58,7 +58,7 @@ domains/
 | 云计算工程 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
 | 课程研发 | course-engineering | `course` | 课程研发全生命周期的工程化实践。 |
 | 写作管理 | writing-management | `writing` | 面向内容创作者的写作流程管理。 |
-| 安全工程 | security-engineering | `sec` | 网络、应用与数据安全的防护与运营实践。 |
+| 安全工程 | security-engineering | `sec` | 网络、应用与数据安全的防护与运营工程化实践。 |
 | **沟通与管理** |
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |
@@ -221,10 +221,11 @@ git submodule update --remote
 
 ### quanttide-security
 
-量潮安全工程，专注于网络、应用与数据安全的防护与运营实践。
+量潮安全工程，专注于网络、应用与数据安全的防护与运营工程化实践。
 
 **功能：**
-- 网络防护（边界安全、访问控制、入侵检测与防御）
-- 应用安全（Web 安全、漏洞管理、代码安全审计）
-- 数据安全（加密、脱敏、数据防泄漏）
+- 网络与边界安全（防火墙与访问控制、VPN、入侵检测与防御）
+- 应用与代码安全（安全开发生命周期、威胁建模、代码审计、漏洞管理）
+- 数据安全与加密（加密、脱敏、防泄漏、密钥体系应用）
+- 身份与访问安全（认证授权机制加固、权限治理）
 - 安全运营（威胁监测、应急响应、安全审计与合规）
