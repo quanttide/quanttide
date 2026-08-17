@@ -16,6 +16,10 @@
    - 注册子模块：`apps/qtcloud-design`、`packages/quanttide-design-toolkit`、`examples/default`
    - 注册子模块：`data/context`、`data/journal`、`data/intention`
 
+### 变更
+
+- `assets/quanttide-profile`：重新初始化工作档案聚合容器（清理过期文件后重建），注册 12 个档案子模块（`default/company` + `domains/` 下 11 个领域档案）
+
 ## [0.5.1] - 2026-08-16
 
 ### 新增
