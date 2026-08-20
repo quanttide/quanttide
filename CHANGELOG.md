@@ -15,9 +15,11 @@
 - 新增 `domains/quanttide-design` 子模块：交互设计（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-design`、`packages/quanttide-design-toolkit`、`examples/default`
    - 注册子模块：`data/context`、`data/journal`、`data/intention`
+- 新增 `.agents/skills/asset-init` 技能：资产初始化经验总结（领域第二大脑、资产聚合容器、已有仓库补全三种场景）
 
 ### 变更
 
+- AGENTS：SKILL 快速索引新增 asset-init
 - `assets/quanttide-profile`：重新初始化工作档案聚合容器（清理过期文件后重建），注册 12 个档案子模块（`default/company` + `domains/` 下 11 个领域档案）
 
 ## [0.5.1] - 2026-08-16
