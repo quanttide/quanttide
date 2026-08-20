@@ -102,7 +102,6 @@ qtcloud-knowl audit
 
 | Skill | 用途 | 约束 |
 |-------|------|------|
-| asset-init | 初始化量潮资产仓库（领域第二大脑、资产聚合容器、已有仓库补全） | 先调查现状，分层提交，禁止越级与全量提交 |
 | devops-commit | 规范提交 | 先 `git status` 再 `git diff`，确认无误后提交 |
 | devops-release | 基于 `qtcloud-devops release` 发布 | 必须逐行执行，跳过预检查则禁止发布 |
 | devops-review | 流程审查 | — |
