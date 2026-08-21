@@ -7,6 +7,7 @@
 ```
 domains/
 ├── quanttide-agent/       # 智能体工程
+├── quanttide-alliance/    # 联盟管理
 ├── quanttide-asset/       # 资产管理
 ├── quanttide-auth/        # 身份认证
 ├── quanttide-business/    # 商务拓展
@@ -67,6 +68,7 @@ domains/
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |
 | 沟通管理 | communication-management | `comm` | 组织内外部沟通的标准化管理。 |
+| 联盟管理 | alliance-management | `alliance` | 组织间联盟的建立、协作与治理。 |
 | **职能与人力** |
 | 人力资源 | human-resources | `hr` | 组织架构、招聘、绩效管理。 |
 | 健康管理 | health-management | `health` | 身心健康平衡管理，面向个人、家庭与企业。 |
@@ -266,3 +268,13 @@ git submodule update --remote
 - 创业计划（商业计划书、融资计划、资源整合）
 - 早期经营（公司设立、团队组建、产品市场匹配）
 - 成长管理（规模化经营、组织建设、退出与传承）
+
+### quanttide-alliance
+
+量潮联盟管理，专注于组织间联盟的建立、协作与治理。
+
+**功能：**
+- 联盟建立（联盟目标与模式设计、成员招募与准入、合作协议）
+- 联盟协作（联合项目、资源共享、跨组织协同机制）
+- 联盟治理（议事与决策机制、权责划分、冲突处理）
+- 联盟运营（成员关系维护、价值评估、联盟演进与退出）

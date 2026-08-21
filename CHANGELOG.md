@@ -18,6 +18,9 @@
 - 新增 `domains/quanttide-entrep` 子模块：创业管理（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-entrep`、`packages/quanttide-entrep-toolkit`、`examples/default`
    - 注册子模块：`data/context`、`data/journal`、`data/intention`
+- 新增 `domains/quanttide-alliance` 子模块：联盟管理（CC BY 4.0 许可证）
+   - 注册子模块：`apps/qtcloud-alliance`、`packages/quanttide-alliance-toolkit`、`examples/default`
+   - 注册子模块：`data/context`、`data/journal`、`data/intention`
 
 ### 变更
 

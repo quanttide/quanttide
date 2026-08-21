@@ -47,7 +47,7 @@ quanttide/
 │   └── quanttide-tutorial/      # 教程
 ├── default/                     # 法人主体档案
 │   └── quanttide-tech/          # 科技档案
-├── domains/                     # 领域轴：32 个领域仓库
+├── domains/                     # 领域轴：33 个领域仓库
 │   ├── quanttide-data/          # 数据工程
 │   ├── quanttide-course/        # 课程研发
 │   ├── quanttide-design/        # 交互设计
