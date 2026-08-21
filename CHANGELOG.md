@@ -15,6 +15,9 @@
 - 新增 `domains/quanttide-design` 子模块：交互设计（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-design`、`packages/quanttide-design-toolkit`、`examples/default`
    - 注册子模块：`data/context`、`data/journal`、`data/intention`
+- 新增 `domains/quanttide-entrep` 子模块：创业管理（CC BY 4.0 许可证）
+   - 注册子模块：`apps/qtcloud-entrep`、`packages/quanttide-entrep-toolkit`、`examples/default`
+   - 注册子模块：`data/context`、`data/journal`、`data/intention`
 
 ### 变更
 

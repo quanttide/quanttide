@@ -19,6 +19,7 @@ domains/
 ├── quanttide-design/      # 交互设计
 ├── quanttide-devops/      # DevOps 工程
 ├── quanttide-econ/        # 经济建模
+├── quanttide-entrep/      # 创业管理
 ├── quanttide-execute/     # 执行管理
 ├── quanttide-finance/     # 财务管理
 ├── quanttide-health/      # 健康管理
@@ -78,6 +79,7 @@ domains/
 | 支付工程 | payment-engineering | `pay` | 支付流程与账务处理。 |
 | 算法工程 | algorithm-engineering | `alg` | 算法开发与部署工程化。 |
 | 商务拓展 | business-development | `bd` | 合作伙伴关系与市场开拓。 |
+| 创业管理 | entrepreneurship-management | `entrep` | 从创业想法到企业成立与早期成长的经营过程管理。 |
 | 客户关系 | customer-relation-management | `crm` | 客户信息与销售过程管理。 |
 | **品牌与运营** |
 | 新媒体运营 | social-media | `media` | 社交媒体矩阵运营。 |
@@ -254,3 +256,13 @@ git submodule update --remote
 - 交互流程（操作路径、状态流转与反馈设计）
 - 设计原则（一致性、反馈即时、极简主义）
 - 设计工程化（设计文档标准化、设计稿与代码衔接）
+
+### quanttide-entrep
+
+量潮创业管理，专注于从创业想法到企业成立与早期成长的经营过程管理。
+
+**功能：**
+- 创业机会（机会识别与评估、商业模式设计、市场验证）
+- 创业计划（商业计划书、融资计划、资源整合）
+- 早期经营（公司设立、团队组建、产品市场匹配）
+- 成长管理（规模化经营、组织建设、退出与传承）
