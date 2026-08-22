@@ -14,6 +14,7 @@ domains/
 ├── quanttide-code/        # 软件工程
 ├── quanttide-connect/     # 沟通管理
 ├── quanttide-course/      # 课程研发
+├── quanttide-crowd/       # 众包管理
 ├── quanttide-customer/    # 客户关系
 ├── quanttide-data/        # 数据工程
 ├── quanttide-delib/       # 议事管理
@@ -82,6 +83,7 @@ domains/
 | 算法工程 | algorithm-engineering | `alg` | 算法开发与部署工程化。 |
 | 商务拓展 | business-development | `bd` | 合作伙伴关系与市场开拓。 |
 | 创业管理 | entrepreneurship-management | `entrep` | 从创业想法到企业成立与早期成长的经营过程管理。 |
+| 众包管理 | crowdsourcing-management | `crowd` | 众包市场的发单、接单、标准交易与信用沉淀。 |
 | 客户关系 | customer-relation-management | `crm` | 客户信息与销售过程管理。 |
 | **品牌与运营** |
 | 新媒体运营 | social-media | `media` | 社交媒体矩阵运营。 |
@@ -278,3 +280,13 @@ git submodule update --remote
 - 联盟协作（联合项目、资源共享、跨组织协同机制）
 - 联盟治理（议事与决策机制、权责划分、冲突处理）
 - 联盟运营（成员关系维护、价值评估、联盟演进与退出）
+
+### quanttide-crowd
+
+量潮众包管理，专注于众包市场的发单、接单、标准交易与信用沉淀。
+
+**功能：**
+- 需求发单（需求拆解为标准任务、交付标准与验收准则定义）
+- 执行接单（执行方注册准入、标准内竞价、接单履约）
+- 标准交易（标准任务、标准交付、标准验收，验收准则兜底）
+- 信用沉淀（执行方信用记录、标准执行率、认证与导流）

@@ -132,3 +132,6 @@
 [submodule "domains/quanttide-alliance"]
 	path = domains/quanttide-alliance
 	url = https://github.com/quanttide/quanttide-alliance.git
+[submodule "domains/quanttide-crowd"]
+	path = domains/quanttide-crowd
+	url = https://github.com/quanttide/quanttide-crowd.git
