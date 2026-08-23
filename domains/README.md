@@ -64,7 +64,7 @@ domains/
 | 云计算工程 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
 | 课程研发 | course-engineering | `course` | 课程研发全生命周期的工程化实践。 |
 | 写作管理 | writing-management | `writing` | 面向内容创作者的写作流程管理。 |
-| 文档工程 | documentation-engineering | `docs` | 文档的写作、组织、发布与访问工程化实践。 |
+| 文档工程 | document-engineering | `docs` | 文档的写作、组织、发布与访问工程化实践。 |
 | 安全工程 | security-engineering | `sec` | 网络、应用与数据安全的防护与运营工程化实践。 |
 | 交互设计 | interaction-design | `ixd` | 产品界面布局与交互流程的设计工程化实践。 |
 | **沟通与管理** |
