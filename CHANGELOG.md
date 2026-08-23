@@ -24,6 +24,9 @@
 - 新增 `domains/quanttide-crowd` 子模块：众包管理（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-crowd`、`packages/quanttide-crowd-toolkit`、`examples/default`
    - 注册子模块：`data/context`、`data/journal`、`data/intention`
+- 新增 `domains/quanttide-docs` 子模块：文档工程（CC BY 4.0 许可证）
+   - 注册子模块：`apps/qtcloud-docs`、`packages/quanttide-docs-toolkit`、`examples/default`
+   - 注册子模块：`data/context`、`data/journal`、`data/intention`
 
 ### 变更
 

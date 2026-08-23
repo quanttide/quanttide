@@ -20,6 +20,7 @@ domains/
 ├── quanttide-delib/       # 议事管理
 ├── quanttide-design/      # 交互设计
 ├── quanttide-devops/      # DevOps 工程
+├── quanttide-docs/        # 文档工程
 ├── quanttide-econ/        # 经济建模
 ├── quanttide-entrep/      # 创业管理
 ├── quanttide-execute/     # 执行管理
@@ -63,6 +64,7 @@ domains/
 | 云计算工程 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
 | 课程研发 | course-engineering | `course` | 课程研发全生命周期的工程化实践。 |
 | 写作管理 | writing-management | `writing` | 面向内容创作者的写作流程管理。 |
+| 文档工程 | documentation-engineering | `docs` | 文档的写作、组织、发布与访问工程化实践。 |
 | 安全工程 | security-engineering | `sec` | 网络、应用与数据安全的防护与运营工程化实践。 |
 | 交互设计 | interaction-design | `ixd` | 产品界面布局与交互流程的设计工程化实践。 |
 | **沟通与管理** |
@@ -290,3 +292,13 @@ git submodule update --remote
 - 执行接单（执行方注册准入、标准内竞价、接单履约）
 - 标准交易（标准任务、标准交付、标准验收，验收准则兜底）
 - 信用沉淀（执行方信用记录、标准执行率、认证与导流）
+
+### quanttide-docs
+
+量潮文档工程，专注于文档的写作、组织、发布与访问工程化实践。
+
+**功能：**
+- 文档写作（文档规范、写作流程、内容结构管理）
+- 文档组织（文档分类、目录体系、关联关系管理）
+- 文档发布（文档构建、站点发布、版本管理）
+- 文档访问（检索、导航、阅读体验）

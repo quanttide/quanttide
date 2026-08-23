@@ -135,3 +135,6 @@
 [submodule "domains/quanttide-crowd"]
 	path = domains/quanttide-crowd
 	url = https://github.com/quanttide/quanttide-crowd.git
+[submodule "domains/quanttide-docs"]
+	path = domains/quanttide-docs
+	url = https://github.com/quanttide/quanttide-docs.git
