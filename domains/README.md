@@ -28,7 +28,7 @@ domains/
 ├── quanttide-human/       # 人力资源
 ├── quanttide-innov/       # 创新管理
 ├── quanttide-knowl/       # 知识工程
-├── quanttide-media/       # 媒体资产
+├── quanttide-media/       # 新媒体运营
 ├── quanttide-meta/        # 元工程
 ├── quanttide-org/         # 组织管理
 ├── quanttide-pay/         # 支付工程
