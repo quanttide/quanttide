@@ -5,7 +5,7 @@ description: 操作Markdown文档时使用。文档格式技能，遵循量潮�
 
 # 文档格式技能
 
-遵循 [量潮文档格式章程](https://github.com/quanttide/quanttide-docs/blob/main/format/index.md)
+遵循 [量潮文档格式章程](https://github.com/quanttide/quanttide-bylaw-of-document-engineering/blob/main/format/index.md)
 
 ## 写作原则
 
