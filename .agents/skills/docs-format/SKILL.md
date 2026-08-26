@@ -1,11 +1,11 @@
 ---
 name: docs-format
-description: 操作Markdown文档时使用。文档格式技能，遵循量潮科技文档格式标准，用于生成或检查规范文档。
+description: 操作Markdown文档时使用。文档格式技能，遵循量潮文档格式章程，用于生成或检查规范文档。
 ---
 
 # 文档格式技能
 
-遵循 [量潮科技文档格式标准](https://github.com/quanttide/quanttide-specification-of-business-entity/blob/v0.1.1/docs/format.md)
+遵循 [量潮文档格式章程](https://github.com/quanttide/quanttide-docs/blob/main/format/index.md)
 
 ## 写作原则
 
