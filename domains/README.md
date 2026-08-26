@@ -29,6 +29,7 @@ domains/
 ├── quanttide-human/       # 人力资源
 ├── quanttide-innov/       # 创新管理
 ├── quanttide-knowl/       # 知识工程
+├── quanttide-learn/       # 学习管理
 ├── quanttide-media/       # 新媒体运营
 ├── quanttide-meta/        # 元工程
 ├── quanttide-org/         # 组织管理
@@ -78,6 +79,7 @@ domains/
 | 财务管理 | finance-management | `finance` | 预算、核算、税务管理。 |
 | 法务管理 | legal-management | `legal` | 合同、合规与风险控制。 |
 | 项目管理 | project-management | `project` | 项目全周期管理。 |
+| 学习管理 | learning-management | `learn` | 学习路径、进度与效果的标准化管理。 |
 | **业务与客户** |
 | 数字身份 | identity-management | `iam` | 统一身份与权限管理。 |
 | 密码管理 | secret-management | `secret` | 凭证、密钥与敏感信息的全生命周期管理。 |
