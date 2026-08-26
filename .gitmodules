@@ -138,3 +138,6 @@
 [submodule "domains/quanttide-docs"]
 	path = domains/quanttide-docs
 	url = https://github.com/quanttide/quanttide-docs.git
+[submodule "assets/quanttide-bylaw"]
+	path = assets/quanttide-bylaw
+	url = https://github.com/quanttide/quanttide-bylaw.git
