@@ -27,7 +27,7 @@
 - 新增 `domains/quanttide-docs` 子模块：文档工程（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-docs`、`packages/quanttide-docs-toolkit`、`examples/default`
    - 注册子模块：`data/context`、`data/journal`、`data/intention`
-- 新增 `assets/quanttide-bylaw` 子模块：章程聚合容器（`default/company` → quanttide-bylaw-of-business-entity）
+- 新增 `assets/quanttide-bylaw` 子模块：章程聚合容器（`default/company` → quanttide-bylaw-of-business-entity；`domains/` 下 4 个领域章程）
 
 ### 变更
 
