@@ -37,9 +37,8 @@
 - `assets/quanttide-profile`：重新初始化工作档案聚合容器（清理过期文件后重建），注册 36 个档案子模块（`default/company` + `domains/` 下 35 个领域档案，全量对齐）
 - `assets/quanttide-roadmap`：补充注册 10 个蓝图子模块（`default/company` + `domains/` 下 12 个领域蓝图，全量对齐 13 个）
 - 文档格式章程迁移：公司章程 `docs/format.md` → `quanttide-bylaw-of-document-engineering/format/index.md`（经 `domains/quanttide-docs/docs/bylaw` 挂载，标题升级为《量潮文档格式章程》，公司层级约定升级为社区约定）
-- `domains/README.md`：领域清单沟通管理英文命名改为 `communication`（以实际仓库命名为准）
 - `domains/README.md`：领域清单英文命名按实际仓库对齐——课程研发 `course-development`、写作管理 `narrative-engineering`、众包管理 `crowd-sourcing`、客户关系 `customer-relations`
-- 沟通管理英文命名恢复为 `communication-management`（面向管理者视角）；10 个 `quanttide-*-of-communication` 仓库更名 `of-communication-management`，引用同步更新
+- 沟通管理英文命名采用 `communication-management`（面向管理者视角）；10 个 `quanttide-*-of-communication` 仓库更名 `of-communication-management`，引用与子模块指针同步更新
 
 ## [0.5.1] - 2026-08-16
 
