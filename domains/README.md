@@ -71,7 +71,7 @@ domains/
 | **沟通与管理** |
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |
-| 沟通管理 | communication | `comm` | 组织内外部沟通的标准化管理。 |
+| 沟通管理 | communication-management | `comm` | 组织内外部沟通的标准化管理。 |
 | 联盟管理 | alliance-management | `alliance` | 组织间联盟的建立、协作与治理。 |
 | **职能与人力** |
 | 人力资源 | human-resources | `hr` | 组织架构、招聘、绩效管理。 |

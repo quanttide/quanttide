@@ -39,6 +39,7 @@
 - 文档格式章程迁移：公司章程 `docs/format.md` → `quanttide-bylaw-of-document-engineering/format/index.md`（经 `domains/quanttide-docs/docs/bylaw` 挂载，标题升级为《量潮文档格式章程》，公司层级约定升级为社区约定）
 - `domains/README.md`：领域清单沟通管理英文命名改为 `communication`（以实际仓库命名为准）
 - `domains/README.md`：领域清单英文命名按实际仓库对齐——课程研发 `course-development`、写作管理 `narrative-engineering`、众包管理 `crowd-sourcing`、客户关系 `customer-relations`
+- 沟通管理英文命名恢复为 `communication-management`（面向管理者视角）；10 个 `quanttide-*-of-communication` 仓库更名 `of-communication-management`，引用同步更新
 
 ## [0.5.1] - 2026-08-16
 
