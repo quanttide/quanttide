@@ -63,8 +63,8 @@ domains/
 | 知识工程 | knowledge-engineering | `knowl` | 知识表示、建模、推理与应用的工程化实践。 |
 | 智能体工程 | agent-engineering | `agent` | 侧重多智能体与人机协作。 |
 | 云计算工程 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
-| 课程研发 | course-engineering | `course` | 课程研发全生命周期的工程化实践。 |
-| 写作管理 | writing-management | `writing` | 面向内容创作者的写作流程管理。 |
+| 课程研发 | course-development | `course` | 课程研发全生命周期的工程化实践。 |
+| 写作管理 | narrative-engineering | `writing` | 面向内容创作者的写作流程管理。 |
 | 文档工程 | document-engineering | `docs` | 文档的写作、组织、发布与访问工程化实践。 |
 | 安全工程 | security-engineering | `sec` | 网络、应用与数据安全的防护与运营工程化实践。 |
 | 交互设计 | interaction-design | `ixd` | 产品界面布局与交互流程的设计工程化实践。 |
@@ -87,8 +87,8 @@ domains/
 | 算法工程 | algorithm-engineering | `alg` | 算法开发与部署工程化。 |
 | 商务拓展 | business-development | `bd` | 合作伙伴关系与市场开拓。 |
 | 创业管理 | entrepreneurship-management | `entrep` | 从创业想法到企业成立与早期成长的经营过程管理。 |
-| 众包管理 | crowdsourcing-management | `crowd` | 众包市场的发单、接单、标准交易与信用沉淀。 |
-| 客户关系 | customer-relation-management | `crm` | 客户信息与销售过程管理。 |
+| 众包管理 | crowd-sourcing | `crowd` | 众包市场的发单、接单、标准交易与信用沉淀。 |
+| 客户关系 | customer-relations | `crm` | 客户信息与销售过程管理。 |
 | **品牌与运营** |
 | 新媒体运营 | social-media | `media` | 社交媒体矩阵运营。 |
 | 社群运营 | social-group | `group` | 私域社群组织与运营。 |
