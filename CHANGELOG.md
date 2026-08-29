@@ -32,6 +32,7 @@
    - 注册子模块：`data/context`、`data/journal`、`data/intention`
 - 新增 `domains/quanttide-growth` 子模块：增长管理（CC BY 4.0 许可证）
    - 注册子模块：`data/journal`、`data/profile`、`data/brochure`
+   - 注册子模块：`apps/qtgrowth`、`packages/quanttide-growth-toolkit`、`examples/default`
 - 新增 `assets/quanttide-bylaw` 子模块：章程聚合容器（`default/company` → quanttide-bylaw-of-business-entity；`domains/` 下 5 个领域章程）
 
 ### 变更
