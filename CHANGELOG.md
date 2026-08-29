@@ -30,6 +30,8 @@
 - 新增 `domains/quanttide-learn` 子模块：学习管理（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-learn`、`packages/quanttide-learn-toolkit`、`examples/default`
    - 注册子模块：`data/context`、`data/journal`、`data/intention`
+- 新增 `domains/quanttide-growth` 子模块：增长管理（CC BY 4.0 许可证）
+   - 注册子模块：`data/journal`、`data/profile`、`data/brochure`
 - 新增 `assets/quanttide-bylaw` 子模块：章程聚合容器（`default/company` → quanttide-bylaw-of-business-entity；`domains/` 下 5 个领域章程）
 
 ### 变更
