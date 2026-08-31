@@ -37,6 +37,7 @@ quanttide/
 ├── assets/                      # 能力轴：资产仓库
 │   ├── quanttide-bylaw/         # 章程
 │   ├── quanttide-handbook/      # 工作手册
+│   ├── quanttide-insight/       # 工作洞察
 │   ├── quanttide-intention/     # 意图资产
 │   ├── quanttide-journal/       # 工作日志
 │   ├── quanttide-laboratory/    # 实验室（实验原型元仓库）
