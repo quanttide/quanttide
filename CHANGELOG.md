@@ -35,6 +35,8 @@
    - 注册子模块：`apps/qtgrowth`、`packages/quanttide-growth-toolkit`、`examples/default`
 - 新增 `assets/quanttide-bylaw` 子模块：章程聚合容器（`default/company` → quanttide-bylaw-of-business-entity；`domains/` 下 5 个领域章程）
 - 新增 `assets/quanttide-insight` 子模块：洞察聚合容器（`default/company` → quanttide-insight-of-business-entity；`domains/` 下 17 个领域洞察）
+- 新增 `domains/quanttide-academics` 子模块：学术研究（CC BY 4.0 许可证）
+   - 注册子模块：`apps/qtacademics`（学术黄页）、`docs/specification`、`docs/tutorial`
 
 ### 变更
 

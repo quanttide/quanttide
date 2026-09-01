@@ -6,6 +6,7 @@
 
 ```
 domains/
+├── quanttide-academics/   # 学术研究
 ├── quanttide-agent/       # 智能体工程
 ├── quanttide-alliance/    # 联盟管理
 ├── quanttide-asset/       # 资产管理
@@ -82,6 +83,7 @@ domains/
 | 项目管理 | project-management | `project` | 项目全周期管理。 |
 | 学习管理 | learning-management | `learn` | 学习路径、进度与效果的标准化管理。 |
 | 增长管理 | growth-management | `growth` | 增长策略、增长实验与增长效果的标准化管理。 |
+| 学术研究 | academic-research | `academics` | 学术成果、研究项目与学术交流的标准化管理。 |
 | **业务与客户** |
 | 数字身份 | identity-management | `iam` | 统一身份与权限管理。 |
 | 密码管理 | secret-management | `secret` | 凭证、密钥与敏感信息的全生命周期管理。 |
