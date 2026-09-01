@@ -150,3 +150,6 @@
 [submodule "assets/quanttide-insight"]
 	path = assets/quanttide-insight
 	url = https://github.com/quanttide/quanttide-insight.git
+[submodule "domains/quanttide-support"]
+	path = domains/quanttide-support
+	url = https://github.com/quanttide/quanttide-support.git
