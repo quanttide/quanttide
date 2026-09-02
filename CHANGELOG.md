@@ -37,6 +37,8 @@
 - 新增 `assets/quanttide-insight` 子模块：洞察聚合容器（`default/company` → quanttide-insight-of-business-entity；`domains/` 下 17 个领域洞察）
 - 新增 `domains/quanttide-academics` 子模块：学术研究（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtacademics`（学术黄页）、`docs/specification`、`docs/tutorial`
+- 新增 `domains/quanttide-digital-persona` 子模块：数字分身（CC BY 4.0 许可证）
+   - 注册子模块：`data/profile`（数字分身档案，quanttide-profile-of-digital-persona）
 
 ### 变更
 

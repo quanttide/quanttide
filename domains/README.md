@@ -21,6 +21,7 @@ domains/
 ├── quanttide-delib/       # 议事管理
 ├── quanttide-design/      # 交互设计
 ├── quanttide-devops/      # DevOps 工程
+├── quanttide-digital-persona/ # 数字分身
 ├── quanttide-docs/        # 文档工程
 ├── quanttide-econ/        # 经济建模
 ├── quanttide-entrep/      # 创业管理
@@ -86,6 +87,7 @@ domains/
 | 学术研究 | academic-research | `academics` | 学术成果、研究项目与学术交流的标准化管理。 |
 | **业务与客户** |
 | 数字身份 | identity-management | `iam` | 统一身份与权限管理。 |
+| 数字分身 | digital-persona | `persona` | 数字分身档案、代理与应用的标准化管理。 |
 | 密码管理 | secret-management | `secret` | 凭证、密钥与敏感信息的全生命周期管理。 |
 | 支付工程 | payment-engineering | `pay` | 支付流程与账务处理。 |
 | 算法工程 | algorithm-engineering | `alg` | 算法开发与部署工程化。 |
