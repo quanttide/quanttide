@@ -38,7 +38,7 @@
 - 新增 `domains/quanttide-academics` 子模块：学术研究（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtacademics`（学术黄页）、`docs/specification`、`docs/tutorial`
 - 新增 `domains/quanttide-persona` 子模块：数字分身（CC BY 4.0 许可证）
-   - 注册子模块：`data/profile`（数字分身档案，quanttide-profile-of-persona）
+   - 注册子模块：`data/profile`（数字分身档案，quanttide-profile-of-digital-persona）
 
 ### 变更
 
