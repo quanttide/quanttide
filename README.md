@@ -59,7 +59,7 @@ quanttide/
 │   ├── quanttide-health/        # 健康管理
 │   ├── quanttide-knowl/         # 知识工程
 │   ├── quanttide-academics/     # 学术研究
-│   ├── quanttide-digital-persona/ # 数字分身
+│   ├── quanttide-persona/       # 数字分身
 │   ├── quanttide-secret/        # 密码管理
 │   ├── quanttide-security/      # 安全工程
 │   └── ...                      # 完整列表见 domains/README.md
