@@ -7,10 +7,9 @@
 | 主体 | 路径 | 状态 |
 |:-----|:-----|:-----|
 | 公司 | `default/quanttide-tech` | 已接入 |
-| 联盟 | `default/quanttide-alliance` | 已接入 |
 | 实训基地 | `default/quanttide-bootcamp` | 预留 |
 
-当前已接入**公司**（`quanttide-tech` 科技档案）与**联盟**（`quanttide-alliance`，原联盟管理领域仓库迁移而来）两个主体。
+当前仅接入**公司**主体，即 `quanttide-tech` 科技档案。
 
 实训基地等其他法人主体按需创建独立仓库后接入。目录即语义，未接入前不预留空目录。
 

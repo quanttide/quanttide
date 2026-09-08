@@ -42,6 +42,7 @@
 
 ### 变更
 
+- 取消「联盟管理」概念：删除 `default/quanttide-alliance` 挂载及全部联盟相关仓库（quanttide-alliance、qtalliance、qtcloud-alliance、quanttide-alliance-toolkit、quanttide-{context,intention,journal,laboratory}-of-alliance-management、quanttide-{profile,ledger,handbook}-of-alliance），同步清理聚合容器（platform/profile/journal）与文档
 - `domains/quanttide-alliance` 迁移至 `default/quanttide-alliance`：联盟管理领域仓库转为联盟法人主体档案（移除 `apps/qtcloud-alliance`、`packages/quanttide-alliance-toolkit`、`examples/default`、`data/context`、`data/journal`、`data/intention` 全部子模块）
 
 - `assets/quanttide-profile`：重新初始化工作档案聚合容器（清理过期文件后重建），注册 36 个档案子模块（`default/company` + `domains/` 下 35 个领域档案，全量对齐）

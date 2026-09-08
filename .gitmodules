@@ -156,6 +156,3 @@
 [submodule "domains/quanttide-persona"]
 	path = domains/quanttide-persona
 	url = https://github.com/quanttide/quanttide-persona.git
-[submodule "default/quanttide-alliance"]
-	path = default/quanttide-alliance
-	url = https://github.com/quanttide/quanttide-alliance.git
