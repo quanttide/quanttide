@@ -39,6 +39,7 @@
    - 注册子模块：`apps/qtacademics`（学术黄页）、`docs/specification`、`docs/tutorial`
 - 新增 `domains/quanttide-persona` 子模块：数字分身（CC BY 4.0 许可证）
    - 注册子模块：`data/profile`（数字分身档案，quanttide-profile-of-digital-persona）
+- 移除 `domains/quanttide-persona` 及 `quanttide-profile-of-digital-persona`：取消「数字分身」领域概念（清除挂载与仓库）
 
 ### 变更
 

@@ -35,7 +35,6 @@ domains/
 ├── quanttide-meta/        # 元工程
 ├── quanttide-org/         # 组织管理
 ├── quanttide-pay/         # 支付工程
-├── quanttide-persona/     # 数字分身
 ├── quanttide-product/     # 产品研发
 ├── quanttide-project/     # 项目管理
 ├── quanttide-sales/       # 销售管理
@@ -85,7 +84,6 @@ domains/
 | 学术研究 | academic-research | `academics` | 学术成果、研究项目与学术交流的标准化管理。 |
 | **业务与客户** |
 | 数字身份 | identity-management | `iam` | 统一身份与权限管理。 |
-| 数字分身 | persona | `persona` | 数字分身档案、代理与应用的标准化管理。 |
 | 密码管理 | secret-management | `secret` | 凭证、密钥与敏感信息的全生命周期管理。 |
 | 支付工程 | payment-engineering | `pay` | 支付流程与账务处理。 |
 | 算法工程 | algorithm-engineering | `alg` | 算法开发与部署工程化。 |
