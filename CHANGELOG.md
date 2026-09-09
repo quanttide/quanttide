@@ -14,6 +14,7 @@
 
 - 新增 `domains/quanttide-work` 子模块：知识工作（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-work`、`packages/quanttide-work-toolkit`、`examples/default`
+   - 注册子模块：`data/context`、`data/journal`、`data/profile`、`data/intention`、`data/roadmap`、`data/insight`、`data/brochure`、`data/report`、`data/library`、`data/history`、`data/archive`
    - 注册子模块：`docs/bylaw`、`docs/handbook`、`docs/specification`、`docs/tutorial`、`docs/essay`、`docs/gallery`
 - 新增 `domains/quanttide-design` 子模块：交互设计（CC BY 4.0 许可证）
    - 注册子模块：`apps/qtcloud-design`、`packages/quanttide-design-toolkit`、`examples/default`
