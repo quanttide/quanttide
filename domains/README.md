@@ -42,6 +42,7 @@ domains/
 ├── quanttide-security/    # 安全工程
 ├── quanttide-strategy/    # 战略管理
 ├── quanttide-think/       # 认知工程
+├── quanttide-work/        # 知识工作
 └── quanttide-write/       # 写作管理
 ```
 
@@ -62,6 +63,7 @@ domains/
 | **核心技术工程** |
 | 数据工程 | data-engineering | `data` | 数据采集、存储、处理与服务的工程化实践。 |
 | 知识工程 | knowledge-engineering | `knowl` | 知识表示、建模、推理与应用的工程化实践。 |
+| 知识工作 | knowledge-work | `work` | 知识工作方法、流程与工具的知识体系。 |
 | 智能体工程 | agent-engineering | `agent` | 侧重多智能体与人机协作。 |
 | 云计算工程 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
 | 课程研发 | course-development | `course` | 课程研发全生命周期的工程化实践。 |
@@ -296,3 +298,13 @@ git submodule update --remote
 - 文档组织（文档分类、目录体系、关联关系管理）
 - 文档发布（文档构建、站点发布、版本管理）
 - 文档访问（检索、导航、阅读体验）
+
+### quanttide-work
+
+量潮知识工作，专注于知识工作的方法、流程、工具与规范沉淀。
+
+**功能：**
+- 工作方法（知识工作流程、习惯与纪律）
+- 工作工具（知识工作云、工具箱与工作台）
+- 工作规范（章程、手册、规范与教程）
+- 工作沉淀（文集与画廊）
