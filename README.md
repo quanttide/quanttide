@@ -49,13 +49,14 @@ quanttide/
 │   └── quanttide-tutorial/      # 教程
 ├── default/                     # 法人主体档案
 │   └── quanttide-tech/          # 科技档案
-├── domains/                     # 领域轴：39 个领域仓库
+├── domains/                     # 领域轴：40 个领域仓库
 │   ├── quanttide-data/          # 数据工程
 │   ├── quanttide-course/        # 课程研发
 │   ├── quanttide-design/        # 交互设计
 │   ├── quanttide-entrep/        # 创业管理
 │   ├── quanttide-finance/       # 财务管理
 │   ├── quanttide-growth/        # 增长管理
+│   ├── quanttide-relation/      # 公共关系
 │   ├── quanttide-health/        # 健康管理
 │   ├── quanttide-knowl/         # 知识工程
 │   ├── quanttide-academics/     # 学术研究

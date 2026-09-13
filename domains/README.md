@@ -37,6 +37,7 @@ domains/
 ├── quanttide-pay/         # 支付工程
 ├── quanttide-product/     # 产品研发
 ├── quanttide-project/     # 项目管理
+├── quanttide-relation/    # 公共关系
 ├── quanttide-sales/       # 销售管理
 ├── quanttide-secret/      # 密码管理
 ├── quanttide-security/    # 安全工程
@@ -308,3 +309,13 @@ git submodule update --remote
 - 工作工具（知识工作云、工具箱与工作台）
 - 工作规范（章程、手册、规范与教程）
 - 工作沉淀（文集与画廊）
+
+### quanttide-relation
+
+量潮公共关系，专注于媒体关系与危机应对。
+
+**功能：**
+- 媒体关系（媒体渠道、采访与合作关系的维护）
+- 危机应对（舆情观察与危机处置）
+- 对外传播（面向公众的信息输出、口径与叙事）
+- 公共事务（与外部机构、社区和公众的公共议题应对）

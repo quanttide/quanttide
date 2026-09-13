@@ -8,6 +8,13 @@
 
 ---
 
+## [Unreleased]
+
+### 新增
+
+- 新增 `domains/quanttide-relation` 子模块：公共关系（CC BY 4.0 许可证）
+   - 注册子模块：`data/context`、`data/journal`、`data/archive`、`data/brochure`
+
 ## [1.0.0] - 2026-09-09
 
 ### 新增
