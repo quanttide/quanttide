@@ -48,6 +48,7 @@ quanttide/
 │   ├── quanttide-toolkit/       # 工具集元仓库（toolkit 包聚合）
 │   └── quanttide-tutorial/      # 教程
 ├── default/                     # 法人主体档案
+│   ├── quanttide-academy/       # 实训基地
 │   └── quanttide-tech/          # 科技档案
 ├── domains/                     # 领域轴：40 个领域仓库
 │   ├── quanttide-data/          # 数据工程

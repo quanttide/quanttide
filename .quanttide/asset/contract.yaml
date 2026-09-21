@@ -51,6 +51,14 @@ assets:
     path: default/quanttide-tech
     description: 科技档案
 
+  quanttide_academy:
+    title: 量潮实训基地
+    type: docs
+    category: default
+    audience: human
+    path: default/quanttide-academy
+    description: 量潮实训基地主体档案
+
 domains:
   # ── 领域轴（What it expresses） ──
 

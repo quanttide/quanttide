@@ -16,6 +16,7 @@
 
 ### 新增
 
+- 新增 `default/quanttide-academy` 子模块：实训基地（CC BY 4.0 许可证），不设下级子仓库
 - 新增 `domains/quanttide-relation` 子模块：公共关系（CC BY 4.0 许可证）
    - 注册子模块：`data/context`、`data/journal`、`data/archive`、`data/brochure`
 
