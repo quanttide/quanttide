@@ -150,9 +150,9 @@
 [submodule "domains/quanttide-support"]
 	path = domains/quanttide-support
 	url = https://github.com/quanttide/quanttide-support.git
-[submodule "domains/quanttide-academics"]
-	path = domains/quanttide-academics
-	url = https://github.com/quanttide/quanttide-academics.git
+[submodule "domains/quanttide-research"]
+	path = domains/quanttide-research
+	url = https://github.com/quanttide/quanttide-research.git
 [submodule "domains/quanttide-work"]
 	path = domains/quanttide-work
 	url = https://github.com/quanttide/quanttide-work.git

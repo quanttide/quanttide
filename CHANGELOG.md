@@ -10,6 +10,10 @@
 
 ## [Unreleased]
 
+### 变更
+
+- 领域仓库改名：`domains/quanttide-academics` → `domains/quanttide-research`（缩写由 `academics` 改为 `research`，英文全称 `academic-research` 不变）
+
 ### 新增
 
 - 新增 `domains/quanttide-relation` 子模块：公共关系（CC BY 4.0 许可证）
