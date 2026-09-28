@@ -162,3 +162,6 @@
 [submodule "default/quanttide-academy"]
 	path = default/quanttide-academy
 	url = https://github.com/quanttide/quanttide-academy.git
+[submodule "adapters/quanttide-feishu"]
+	path = adapters/quanttide-feishu
+	url = https://github.com/quanttide/quanttide-feishu.git

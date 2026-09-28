@@ -16,6 +16,8 @@
 
 ### 新增
 
+- 新增第四条正交轴——适配轴（`adapters/`）：领域→应用的转换层，不承载事实源（README、AGENTS.md 同步）
+- 新增 `adapters/quanttide-feishu` 子模块：飞书适配（适配轴首个适配仓库）
 - 新增 `default/quanttide-academy` 子模块：实训基地（CC BY 4.0 许可证），不设下级子仓库
 - 新增 `domains/quanttide-relation` 子模块：公共关系（CC BY 4.0 许可证）
    - 注册子模块：`data/context`、`data/journal`、`data/archive`、`data/brochure`
