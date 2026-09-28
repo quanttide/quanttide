@@ -60,7 +60,6 @@
 | **运行测试** | [README.md](README.md) | 构建命令、测试命令 |
 | **发布版本** | [CHANGELOG.md](CHANGELOG.md) | 版本记录格式、最新版本 |
 | **发布版本** | [ROADMAP.md](ROADMAP.md) | 版本规划、阶段目标 |
-| **发布版本** | [.quanttide/devops/release-journal.jsonl](.quanttide/devops/release-journal.jsonl) | 记录发布日志 |
 | **了解变更历史** | [CHANGELOG.md](CHANGELOG.md) | 历史变更记录 |
 | **了解未来规划** | [ROADMAP.md](ROADMAP.md) | 路线图、里程碑 |
 
