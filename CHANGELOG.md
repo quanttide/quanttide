@@ -15,7 +15,8 @@
 - `assets/quanttide-tutorial` 按分层+学科重整：`data/` 扁平结构改为三层，层序即学习顺序 `general`（通识）→ `disciplines`（学科）→ `default`（主体）；不设领域层，33 个量潮领域教程按学科并入 `disciplines/`（学科 6 → 10）；70 个教程子仓库全量登记，目录名取长名；补 README 分层清单、AGENTS、CONTRIBUTING、ROADMAP、LICENSE
 - `assets/quanttide-tutorial/default/company`（量潮科技工作教程）ROADMAP 重写为「内容迁出：公司教程 → 领域教程」：32 篇领域内容迁往对应 `quanttide-tutorial-of-*`，23 篇主体性内容（入门、定义、业务线、公司代表职务说明书）留库并逐条说明理由
 - 新增教程仓库 `quanttide-tutorial-of-market-management`（量潮营销管理教程），登记为 `assets/quanttide-tutorial` 的 `disciplines/management/market-management`（教程 70 → 71）；量潮科技工作教程的市场营销章节迁入该仓库
-- 量潮科技工作教程的标准化章节迁入元工程教程 `quanttide-tutorial-of-philosophy`，落为 `standardization.md`、`bylaw.md`；ROADMAP 迁出清单 34 篇 / 留在 21 篇
+- 量潮科技工作教程的标准化章节迁入元工程教程 `quanttide-tutorial-of-philosophy`，落为 `standardization.md`、`bylaw.md`；ROADMAP 迁出清单 34 篇 / 留在 20 篇
+- 量潮科技工作教程删除 `org/company-representative.md`（公司代表制度）
 
 ## [1.1.1] - 2026-09-29
 
