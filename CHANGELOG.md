@@ -12,7 +12,7 @@
 
 ### 变更
 
-- `assets/quanttide-tutorial` 按分层+学科重整：`data/` 扁平结构改为四层，层序即学习顺序 `general`（通识）→ `disciplines`（学科，按学科分目录）→ `domains`（领域）→ `default`（主体）；70 个教程子仓库全量登记，目录名取长名；补 README 分层清单、AGENTS、CONTRIBUTING、ROADMAP、LICENSE
+- `assets/quanttide-tutorial` 按分层+学科重整：`data/` 扁平结构改为三层，层序即学习顺序 `general`（通识）→ `disciplines`（学科）→ `default`（主体）；不设领域层，33 个量潮领域教程按学科并入 `disciplines/`（学科 6 → 10）；70 个教程子仓库全量登记，目录名取长名；补 README 分层清单、AGENTS、CONTRIBUTING、ROADMAP、LICENSE
 
 ## [1.1.1] - 2026-09-29
 
