@@ -13,6 +13,7 @@
 ### 变更
 
 - 实验室仓库统一改名：`quanttide-laboratory-of-{英文}` → `quanttide-{域短名}-lab`（37 个云端仓改名，如 knowledge-work → `quanttide-work-lab`；各域仓子模块路径 `examples/default` → `examples/{域短名}-lab`，`assets/quanttide-laboratory` 登记表同步）
+- `assets/quanttide-laboratory` 按元仓库范式重整：分区 `defaults/`（主体 1）+ `domains/`（领域 35）+ `independent/`（无领域 2），38 个实验室登记为子模块（gitlink），README 增「层」分类清单，补 ROADMAP 与 AGENTS
 
 ## [1.1.0] - 2026-09-29
 
