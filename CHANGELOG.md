@@ -17,6 +17,8 @@
 - 新增教程仓库 `quanttide-tutorial-of-market-management`（量潮营销管理教程），登记为 `assets/quanttide-tutorial` 的 `disciplines/management/market-management`（教程 70 → 71）；量潮科技工作教程的市场营销章节迁入该仓库
 - 量潮科技工作教程的标准化章节迁入元工程教程 `quanttide-tutorial-of-philosophy`，落为 `standardization.md`、`bylaw.md`；ROADMAP 迁出清单 34 篇 / 留在 20 篇
 - 量潮科技工作教程删除 `org/company-representative.md`（公司代表制度）
+- 量潮科技工作教程领域内容全部迁出，收敛为主体层（只讲量潮科技自己怎么做）：28 篇迁入 12 个领域教程仓库，1 篇占位删除；`myst.yml` 目录收敛为入口、绪论、六条业务线、附录
+- 新增教程仓库 `quanttide-tutorial-of-business-development`（量潮商务拓展教程）、`quanttide-tutorial-of-deliberation-management`（量潮议事管理教程），登记为 `disciplines/management/` 下子模块（教程 71 → 73，学科 69）
 
 ## [1.1.1] - 2026-09-29
 
