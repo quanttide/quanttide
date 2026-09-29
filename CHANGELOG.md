@@ -10,6 +10,10 @@
 
 ## [Unreleased]
 
+### 变更
+
+- `assets/quanttide-tutorial` 按分层+学科重整：`data/` 扁平结构改为四层——`default/`（主体）+ `domains/`（领域）+ `disciplines/`（学科，按学科分目录）+ `general/`（通识）；70 个教程子仓库全量登记，目录名取长名；补 README 分层清单、AGENTS、CONTRIBUTING、ROADMAP、LICENSE
+
 ## [1.1.1] - 2026-09-29
 
 ### 变更
