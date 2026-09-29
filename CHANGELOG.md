@@ -10,6 +10,8 @@
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-09-29
+
 ### 变更
 
 - 实验室仓库统一改名：`quanttide-laboratory-of-{英文}` → `quanttide-{域短名}-lab`（37 个云端仓改名，如 knowledge-work → `quanttide-work-lab`；各域仓子模块路径 `examples/default` → `examples/{域短名}-lab`，`assets/quanttide-laboratory` 登记表同步）
