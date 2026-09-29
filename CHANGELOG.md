@@ -13,6 +13,7 @@
 ### 变更
 
 - `assets/quanttide-tutorial` 按分层+学科重整：`data/` 扁平结构改为三层，层序即学习顺序 `general`（通识）→ `disciplines`（学科）→ `default`（主体）；不设领域层，33 个量潮领域教程按学科并入 `disciplines/`（学科 6 → 10）；70 个教程子仓库全量登记，目录名取长名；补 README 分层清单、AGENTS、CONTRIBUTING、ROADMAP、LICENSE
+- `assets/quanttide-tutorial/default/company`（量潮科技工作教程）ROADMAP 增「领域 → 教程覆盖」：40 个量潮领域逐条对齐本仓库章节与独立教程仓库，现状为齐备 9 / 仅本仓库 2 / 仅独立教程 20 / 皆缺 9
 
 ## [1.1.1] - 2026-09-29
 
