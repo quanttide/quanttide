@@ -182,7 +182,7 @@ AI 应在完成工作后主动提醒用户是否需要更新这些文档，而�
 domains/{name}/
 ├── apps/{app}/             # 面向用户的可部署应用
 ├── packages/toolkit        # 领域共享库/工具集（独立仓库 {name}-toolkit）
-├── examples/default        # 实验室——实验性/原型项目（独立仓库 laboratory-of-{name}）
+├── examples/{name}-lab     # 实验室——实验性/原型项目（独立仓库 quanttide-{name}-lab）
 │   └── apps/{app}/         # 实验室内的应用原型
 └── docs/                   # 领域文档（通常也是子模块）
 ```
@@ -192,5 +192,5 @@ domains/{name}/
 1. **独立维护**：每个子模块是独立仓库，父仓库只追踪引用指针
 2. **禁止越级**：不在子仓库里做父仓库的事（如改父仓库的 ROADMAP），反之亦然
 3. **分层提交**：修改子模块内容→在子模块提交推送→回到父仓库更新指针→提交推送
-4. **`apps/` 放可部署应用**，`packages/toolkit` 放共享代码库，`examples/default` 放实验原型，三者不混用
-5. `examples/default` 是实验室的入口，其内部结构自由，不受领域仓库约束
+4. **`apps/` 放可部署应用**，`packages/toolkit` 放共享代码库，`examples/{name}-lab` 放实验原型，三者不混用
+5. `examples/{name}-lab` 是实验室的入口，其内部结构自由，不受领域仓库约束
