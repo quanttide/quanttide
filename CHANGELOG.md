@@ -12,6 +12,13 @@
 
 ### 变更
 
+- `quanttide-tutorial-of-business-entity`（量潮科技工作教程）发布 v0.7.0：领域内容全部迁出，收敛为主体层；新增 v0.7.0 发布记录
+- `assets/quanttide-tutorial`（教程聚合容器）发布 v0.2.0：分层重整、按学科聚合 73 个教程子仓库
+- `default/quanttide-tech` 更新 `docs/tutorial` 子模块指针至 v0.7.0
+
+
+### 变更
+
 - `assets/quanttide-tutorial` 按分层+学科重整：`data/` 扁平结构改为三层，层序即学习顺序 `general`（通识）→ `disciplines`（学科）→ `default`（主体）；不设领域层，33 个量潮领域教程按学科并入 `disciplines/`（学科 6 → 10）；70 个教程子仓库全量登记，目录名取长名；补 README 分层清单、AGENTS、CONTRIBUTING、ROADMAP、LICENSE
 - `assets/quanttide-tutorial/default/company`（量潮科技工作教程）ROADMAP 重写为「内容迁出：公司教程 → 领域教程」：32 篇领域内容迁往对应 `quanttide-tutorial-of-*`，23 篇主体性内容（入门、定义、业务线、公司代表职务说明书）留库并逐条说明理由
 - 新增教程仓库 `quanttide-tutorial-of-market-management`（量潮营销管理教程），登记为 `assets/quanttide-tutorial` 的 `disciplines/management/market-management`（教程 70 → 71）；量潮科技工作教程的市场营销章节迁入该仓库
