@@ -165,3 +165,6 @@
 [submodule "adapters/quanttide-feishu"]
 	path = adapters/quanttide-feishu
 	url = https://github.com/quanttide/quanttide-feishu.git
+[submodule "domains/quanttide-language"]
+	path = domains/quanttide-language
+	url = https://github.com/quanttide/quanttide-language.git

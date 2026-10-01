@@ -10,6 +10,11 @@
 
 ## [Unreleased]
 
+### 新增
+
+- 新增领域第二大脑 `domains/quanttide-language`（语言分析，英文全称 `language-analysis`，缩写 `language`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-language-analysis`）；journal、archive、brochure 等其余数据资产暂未创建
+
+
 ### 变更
 
 - `quanttide-tutorial-of-business-entity`（量潮科技工作教程）发布 v0.7.0：领域内容全部迁出，收敛为主体层；新增 v0.7.0 发布记录

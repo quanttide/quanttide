@@ -29,6 +29,7 @@ domains/
 ├── quanttide-human/       # 人力资源
 ├── quanttide-innov/       # 创新管理
 ├── quanttide-knowl/       # 知识工程
+├── quanttide-language/    # 语言分析
 ├── quanttide-learn/       # 学习管理
 ├── quanttide-media/       # 新媒体运营
 ├── quanttide-meta/        # 元工程
@@ -76,6 +77,7 @@ domains/
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |
 | 沟通管理 | communication-management | `comm` | 组织内外部沟通的标准化管理。 |
+| 语言分析 | language-analysis | `language` | 语言的结构、意义与用法的分析与应用。 |
 | **职能与人力** |
 | 人力资源 | human-resources | `hr` | 组织架构、招聘、绩效管理。 |
 | 健康管理 | health-management | `health` | 身心健康平衡管理，面向个人、家庭与企业。 |
