@@ -175,3 +175,6 @@
 [submodule "adapters/quanttide-pi"]
 	path = adapters/quanttide-pi
 	url = https://github.com/quanttide/quanttide-pi.git
+[submodule "adapters/quanttide-github"]
+	path = adapters/quanttide-github
+	url = https://github.com/quanttide/quanttide-github.git

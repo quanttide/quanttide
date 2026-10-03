@@ -37,6 +37,7 @@
 quanttide/
 ├── adapters/                    # 适配轴：领域→应用的转换层
 │   ├── quanttide-feishu/        # 飞书适配
+│   ├── quanttide-github/        # GitHub 适配
 │   └── quanttide-pi/            # Pi 智能体适配
 ├── assets/                      # 能力轴：资产仓库
 │   ├── quanttide-bylaw/         # 章程
