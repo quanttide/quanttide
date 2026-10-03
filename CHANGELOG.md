@@ -12,6 +12,11 @@
 
 ### 新增
 
+- 适配轴新增 `adapters/quanttide-pi`（量潮 Pi 智能体）：适配仓库，含语境子模块 `data/context`（`quanttide-context-of-pi-agent`）
+
+
+### 新增
+
 - 新增领域第二大脑 `domains/quanttide-algorithm`（算法工程，英文全称 `algorithm-engineering`，缩写 `algorithm`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-algorithm-engineering`），语境仓库的 `laboratory/` 收录首个实验（内容归属分类）；journal、archive、brochure 等其余数据资产暂未创建
 - `domains/quanttide-algorithm` 新增意图子模块 `data/intention`（`quanttide-intention-of-algorithm-engineering`），收录首个意图：算法自动孵化机制
 - `domains/quanttide-algorithm` 新增洞察子模块 `data/insight`（`quanttide-insight-of-algorithm-engineering`），收录首条洞察：算法候选的入口

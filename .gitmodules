@@ -172,3 +172,6 @@
 	path = domains/quanttide-algorithm
 	url = https://github.com/quanttide/quanttide-algorithm.git
 	branch = main
+[submodule "adapters/quanttide-pi"]
+	path = adapters/quanttide-pi
+	url = https://github.com/quanttide/quanttide-pi.git

@@ -28,7 +28,8 @@
 
 ```
 adapters/
-└── quanttide-feishu/        # 飞书适配
+├── quanttide-feishu/        # 飞书适配
+└── quanttide-pi/            # Pi 智能体适配
 ```
 
 每个适配器按 `adapters/{name}` 建独立仓库（子模块），落地后在本文件登记。
@@ -37,7 +38,7 @@ adapters/
 
 - 目录名小写，遵循仓库统一命名规范
 - 适配器名自描述被适配对象，避免与领域仓库同名造成职责混淆
-- 已落地：`quanttide-feishu`（被适配对象 = 飞书），目录名与仓库名一致
+- 已落地：`quanttide-feishu`（被适配对象 = 飞书）、`quanttide-pi`（被适配对象 = Pi 智能体），目录名与仓库名一致
 
 ## 使用说明
 
