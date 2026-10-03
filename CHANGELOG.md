@@ -15,6 +15,7 @@
 - 适配轴新增 `adapters/quanttide-pi`（量潮 Pi 智能体）：适配仓库，含语境子模块 `data/context`（`quanttide-context-of-pi-agent`）
 - 新增工具箱 `quanttide-pi-toolkit`（量潮 Pi 智能体工具箱）：登记为 `adapters/quanttide-pi/packages/quanttide-pi-toolkit`（适配轴）与 `assets/quanttide-toolkit/adapters/quanttide-pi-toolkit`（工具集元仓库新增 `adapters/` 分区）
 - 初始化 `quanttide-pi-toolkit` 的 Rust 库 `packages/rust`（`quanttide-pi` 0.1.0）：领域常量、版本导出与集成测试
+- `quanttide-pi-toolkit` 新增 Rust 发布流水线 `.github/workflows/release-rust.yml`（`rust/*` 标签触发：质量门 → crates.io → GitHub Release）
 
 
 ### 新增
