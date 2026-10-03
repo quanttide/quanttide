@@ -7,6 +7,7 @@
 ```
 domains/
 ├── quanttide-agent/       # 智能体工程
+├── quanttide-algorithm/   # 算法工程
 ├── quanttide-asset/       # 资产管理
 ├── quanttide-auth/        # 身份认证
 ├── quanttide-business/    # 商务拓展

@@ -168,3 +168,7 @@
 [submodule "domains/quanttide-language"]
 	path = domains/quanttide-language
 	url = https://github.com/quanttide/quanttide-language.git
+[submodule "domains/quanttide-algorithm"]
+	path = domains/quanttide-algorithm
+	url = https://github.com/quanttide/quanttide-algorithm.git
+	branch = main
