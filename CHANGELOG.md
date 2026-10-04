@@ -23,6 +23,7 @@
 - `quanttide-pi-toolkit` 新增 Rust 发布流水线 `.github/workflows/release-rust.yml`（`rust/*` 标签触发：质量门 → crates.io → GitHub Release）
 - `adapters/quanttide-pi` 新增案例集子模块 `docs/gallery`（`quanttide-gallery-of-pi-agent`）：案例的公开展示层，脱敏后入库
 - `adapters/quanttide-pi` 新增手册子模块 `docs/handbook`（`quanttide-handbook-of-pi-agent`）：Pi 智能体操作规范与做法
+- `adapters/quanttide-pi` 新增档案子模块 `data/profile`（`quanttide-profile-of-pi-agent`）：Pi 智能体适配的资产档案
 
 
 ### 新增
