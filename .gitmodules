@@ -178,3 +178,6 @@
 [submodule "adapters/quanttide-github"]
 	path = adapters/quanttide-github
 	url = https://github.com/quanttide/quanttide-github.git
+[submodule "domains/quanttide-credit"]
+	path = domains/quanttide-credit
+	url = https://github.com/quanttide/quanttide-credit.git

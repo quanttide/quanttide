@@ -14,6 +14,7 @@ domains/
 ├── quanttide-code/        # 软件工程
 ├── quanttide-connect/     # 沟通管理
 ├── quanttide-course/      # 课程研发
+├── quanttide-credit/      # 信用管理
 ├── quanttide-crowd/       # 众包管理
 ├── quanttide-customer/    # 客户关系
 ├── quanttide-data/        # 数据工程
@@ -96,6 +97,7 @@ domains/
 | 商务拓展 | business-development | `bd` | 合作伙伴关系与市场开拓。 |
 | 创业管理 | entrepreneurship-management | `entrep` | 从创业想法到企业成立与早期成长的经营过程管理。 |
 | 众包管理 | crowd-sourcing | `crowd` | 众包市场的发单、接单、标准交易与信用沉淀。 |
+| 信用管理 | credit-management | `credit` | 主体与交易的信用评价、信用记录与信用治理。 |
 | 客户关系 | customer-relations | `crm` | 客户信息与销售过程管理。 |
 | **品牌与运营** |
 | 新媒体运营 | social-media | `media` | 社交媒体矩阵运营。 |

@@ -32,6 +32,7 @@
 - `domains/quanttide-algorithm` 新增洞察子模块 `data/insight`（`quanttide-insight-of-algorithm-engineering`），收录首条洞察：算法候选的入口
 - `domains/quanttide-algorithm` 新增档案子模块 `data/profile`（`quanttide-profile-of-algorithm-engineering`），收录首个资产档案：资产分类器
 - 新增领域第二大脑 `domains/quanttide-language`（语言分析，英文全称 `language-analysis`，缩写 `language`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-language-analysis`）；journal、archive、brochure 等其余数据资产暂未创建
+- 新增领域第二大脑 `domains/quanttide-credit`（信用管理，英文全称 `credit-management`，缩写 `credit`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-credit-management`）、章程子模块 `docs/bylaw`（`quanttide-bylaw-of-credit-management`）、规格子模块 `docs/specification`（`quanttide-specification-of-credit-management`）；journal、archive、brochure 等其余数据资产暂未创建
 
 
 ### 变更
