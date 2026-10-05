@@ -195,6 +195,10 @@ git submodule status
 git submodule summary assets/quanttide-handbook
 ```
 
+## 维护规则
+
+- 没有人类指令，禁止增加引用
+
 ## 注意事项
 
 - 本项目为文档和知识库项目，无需传统 lint/test 流程
