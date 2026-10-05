@@ -68,6 +68,7 @@ domains/
 | 数据工程 | data-engineering | `data` | 数据采集、存储、处理与服务的工程化实践。 |
 | 知识工程 | knowledge-engineering | `knowl` | 知识表示、建模、推理与应用的工程化实践。 |
 | 知识工作 | knowledge-work | `work` | 知识工作方法、流程与工具的知识体系。 |
+| 元工程 | meta-engineering | `meta` | 哲学的实现：把哲学命题落成可运行的结构、规则与工具。 |
 | 智能体工程 | agent-engineering | `agent` | 侧重多智能体与人机协作。 |
 | 云计算工程 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
 | 课程研发 | course-development | `course` | 课程研发全生命周期的工程化实践。 |

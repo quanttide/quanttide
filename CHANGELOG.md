@@ -10,6 +10,18 @@
 
 ## [Unreleased]
 
+### 变更
+
+- `domains/quanttide-meta`（元工程）长名正式定为 `meta-engineering`：语境、章程、规格、日志、图书馆、路线图、教程七个仓库的英文名改为 `-of-meta-engineering`；README 补「定位：哲学的实现」——哲学是理论，元工程把哲学命题落成可运行的体系
+- 引用方同步更新：`assets/quanttide-journal`、`assets/quanttide-roadmap`、`assets/quanttide-bylaw`、`assets/quanttide-tutorial` 的子模块 URL，以及 `quanttide-bylaw-of-asset-management` 命名契约中的示例（`quanttide-library-of-meta-engineering`）
+
+### 新增
+
+- `domains/quanttide-meta` 补齐 `data/`：归档、宣传册、历史、洞察、档案、报告六个新仓库；`data/intention` 由普通目录改为独立子模块（`quanttide-intention-of-meta-engineering`）
+- `domains/quanttide-meta` 补齐 `docs/`：札记、案例集、手册三个新仓库
+- `domains/quanttide-meta` 的 `apps/` 挂载量潮云（`qtcloud`）与量潮咨询云（`qtconsult`）
+
+
 ### 新增
 
 - 适配轴新增 `adapters/quanttide-github`（量潮 GitHub 适配，英文全称 `github-platform`）：适配仓库，含语境子模块 `data/context`（`quanttide-context-of-github-platform`）
