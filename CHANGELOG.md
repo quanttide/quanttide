@@ -25,6 +25,7 @@
 ### 新增
 
 - 适配轴新增 `adapters/quanttide-github`（量潮 GitHub 适配，英文全称 `github-platform`）：适配仓库，含语境子模块 `data/context`（`quanttide-context-of-github-platform`）
+- 适配轴新增 `adapters/quanttide-hermes`（量潮 Hermes 智能体，英文全称 `hermes-agent`）：适配仓库，含语境子模块 `data/context`（`quanttide-context-of-hermes-agent`）
 
 
 ### 新增
