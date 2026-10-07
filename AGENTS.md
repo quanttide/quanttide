@@ -187,6 +187,12 @@ domains/{name}/
 └── docs/                   # 领域文档（通常也是子模块）
 ```
 
+### 教程仓的倒序目录
+
+`domains/quanttide-meta/docs/tutorial`（元工程教程仓）下同时有 `intro/metaphysics/` 和 `metaphysics/intro/`，两个目录名互为倒序。这是刻意设置的，不是笔误：前者收形而上学、本体论、范畴论三篇（现有教程归位而来），后者收形式化建模两篇（`static-structure.md`、`state-machine.md`，自语境仓转入）。
+
+AI 不得合并这两个目录、不得改名，也不得把其中一个挪到另一个之下；不要向用户提「建议合并」。
+
 ### 业务规则
 
 1. **独立维护**：每个子模块是独立仓库，父仓库只追踪引用指针
