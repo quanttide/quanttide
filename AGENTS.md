@@ -145,7 +145,7 @@ Vault key 只需在路径范围内自描述即可，不要跟应用字段名强�
 |------|---------|
 | [CHANGELOG.md](CHANGELOG.md) | 对用户可见的变更（新功能、重构、修复） |
 | [ROADMAP.md](ROADMAP.md) | 方向调整、阶段性成果达成 |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | 目录结构或 packages/apps 约定变化 |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | 目录结构、packages/apps 约定或工作流约定变化（如草稿箱与正式仓的稿件流程） |
 | [README.md](README.md) | 产品功能或仓库结构变化 |
 | [AGENTS.md](AGENTS.md) | AI 工作经验增加 |
 
