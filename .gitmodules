@@ -183,3 +183,6 @@
 [submodule "adapters/quanttide-hermes"]
 	path = adapters/quanttide-hermes
 	url = https://github.com/quanttide/quanttide-hermes.git
+[submodule "domains/quanttide-infra"]
+	path = domains/quanttide-infra
+	url = https://github.com/quanttide/quanttide-infra.git

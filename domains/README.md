@@ -30,6 +30,7 @@ domains/
 ├── quanttide-health/      # 健康管理
 ├── quanttide-human/       # 人力资源
 ├── quanttide-innov/       # 创新管理
+├── quanttide-infra/       # 基础设施
 ├── quanttide-knowl/       # 知识工程
 ├── quanttide-language/    # 语言分析
 ├── quanttide-learn/       # 学习管理
@@ -70,7 +71,7 @@ domains/
 | 知识工作 | knowledge-work | `work` | 知识工作方法、流程与工具的知识体系。 |
 | 元工程 | meta-engineering | `meta` | 哲学的实现：把哲学命题落成可运行的结构、规则与工具。 |
 | 智能体工程 | agent-engineering | `agent` | 侧重多智能体与人机协作。 |
-| 云计算工程 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
+| 基础设施 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
 | 课程研发 | course-development | `course` | 课程研发全生命周期的工程化实践。 |
 | 写作管理 | narrative-engineering | `writing` | 面向内容创作者的写作流程管理。 |
 | 文档工程 | document-engineering | `docs` | 文档的写作、组织、发布与访问工程化实践。 |
