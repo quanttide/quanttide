@@ -43,6 +43,7 @@ domains/
 ├── quanttide-relation/    # 公共关系
 ├── quanttide-research/    # 学术研究
 ├── quanttide-sales/       # 销售管理
+├── quanttide-search/      # 搜索工程
 ├── quanttide-secret/      # 密码管理
 ├── quanttide-security/    # 安全工程
 ├── quanttide-strategy/    # 战略管理
@@ -72,6 +73,7 @@ domains/
 | 元工程 | meta-engineering | `meta` | 哲学的实现：把哲学命题落成可运行的结构、规则与工具。 |
 | 智能体工程 | agent-engineering | `agent` | 侧重多智能体与人机协作。 |
 | 基础设施 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
+| 搜索工程 | search-engineering | `search` | 索引、召回与排序的工程化实践。 |
 | 课程研发 | course-development | `course` | 课程研发全生命周期的工程化实践。 |
 | 写作管理 | narrative-engineering | `writing` | 面向内容创作者的写作流程管理。 |
 | 文档工程 | document-engineering | `docs` | 文档的写作、组织、发布与访问工程化实践。 |

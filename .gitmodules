@@ -186,3 +186,6 @@
 [submodule "domains/quanttide-infra"]
 	path = domains/quanttide-infra
 	url = https://github.com/quanttide/quanttide-infra.git
+[submodule "domains/quanttide-search"]
+	path = domains/quanttide-search
+	url = https://github.com/quanttide/quanttide-search.git

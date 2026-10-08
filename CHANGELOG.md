@@ -48,6 +48,7 @@
 - 新增领域第二大脑 `domains/quanttide-language`（语言分析，英文全称 `language-analysis`，缩写 `language`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-language-analysis`）；journal、archive、brochure 等其余数据资产暂未创建
 - 新增领域第二大脑 `domains/quanttide-credit`（信用管理，英文全称 `credit-management`，缩写 `credit`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-credit-management`）、章程子模块 `docs/bylaw`（`quanttide-bylaw-of-credit-management`）、规格子模块 `docs/specification`（`quanttide-specification-of-credit-management`）；journal、archive、brochure 等其余数据资产暂未创建
 - 新增领域第二大脑 `domains/quanttide-infra`（基础设施，英文全称 `infrastructure`，缩写 `infra`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-infrastructure`）；journal、archive、brochure 等其余数据资产暂未创建。登记表中原「云计算工程」一行随领域命名改为「基础设施」
+- 新增领域第二大脑 `domains/quanttide-search`（搜索工程，英文全称 `search-engineering`，缩写 `search`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-search-engineering`）；journal、archive、brochure 等其余数据资产暂未创建
 
 
 ### 变更
