@@ -1,9 +1,9 @@
 ---
-name: meta-blueprint
+name: meta-align
 description: 用元工程的元认知骨架判断任意领域，确保第二大脑各领域用同一副元认知。在任一领域新增或修改日志、档案、本体、路线图时使用。
 ---
 
-# meta-blueprint
+# meta-align
 
 用元工程的元认知骨架，判断其他领域的结构与表述。
 

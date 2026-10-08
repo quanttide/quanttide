@@ -106,7 +106,7 @@ qtcloud-knowl audit
 | devops-review | 流程审查 | — |
 | docs-deploy | MyST 文档站构建与 GitHub Pages 部署 | — |
 | product-drd | 数据需求文档（DRD）编写 | 按 SKILL.md 风格规范编写 |
-| meta-blueprint | 用元工程的元认知骨架判断任意领域 | 类名可本地化，**范畴不许在领域侧增删**，须回元工程层决策 |
+| meta-align | 用元工程的元认知骨架判断任意领域 | 类名可本地化，**范畴不许在领域侧增删**，须回元工程层决策 |
 
 ### 执行规则
 
