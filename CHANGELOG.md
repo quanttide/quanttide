@@ -10,6 +10,11 @@
 
 ## [Unreleased]
 
+### 移除
+
+- 移除数字资产契约 `.quanttide/asset/contract.yaml`：只登记了 7 项资产，而 `.gitmodules` 已有 63 个子模块，长期与唯一事实源脱节。资产组成的唯一事实源回归 `.gitmodules` 与各轴 README；契约机制本身仍归 `domains/quanttide-asset`
+- `ROADMAP.md` 同步移除 0.6.x 中依赖该契约的两项目标（契约完备、关联声明），`default/README.md` 接入约定与 `.quanttide/README.md` 契约清单中的引用一并删除
+
 ### 变更
 
 - `domains/quanttide-meta`（元工程）长名正式定为 `meta-engineering`：语境、章程、规格、日志、图书馆、路线图、教程七个仓库的英文名改为 `-of-meta-engineering`；README 补「定位：哲学的实现」——哲学是理论，元工程把哲学命题落成可运行的体系

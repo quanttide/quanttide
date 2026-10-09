@@ -6,7 +6,6 @@
 
 | 文件 | 用途 |
 |------|------|
-| `.quanttide/asset/contract.yaml` | 数字资产契约 |
 | `.quanttide/docs/contract.yaml` | 文档工程契约 |
 
 ## 使用方式

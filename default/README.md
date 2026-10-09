@@ -19,7 +19,7 @@
 
 1. 每个法人主体对应一个独立仓库，路径 `default/quanttide-{name}`
 2. 仓库包含独立的 README、LICENSE、CHANGELOG 等档案文件
-3. 接入后同步更新主体清单与资产契约（`.quanttide/asset/contract.yaml`）
+3. 接入后同步更新本文件的主体清单
 
 ## 使用说明
 
