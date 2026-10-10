@@ -34,6 +34,7 @@ domains/
 ├── quanttide-knowl/       # 知识工程
 ├── quanttide-language/    # 语言分析
 ├── quanttide-learn/       # 学习管理
+├── quanttide-legal/       # 法务管理
 ├── quanttide-media/       # 新媒体运营
 ├── quanttide-meta/        # 元工程
 ├── quanttide-org/         # 组织管理

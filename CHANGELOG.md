@@ -10,6 +10,10 @@
 
 ## [Unreleased]
 
+### 新增
+
+- 新增领域第二大脑 `domains/quanttide-legal`（法务管理，英文全称 `legal-management`，缩写 `legal`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-legal-management`）；journal、archive、brochure 等其余数据资产暂未创建
+
 ### 移除
 
 - 移除数字资产契约 `.quanttide/asset/contract.yaml`：只登记了 7 项资产，而 `.gitmodules` 已有 63 个子模块，长期与唯一事实源脱节。资产组成的唯一事实源回归 `.gitmodules` 与各轴 README；契约机制本身仍归 `domains/quanttide-asset`
