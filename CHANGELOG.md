@@ -12,6 +12,8 @@
 
 ### 新增
 
+- 新增领域实验室 `quanttide-search-lab`（搜索工程）：云端建仓，双登记为领域仓 `domains/quanttide-search/examples/quanttide-search-lab` 与元仓库 `assets/quanttide-laboratory/domains/quanttide-search-lab`，实验室清单计数 38 → 39
+
 - 新增领域第二大脑 `domains/quanttide-legal`（法务管理，英文全称 `legal-management`，缩写 `legal`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-legal-management`）；journal、archive、brochure 等其余数据资产暂未创建
 
 ### 移除
