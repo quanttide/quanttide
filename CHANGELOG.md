@@ -13,6 +13,8 @@
 ### 新增
 
 - 新增领域实验室 `quanttide-search-lab`（搜索工程）：云端建仓，双登记为领域仓 `domains/quanttide-search/examples/quanttide-search-lab` 与元仓库 `assets/quanttide-laboratory/domains/quanttide-search-lab`，实验室清单计数 38 → 39
+- 新增领域教程仓 `quanttide-tutorial-of-search-engineering`（`domains/quanttide-search/docs/tutorial`）：首篇《从零写一个搜索程序：让搜索变准的最小循环》在 `intro/loop.md`，写作规范（每一步代码亲手跑通）写进 CONTRIBUTING；语境草稿 `context/tutorial/search-loop` 出箱
+- 新增领域意图仓 `quanttide-intention-of-search-engineering`（`domains/quanttide-search/data/intention`）：领域 `index.md` 的问题、与常见实现的差别、已知限制移入 `index.md`（缘起、目标与约束），商业模式入 `business-model.md`；领域页只留系统结构与去处
 
 - 新增领域第二大脑 `domains/quanttide-legal`（法务管理，英文全称 `legal-management`，缩写 `legal`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-legal-management`）；journal、archive、brochure 等其余数据资产暂未创建
 
