@@ -8,10 +8,11 @@
 |:-----|:-----|:-----|
 | 公司 | `defaults/quanttide-tech` | 已接入 |
 | 实训基地 | `defaults/quanttide-academy` | 已接入 |
+| 联盟 | `defaults/quanttide-innovation-alliance` | 已接入 |
 
-当前接入**公司**主体（`quanttide-tech` 科技档案）与**实训基地**主体（`quanttide-academy`）。
+当前接入**公司**主体（`quanttide-tech` 科技档案）、**实训基地**主体（`quanttide-academy`）与**联盟**主体（`quanttide-innovation-alliance` 联盟第二大脑）。
 
-联盟等其他法人主体按需创建独立仓库后接入。目录即语义，未接入前不预留空目录。
+其他法人主体按需创建独立仓库后接入。目录即语义，未接入前不预留空目录。
 
 命名沿革：实训基地原先按量潮内部教学制度中「训练营」惯例预留为 `bootcamp`（见 qtclass 内部教学：`ceo_assistant_bootcamp.md`）；2026-09-21 定名 `academy`，与学术研究领域（`research`）在名称上区分开。
 
