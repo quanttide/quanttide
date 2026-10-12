@@ -6,8 +6,8 @@
 
 | 主体 | 路径 | 状态 |
 |:-----|:-----|:-----|
-| 公司 | `default/quanttide-tech` | 已接入 |
-| 实训基地 | `default/quanttide-academy` | 已接入 |
+| 公司 | `defaults/quanttide-tech` | 已接入 |
+| 实训基地 | `defaults/quanttide-academy` | 已接入 |
 
 当前接入**公司**主体（`quanttide-tech` 科技档案）与**实训基地**主体（`quanttide-academy`）。
 
@@ -17,7 +17,7 @@
 
 ## 接入约定
 
-1. 每个法人主体对应一个独立仓库，路径 `default/quanttide-{name}`
+1. 每个法人主体对应一个独立仓库，路径 `defaults/quanttide-{name}`
 2. 仓库包含独立的 README、LICENSE、CHANGELOG 等档案文件
 3. 接入后同步更新本文件的主体清单
 
