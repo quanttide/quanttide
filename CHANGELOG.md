@@ -12,6 +12,8 @@
 
 ### 新增
 
+- 新增主体档案 `defaults/quanttide-founder` 子模块：创始人（自然人主体）创业档案，与 quanttide-tech（公司）、quanttide-academy（实训基地）、quanttide-innovation-alliance（联盟）并列；`defaults/README.md` 主体清单同步
+
 - 新增领域实验室 `quanttide-search-lab`（搜索工程）：云端建仓，双登记为领域仓 `domains/quanttide-search/examples/quanttide-search-lab` 与元仓库 `assets/quanttide-laboratory/domains/quanttide-search-lab`，实验室清单计数 38 → 39
 - 新增领域教程仓 `quanttide-tutorial-of-search-engineering`（`domains/quanttide-search/docs/tutorial`）：首篇《从零写一个搜索程序：让搜索变准的最小循环》在 `intro/loop.md`，写作规范（每一步代码亲手跑通）写进 CONTRIBUTING；语境草稿 `context/tutorial/search-loop` 出箱
 - 新增领域意图仓 `quanttide-intention-of-search-engineering`（`domains/quanttide-search/data/intention`）：领域 `index.md` 的问题、与常见实现的差别、已知限制移入 `index.md`（缘起、目标与约束），商业模式入 `business-model.md`；领域页只留系统结构与去处

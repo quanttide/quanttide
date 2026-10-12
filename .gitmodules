@@ -195,3 +195,6 @@
 [submodule "defaults/quanttide-innovation-alliance"]
 	path = defaults/quanttide-innovation-alliance
 	url = https://github.com/quanttide/quanttide-innovation-alliance.git
+[submodule "defaults/quanttide-founder"]
+	path = defaults/quanttide-founder
+	url = https://github.com/quanttide/quanttide-founder.git
