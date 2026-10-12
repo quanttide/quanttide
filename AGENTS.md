@@ -27,7 +27,6 @@
 | [README.md](README.md) | 快速开始、目录结构、架构思想 |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | 贡献指南、开发环境、提交流程、常见任务 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本变更记录 |
-| [ROADMAP.md](ROADMAP.md) | 产品路线图、版本规划 |
 | [.quanttide/README.md](.quanttide/README.md) | 元数据与契约文件说明 |
 
 ### 人机协作范式
@@ -59,9 +58,7 @@
 | **更新子模块** | [CONTRIBUTING.md](CONTRIBUTING.md) | 子模块更新流程、最佳实践 |
 | **运行测试** | [README.md](README.md) | 构建命令、测试命令 |
 | **发布版本** | [CHANGELOG.md](CHANGELOG.md) | 版本记录格式、最新版本 |
-| **发布版本** | [ROADMAP.md](ROADMAP.md) | 版本规划、阶段目标 |
 | **了解变更历史** | [CHANGELOG.md](CHANGELOG.md) | 历史变更记录 |
-| **了解未来规划** | [ROADMAP.md](ROADMAP.md) | 路线图、里程碑 |
 
 ## CLI 工具快速索引
 
@@ -145,7 +142,6 @@ Vault key 只需在路径范围内自描述即可，不要跟应用字段名强�
 | 文档 | 触发条件 |
 |------|---------|
 | [CHANGELOG.md](CHANGELOG.md) | 对用户可见的变更（新功能、重构、修复） |
-| [ROADMAP.md](ROADMAP.md) | 方向调整、阶段性成果达成 |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | 目录结构、packages/apps 约定或工作流约定变化（如草稿箱与正式仓的稿件流程） |
 | [README.md](README.md) | 产品功能或仓库结构变化 |
 | [AGENTS.md](AGENTS.md) | AI 工作经验增加 |

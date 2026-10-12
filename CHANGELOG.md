@@ -30,6 +30,8 @@
 
 ### 移除
 
+- 移除根目录 `ROADMAP.md`：内容停在「验证期 0.6.x 目标」，与现状（v1.2.0、founder 重新接入主体轴）矛盾；版本规划归 CHANGELOG 与各主体/领域仓的 ROADMAP，根仓不再维护独立路线图。AGENTS.md 中的四处引用一并删除
+
 - 移除数字资产契约 `.quanttide/asset/contract.yaml`：只登记了 7 项资产，而 `.gitmodules` 已有 63 个子模块，长期与唯一事实源脱节。资产组成的唯一事实源回归 `.gitmodules` 与各轴 README；契约机制本身仍归 `domains/quanttide-asset`
 - `ROADMAP.md` 同步移除 0.6.x 中依赖该契约的两项目标（契约完备、关联声明），`default/README.md` 接入约定与 `.quanttide/README.md` 契约清单中的引用一并删除
 
