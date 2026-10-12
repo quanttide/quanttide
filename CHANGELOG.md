@@ -21,6 +21,8 @@
 - 新增领域第二大脑 `domains/quanttide-legal`（法务管理，英文全称 `legal-management`，缩写 `legal`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-legal-management`）；journal、archive、brochure 等其余数据资产暂未创建
 
 - `adapters/quanttide-feishu` 挂载两个新子模块：`docs/gallery` 案例集（`quanttide-gallery-of-feishu-platform`）与 `data/insight` 洞察（`quanttide-insight-of-feishu-platform`），均空仓起步
+- `adapters/quanttide-feishu` 工具集新增 `packages/python`：Python 包骨架（包名 `quanttide-feishu`，`uv run pytest` 两测通过）
+- `adapters/quanttide-feishu` 应用新增 `src/cli`：Rust CLI 骨架（命令 `qtcloud-feishu`，fmt/clippy -D warnings 双绿）
 
 ### 移除
 
