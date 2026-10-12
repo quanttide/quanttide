@@ -10,6 +10,8 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-10-13
+
 ### 新增
 
 - 新增主体档案 `defaults/quanttide-founder` 子模块：创始人（自然人主体）创业档案，与 quanttide-tech（公司）、quanttide-academy（实训基地）、quanttide-innovation-alliance（联盟）并列；`defaults/README.md` 主体清单同步
