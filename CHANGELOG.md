@@ -10,6 +10,12 @@
 
 ## [Unreleased]
 
+### 变更
+
+- `adapters/quanttide-feishu` 实验室 `quanttide-feishu-lab` 收为骨架：与平台仓 `apps/qtcloud-feishu`
+  （`src/cli/`）功能重复的实现删除（基础单元、串联器、执行器、测试设施与设计文档），正本在平台仓；
+  平台仓文档同步去除对实验室的同步拷贝依赖；元仓库 `assets/quanttide-laboratory` 的实验室指针同步
+
 ## [1.2.0] - 2026-10-13
 
 ### 新增
