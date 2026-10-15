@@ -158,7 +158,7 @@ AI 应在完成工作后主动提醒用户是否需要更新这些文档，而�
 |--------|------|------|
 | `domains/{name}` | 领域知识仓库，核心事实源，通常有独立的文档站 | `domains/quanttide-finance` |
 | `defaults/{name}` | 法人主体档案（公司、实训基地、联盟等） | `defaults/quanttide-tech` |
-| `assets/{name}` | 资产仓库（文档站、教程、手册、规范等） | `categories/quanttide-handbook` |
+| `categories/{name}` | 范畴仓库（文档站、教程、手册、规范等） | `categories/quanttide-handbook` |
 | `adapters/{name}` | 适配仓库，领域→应用的转换层，不承载事实源 | `adapters/quanttide-feishu` |
 
 ### 元仓库（一分为三）
