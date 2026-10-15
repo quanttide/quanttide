@@ -10,7 +10,7 @@
 
 ### 核心架构思想
 
-1. **正交分解**：分离"能力轴"（How it runs，assets/）、"领域轴"（What it expresses，domains/）、"主体轴"（Who it is，defaults/ 法人主体档案）与"适配轴"（How it connects，adapters/ 领域→应用的转换层，不承载事实源）
+1. **正交分解**：分离"范畴轴"（How it runs，categories/）、"领域轴"（What it expresses，domains/）、"主体轴"（Who it is，defaults/ 法人主体档案）与"适配轴"（How it connects，adapters/ 领域→应用的转换层，不承载事实源）
 2. **单一事实源**：子模块独立演进，父仓库只追踪引用；共享服务（如 qtcloud-data）既是可部署服务也是开发依赖
 3. **知识即代码**：文档、标准、工具、示例统一版本控制
 4. **统一规范**：正交分解管结构（怎么分），统一规范管一致性（怎么统一）——领域第二大脑遵循统一结构（data/ + docs/ + apps/ + packages/ + examples/）、信息集中回流、跨领域关联可分析
@@ -158,7 +158,7 @@ AI 应在完成工作后主动提醒用户是否需要更新这些文档，而�
 |--------|------|------|
 | `domains/{name}` | 领域知识仓库，核心事实源，通常有独立的文档站 | `domains/quanttide-finance` |
 | `defaults/{name}` | 法人主体档案（公司、实训基地、联盟等） | `defaults/quanttide-tech` |
-| `assets/{name}` | 资产仓库（文档站、教程、手册、规范等） | `assets/quanttide-handbook` |
+| `assets/{name}` | 资产仓库（文档站、教程、手册、规范等） | `categories/quanttide-handbook` |
 | `adapters/{name}` | 适配仓库，领域→应用的转换层，不承载事实源 | `adapters/quanttide-feishu` |
 
 ### 元仓库（一分为三）
@@ -167,9 +167,9 @@ AI 应在完成工作后主动提醒用户是否需要更新这些文档，而�
 
 | 元仓库 | 路径 | 职能 |
 |--------|------|------|
-| quanttide-platform | `assets/quanttide-platform` | 系统发布：apps/（可部署应用）+ manifests/（发布清单） |
-| quanttide-toolkit | `assets/quanttide-toolkit` | 工具集聚合：packages/（语言无关 toolkit 包） |
-| quanttide-laboratory | `assets/quanttide-laboratory` | 实验原型聚合 |
+| quanttide-platform | `categories/quanttide-platform` | 系统发布：apps/（可部署应用）+ manifests/（发布清单） |
+| quanttide-toolkit | `categories/quanttide-toolkit` | 工具集聚合：packages/（语言无关 toolkit 包） |
+| quanttide-laboratory | `categories/quanttide-laboratory` | 实验原型聚合 |
 
 ### 领域仓库内部结构
 

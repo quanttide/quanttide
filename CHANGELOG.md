@@ -10,11 +10,14 @@
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-10-15
+
 ### 变更
 
+- 范畴轴目录更名：`assets/` → `categories/`，中文名由「资产」改为「范畴」。`.gitmodules` 十二条挂载路径与子模块段名同步；根级文档（README、CONTRIBUTING、范畴库 README）中该轴的路径与称谓一并更新；子模块内容与其指针不变
 - `adapters/quanttide-feishu` 实验室 `quanttide-feishu-lab` 收为骨架：与平台仓 `apps/qtcloud-feishu`
   （`src/cli/`）功能重复的实现删除（基础单元、串联器、执行器、测试设施与设计文档），正本在平台仓；
-  平台仓文档同步去除对实验室的同步拷贝依赖；元仓库 `assets/quanttide-laboratory` 的实验室指针同步
+  平台仓文档同步去除对实验室的同步拷贝依赖；元仓库 `categories/quanttide-laboratory` 的实验室指针同步
 
 ## [1.2.0] - 2026-10-13
 

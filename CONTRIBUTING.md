@@ -24,16 +24,16 @@ git submodule update --init --recursive
 git submodule update --remote
 
 # 更新特定子模块
-git submodule update --init --remote assets/quanttide-profile
+git submodule update --init --remote categories/quanttide-profile
 ```
 
 ### 构建命令
 
-对于 Jupyter Book 文档项目（如 assets/quanttide-handbook）：
+对于 Jupyter Book 文档项目（如 categories/quanttide-handbook）：
 
 ```bash
 # 进入子模块目录
-cd assets/quanttide-handbook
+cd categories/quanttide-handbook
 
 # 构建 HTML（单文件方式，避免 EISDIR 错误）
 jupyter-book build index.md --site
@@ -187,7 +187,7 @@ docs: 更新数据工程教程
 git submodule update --init --recursive
 
 # 进入子模块并切换到最新
-cd assets/quanttide-handbook
+cd categories/quanttide-handbook
 git checkout origin/main
 
 # 更新父仓库引用
@@ -205,10 +205,10 @@ git commit -m "Update handbook submodule to latest"
 **2. 更新子模块流程**
 ```bash
 # 方式一：在父仓库中更新（推荐）
-git submodule update --init --remote assets/quanttide-handbook
+git submodule update --init --remote categories/quanttide-handbook
 
 # 方式二：进入子模块手动更新
-cd assets/quanttide-handbook
+cd categories/quanttide-handbook
 git fetch origin
 git checkout origin/main
 cd ..
@@ -222,7 +222,7 @@ git commit -m "Update submodule"
 git submodule status
 
 # 查看特定子模块是否有新提交
-git submodule summary assets/quanttide-handbook
+git submodule summary categories/quanttide-handbook
 ```
 
 ## 维护规则

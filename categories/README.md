@@ -1,11 +1,11 @@
-# 量潮资产
+# 量潮标准范畴
 
-量潮资产库（能力轴），包含工程标准、工作档案与平台资源。每个子目录对应一个独立资产仓库（子模块）。
+量潮标准范畴库（范畴轴），包含工程标准、工作档案与平台资源。每个子目录对应一个独立范畴仓库（子模块）。
 
 ## 目录结构
 
 ```
-assets/
+categories/
 ├── quanttide-handbook/      # 工作手册
 ├── quanttide-intention/     # 意图资产
 ├── quanttide-journal/       # 工作日志
@@ -24,9 +24,9 @@ assets/
 
 | 元仓库 | 路径 | 职能 |
 |--------|------|------|
-| quanttide-platform | `assets/quanttide-platform` | 系统发布：apps/（可部署应用）+ manifests/（发布清单） |
-| quanttide-toolkit | `assets/quanttide-toolkit` | 工具集聚合：packages/（语言无关 toolkit 包） |
-| quanttide-laboratory | `assets/quanttide-laboratory` | 实验原型聚合 |
+| quanttide-platform | `categories/quanttide-platform` | 系统发布：apps/（可部署应用）+ manifests/（发布清单） |
+| quanttide-toolkit | `categories/quanttide-toolkit` | 工具集聚合：packages/（语言无关 toolkit 包） |
+| quanttide-laboratory | `categories/quanttide-laboratory` | 实验原型聚合 |
 
 ## 使用说明
 

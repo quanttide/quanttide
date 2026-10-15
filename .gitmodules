@@ -1,29 +1,29 @@
 [submodule "domains/quanttide-data"]
 	path = domains/quanttide-data
 	url = https://github.com/quanttide/quanttide-data.git
-[submodule "assets/quanttide-specification"]
-	path = assets/quanttide-specification
+[submodule "categories/quanttide-specification"]
+	path = categories/quanttide-specification
 	url = https://github.com/quanttide/quanttide-specification.git
-[submodule "assets/quanttide-profile"]
-	path = assets/quanttide-profile
+[submodule "categories/quanttide-profile"]
+	path = categories/quanttide-profile
 	url = https://github.com/quanttide/quanttide-profile.git
-[submodule "assets/quanttide-handbook"]
-	path = assets/quanttide-handbook
+[submodule "categories/quanttide-handbook"]
+	path = categories/quanttide-handbook
 	url = https://github.com/quanttide/quanttide-handbook.git
-[submodule "assets/quanttide-platform"]
-	path = assets/quanttide-platform
+[submodule "categories/quanttide-platform"]
+	path = categories/quanttide-platform
 	url = https://github.com/quanttide/quanttide-platform.git
 [submodule "defaults/quanttide-tech"]
 	path = defaults/quanttide-tech
 	url = https://github.com/quanttide/quanttide-tech.git
-[submodule "assets/quanttide-journal"]
-	path = assets/quanttide-journal
+[submodule "categories/quanttide-journal"]
+	path = categories/quanttide-journal
 	url = https://github.com/quanttide/quanttide-journal.git
 [submodule "domains/quanttide-asset"]
 	path = domains/quanttide-asset
 	url = https://github.com/quanttide/quanttide-asset.git
-[submodule "assets/quanttide-tutorial"]
-	path = assets/quanttide-tutorial
+[submodule "categories/quanttide-tutorial"]
+	path = categories/quanttide-tutorial
 	url = https://github.com/quanttide/quanttide-tutorial.git
 [submodule "domains/quanttide-think"]
 	path = domains/quanttide-think
@@ -43,8 +43,8 @@
 [submodule "domains/quanttide-code"]
 	path = domains/quanttide-code
 	url = https://github.com/quanttide/quanttide-code.git
-[submodule "assets/quanttide-roadmap"]
-	path = assets/quanttide-roadmap
+[submodule "categories/quanttide-roadmap"]
+	path = categories/quanttide-roadmap
 	url = https://github.com/quanttide/quanttide-roadmap.git
 [submodule "domains/quanttide-meta"]
 	path = domains/quanttide-meta
@@ -101,14 +101,14 @@
 [submodule "domains/quanttide-delib"]
 	path = domains/quanttide-delib
 	url = https://github.com/quanttide/quanttide-delib.git
-[submodule "assets/quanttide-intention"]
-	path = assets/quanttide-intention
+[submodule "categories/quanttide-intention"]
+	path = categories/quanttide-intention
 	url = https://github.com/quanttide/quanttide-intention.git
-[submodule "assets/quanttide-toolkit"]
-	path = assets/quanttide-toolkit
+[submodule "categories/quanttide-toolkit"]
+	path = categories/quanttide-toolkit
 	url = https://github.com/quanttide/quanttide-toolkit.git
-[submodule "assets/quanttide-laboratory"]
-	path = assets/quanttide-laboratory
+[submodule "categories/quanttide-laboratory"]
+	path = categories/quanttide-laboratory
 	url = https://github.com/quanttide/quanttide-laboratory.git
 [submodule "domains/quanttide-project"]
 	path = domains/quanttide-project
@@ -134,8 +134,8 @@
 [submodule "domains/quanttide-docs"]
 	path = domains/quanttide-docs
 	url = https://github.com/quanttide/quanttide-docs.git
-[submodule "assets/quanttide-bylaw"]
-	path = assets/quanttide-bylaw
+[submodule "categories/quanttide-bylaw"]
+	path = categories/quanttide-bylaw
 	url = https://github.com/quanttide/quanttide-bylaw.git
 [submodule "domains/quanttide-learn"]
 	path = domains/quanttide-learn
@@ -143,8 +143,8 @@
 [submodule "domains/quanttide-growth"]
 	path = domains/quanttide-growth
 	url = https://github.com/quanttide/quanttide-growth.git
-[submodule "assets/quanttide-insight"]
-	path = assets/quanttide-insight
+[submodule "categories/quanttide-insight"]
+	path = categories/quanttide-insight
 	url = https://github.com/quanttide/quanttide-insight.git
 [submodule "domains/quanttide-support"]
 	path = domains/quanttide-support
