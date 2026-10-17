@@ -10,6 +10,10 @@
 
 ## [Unreleased]
 
+### 变更
+
+- 主体目录更名：`defaults/quanttide-innovation-alliance` → `defaults/quanttide-alliance`。GitHub 仓库 `quanttide/quanttide-innovation-alliance` 同步更名为 `quanttide/quanttide-alliance`，`.gitmodules` 段名、路径、URL 与 `defaults/README.md` 主体清单一并更新；子模块内容不变
+
 ## [1.3.0] - 2026-10-15
 
 ### 变更
