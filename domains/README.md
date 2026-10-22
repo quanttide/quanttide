@@ -32,7 +32,7 @@ domains/
 ├── quanttide-innov/       # 创新管理
 ├── quanttide-infra/       # 基础设施
 ├── quanttide-knowl/       # 知识工程
-├── quanttide-language/    # 语言分析
+├── quanttide-language/    # 语用工程
 ├── quanttide-learn/       # 学习管理
 ├── quanttide-legal/       # 法务管理
 ├── quanttide-media/       # 新媒体运营
@@ -74,6 +74,7 @@ domains/
 | 元工程 | meta-engineering | `meta` | 哲学的实现：把哲学命题落成可运行的结构、规则与工具。 |
 | 智能体工程 | agent-engineering | `agent` | 侧重多智能体与人机协作。 |
 | 基础设施 | infrastructure | `infra` | 侧重 IaaS 的标准化。 |
+| DevOps 工程 | devops-engineering | `devops` | 从开发到运维的生命周期治理与发布工程化实践。 |
 | 搜索工程 | search-engineering | `search` | 索引、召回与排序的工程化实践。 |
 | 课程研发 | course-development | `course` | 课程研发全生命周期的工程化实践。 |
 | 写作管理 | narrative-engineering | `writing` | 面向内容创作者的写作流程管理。 |
@@ -84,7 +85,7 @@ domains/
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |
 | 沟通管理 | communication-management | `comm` | 组织内外部沟通的标准化管理。 |
-| 语言分析 | language-analysis | `language` | 语言的结构、意义与用法的分析与应用。 |
+| 语用工程 | pragmatic-engineering | `language` | 语言在实际使用情境中的意义与效果。 |
 | **职能与人力** |
 | 人力资源 | human-resources | `hr` | 组织架构、招聘、绩效管理。 |
 | 健康管理 | health-management | `health` | 身心健康平衡管理，面向个人、家庭与企业。 |
