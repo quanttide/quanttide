@@ -12,6 +12,7 @@
 
 ### 变更
 
+- `defaults/quanttide-academy` 配齐 `data/`（11 个）与 `docs/`（6 个）子模块，按命名契约 `quanttide-{类型}-of-training-base` 新建；`apps/` 与 `examples/` 保持原样。`data/library` 与 `data/profile` 由仓库内直接组织改为子模块，原各一份文档迁入对应新仓
 - 领域更名：`quanttide-language` 的领域名由「语言分析」（`language-analysis`）改为「语用工程」（`pragmatic-engineering`）。领域仓 README 概述重写为「语言在实际使用情境中的意义与效果」，语境仓更名为 `quanttide-context-of-pragmatic-engineering`，登记表与目录树同步；缩写与目录名仍为 `language`
 - 登记表补登 `quanttide-devops`：英文名 `devops-engineering`，缩写 `devops`，中文名仍为「DevOps 工程」（原表缺该域一行）
 - `quanttide-devops` 生命周期「开发」阶段名由 `code` 改为 `develop`，与 `quanttide-code`（软件工程）区分：手册 `stage/code.md` 更名 `stage/develop.md`，生命周期索引、站内链接、`myst.yml` 与意图仓阶段表同步。命令改名 `code` → `develop` 单独排期，已在 `qtcloud-devops` 的 `src/cli/ROADMAP.md` 立项，当前命令仍为 `code`
