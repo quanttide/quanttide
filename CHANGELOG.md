@@ -12,6 +12,7 @@
 
 ### 变更
 
+- 实训基地管理职能从联盟主体分离：`defaults/quanttide-alliance` 四个子仓（`context`、`brochure`、`journal`、`profile`）的 `qtacademy/` 全部内容按资产类型移入 `defaults/quanttide-academy` 对应仓的 `default/`，联盟侧不保留副本；联盟 README 补边界声明，两仓 CHANGELOG 同步
 - `defaults/quanttide-academy` 配齐 `data/`（11 个）与 `docs/`（6 个）子模块，按命名契约 `quanttide-{类型}-of-training-base` 新建；`apps/` 与 `examples/` 保持原样。`data/library` 与 `data/profile` 由仓库内直接组织改为子模块，原各一份文档迁入对应新仓
 - 领域更名：`quanttide-language` 的领域名由「语言分析」（`language-analysis`）改为「语用工程」（`pragmatic-engineering`）。领域仓 README 概述重写为「语言在实际使用情境中的意义与效果」，语境仓更名为 `quanttide-context-of-pragmatic-engineering`，登记表与目录树同步；缩写与目录名仍为 `language`
 - 登记表补登 `quanttide-devops`：英文名 `devops-engineering`，缩写 `devops`，中文名仍为「DevOps 工程」（原表缺该域一行）
