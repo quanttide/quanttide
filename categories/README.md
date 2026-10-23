@@ -14,7 +14,7 @@ categories/
 ├── quanttide-profile/       # 工作档案
 ├── quanttide-roadmap/       # 路线图
 ├── quanttide-specification/ # 工程规范
-├── quanttide-toolkit/       # 工具集元仓库（toolkit 包聚合）
+├── quanttide-toolkit/       # 标准库元仓库（toolkit 包聚合）
 └── quanttide-tutorial/      # 教程
 ```
 
@@ -25,7 +25,7 @@ categories/
 | 元仓库 | 路径 | 职能 |
 |--------|------|------|
 | quanttide-platform | `categories/quanttide-platform` | 系统发布：apps/（可部署应用）+ manifests/（发布清单） |
-| quanttide-toolkit | `categories/quanttide-toolkit` | 工具集聚合：packages/（语言无关 toolkit 包） |
+| quanttide-toolkit | `categories/quanttide-toolkit` | 标准库聚合：packages/（语言无关 toolkit 包） |
 | quanttide-laboratory | `categories/quanttide-laboratory` | 实验原型聚合 |
 
 ## 使用说明
