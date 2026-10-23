@@ -168,7 +168,7 @@ AI 应在完成工作后主动提醒用户是否需要更新这些文档，而�
 | 元仓库 | 路径 | 职能 |
 |--------|------|------|
 | quanttide-platform | `categories/quanttide-platform` | 系统发布：apps/（可部署应用）+ manifests/（发布清单） |
-| quanttide-toolkit | `categories/quanttide-toolkit` | 工具集聚合：packages/（语言无关 toolkit 包） |
+| quanttide-toolkit | `categories/quanttide-toolkit` | 标准库聚合：packages/（语言无关 toolkit 包） |
 | quanttide-laboratory | `categories/quanttide-laboratory` | 实验原型聚合 |
 
 ### 领域仓库内部结构
@@ -178,7 +178,7 @@ AI 应在完成工作后主动提醒用户是否需要更新这些文档，而�
 ```
 domains/{name}/
 ├── apps/{app}/             # 面向用户的可部署应用
-├── packages/toolkit        # 领域共享库/工具集（独立仓库 {name}-toolkit）
+├── packages/toolkit        # 领域共享库/标准库（独立仓库 {name}-toolkit）
 ├── examples/{name}-lab     # 实验室——实验性/原型项目（独立仓库 quanttide-{name}-lab）
 │   └── apps/{app}/         # 实验室内的应用原型
 └── docs/                   # 领域文档（通常也是子模块）

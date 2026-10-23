@@ -43,7 +43,7 @@
 - 新增领域第二大脑 `domains/quanttide-legal`（法务管理，英文全称 `legal-management`，缩写 `legal`）：领域仓库与语境子模块 `data/context`（`quanttide-context-of-legal-management`）；journal、archive、brochure 等其余数据资产暂未创建
 
 - `adapters/quanttide-feishu` 挂载两个新子模块：`docs/gallery` 案例集（`quanttide-gallery-of-feishu-platform`）与 `data/insight` 洞察（`quanttide-insight-of-feishu-platform`），均空仓起步
-- `adapters/quanttide-feishu` 工具集新增 `packages/python`：Python 包骨架（包名 `quanttide-feishu`，`uv run pytest` 两测通过）
+- `adapters/quanttide-feishu` 标准库新增 `packages/python`：Python 包骨架（包名 `quanttide-feishu`，`uv run pytest` 两测通过）
 - `adapters/quanttide-feishu` 应用新增 `src/cli`：Rust CLI 骨架（命令 `qtcloud-feishu`，fmt/clippy -D warnings 双绿）
 
 ### 移除
@@ -74,7 +74,7 @@
 ### 新增
 
 - 适配轴新增 `adapters/quanttide-pi`（量潮 Pi 智能体）：适配仓库，含语境子模块 `data/context`（`quanttide-context-of-pi-agent`）
-- 新增工具箱 `quanttide-pi-toolkit`（量潮 Pi 智能体工具箱）：登记为 `adapters/quanttide-pi/packages/quanttide-pi-toolkit`（适配轴）与 `assets/quanttide-toolkit/adapters/quanttide-pi-toolkit`（工具集元仓库新增 `adapters/` 分区）
+- 新增标准库 `quanttide-pi-toolkit`（量潮 Pi 智能体标准库）：登记为 `adapters/quanttide-pi/packages/quanttide-pi-toolkit`（适配轴）与 `assets/quanttide-toolkit/adapters/quanttide-pi-toolkit`（标准库元仓库新增 `adapters/` 分区）
 - 初始化 `quanttide-pi-toolkit` 的 Rust 库 `packages/rust`（`quanttide-pi` 0.1.0）：领域常量、版本导出与集成测试
 - `quanttide-pi-toolkit` 新增 Rust 发布流水线 `.github/workflows/release-rust.yml`（`rust/*` 标签触发：质量门 → crates.io → GitHub Release）
 - `adapters/quanttide-pi` 新增案例集子模块 `docs/gallery`（`quanttide-gallery-of-pi-agent`）：案例的公开展示层，脱敏后入库
@@ -202,7 +202,7 @@
 - CONTRIBUTING：构建与子模块示例路径改为现有仓库（quanttide-handbook）
 - ROADMAP：推进至 0.5.0 已达成，新增 0.6.x 目标
 - AGENTS：三轴架构、default 路径约定更新为法人主体档案
-- 移除 `assets/quanttide-index-toolkit`、`assets/quanttide-meta-toolkit` 子模块，收纳至 `assets/quanttide-toolkit/packages/`（工具集元仓库）
+- 移除 `assets/quanttide-index-toolkit`、`assets/quanttide-meta-toolkit` 子模块，收纳至 `assets/quanttide-toolkit/packages/`（标准库元仓库）
 - 网络安全领域更名「安全工程」：中文名定为安全工程，英文命名定为 `security-engineering`（实验室仓库同步更名：quanttide-laboratory-of-software-security → quanttide-laboratory-of-security-engineering）
 - README/ROADMAP/AGENTS：新增「统一规范」元原则（统一结构/信息集中/关联分析），0.6.x 目标补充关联声明与统一云模式
 
