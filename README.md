@@ -28,7 +28,7 @@
 平台资源按"一分为三"组织，各自独立演进：
 
 - **quanttide-platform**——系统发布。收敛为 apps（可部署应用）+ manifests（发布清单）。
-- **quanttide-toolkit**——工具集元仓库。聚合语言无关的 toolkit 包（packages/）。
+- **quanttide-toolkit**——标准库元仓库。聚合语言无关的 toolkit 包（packages/）。
 - **quanttide-laboratory**——实验室元仓库。聚合实验性/原型项目。
 
 ## 目录结构
@@ -51,7 +51,7 @@ quanttide/
 │   ├── quanttide-profile/       # 工作档案
 │   ├── quanttide-roadmap/       # 路线图
 │   ├── quanttide-specification/ # 工程规范
-│   ├── quanttide-toolkit/       # 工具集元仓库（toolkit 包聚合）
+│   ├── quanttide-toolkit/       # 标准库元仓库（toolkit 包聚合）
 │   └── quanttide-tutorial/      # 教程
 ├── default/                     # 法人主体档案
 │   ├── quanttide-academy/       # 实训基地
