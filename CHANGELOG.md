@@ -10,6 +10,8 @@
 
 ## [Unreleased]
 
+- defaults/ 四件套配全：README 补「主体分离原则」（归属三问与已确认口径），新增 AGENTS.md（归属判断与迁移纪律）、CONTRIBUTING.md（接入与维护约定）、STATUS.md（主体形态快照）
+
 ### 变更
 
 - 实训基地管理职能从联盟主体分离：`defaults/quanttide-alliance` 四个子仓（`context`、`brochure`、`journal`、`profile`）的 `qtacademy/` 全部内容按资产类型移入 `defaults/quanttide-academy` 对应仓的 `default/`，联盟侧不保留副本；联盟 README 补边界声明，两仓 CHANGELOG 同步
