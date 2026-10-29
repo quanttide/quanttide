@@ -10,7 +10,8 @@
 
 ## [Unreleased]
 
-- defaults/ 四件套配全：README 补「主体分离原则」（归属三问与已确认口径），新增 AGENTS.md（归属判断与迁移纪律）、CONTRIBUTING.md（接入与维护约定）、STATUS.md（主体形态快照）
+- defaults/ 四件套配全：README 补「主体分离原则」（归属判定与已确认口径），新增 AGENTS.md（归属判断与迁移纪律）、CONTRIBUTING.md（接入与维护约定）、STATUS.md（主体形态快照）
+- defaults/ 归属判定补边界：服务看付费属性（免费/付费为主要边界，切分线由用户画）；口径不外推，已裁决口径只覆盖已裁决对象
 
 ### 变更
 
