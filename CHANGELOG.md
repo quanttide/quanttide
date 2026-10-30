@@ -12,6 +12,7 @@
 
 ### 新增
 
+- 招聘考核课题立项评审章程归位联盟：《量潮招聘考核课题立项评审章程》自 `domains/quanttide-human` 的章程仓（`recuritment/proposal.md`）迁入 `defaults/quanttide-alliance` 章程仓 `qtrecurit/proposal.md`，与招聘审计章程同区；两主体指针同步
 - CONTRIBUTING 新增「defaults 分拆 domains」一节：领域内容分拆的一般方法（盘点归属、先写后删、移交改写、收口复核），以 qtgame-war 分拆为范例
 - qtgame-war 内容分拆至 `domains/quanttide-war`：quanttide-founder 五资产仓的 `qtgame-war/` 分区迁出为 `quanttide-{类型}-of-war-gaming` 五个新仓（roadmap、profile、insight、brochure、 intention），`docs/tutorial` 的 `war/` 三部曲迁入 `quanttide-tutorial-of-war-gaming` 的 `intro/`；quanttide-war 注册 `data/` 五个子模块，README 改为数据/文档/应用三表；领域清单表补登兵旗推演（war-gaming，`war`）
 - 新增领域仓库 `domains/quanttide-war`（量潮兵旗推演）：初始化领域仓，注册教程子模块 `docs/tutorial` → `quanttide-tutorial-of-war-gaming`；领域数 46 → 47
