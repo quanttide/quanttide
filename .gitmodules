@@ -198,3 +198,6 @@
 [submodule "defaults/quanttide-founder"]
 	path = defaults/quanttide-founder
 	url = https://github.com/quanttide/quanttide-founder.git
+[submodule "domains/quanttide-war"]
+	path = domains/quanttide-war
+	url = https://github.com/quanttide/quanttide-war.git
