@@ -50,6 +50,7 @@ domains/
 ├── quanttide-strategy/    # 战略管理
 ├── quanttide-think/       # 认知工程
 ├── quanttide-work/        # 知识工作
+├── quanttide-war/         # 兵旗推演
 └── quanttide-write/       # 写作管理
 ```
 
