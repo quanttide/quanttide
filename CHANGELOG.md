@@ -24,6 +24,7 @@
 
 ### 变更
 
+- qtrecurit 端定位裁决落地：Studio 重定位为企业/招聘者工作台（第一版只服务量潮，dogfooding）并移除候选人透明窗口整套实现；Lite 归求职者端（待建）；三篇商业文档与产品路线图阶段二至四标注暂缓（暂时不考虑商业模式）；qtcloud-human 与 qtrecurit 解耦，人事云侧重绩效
 - 联盟侧文档对齐《量潮招聘考核课题立项评审章程》：`data/roadmap` 选题制考核条目挂章程指针（双轴独立评审），`data/profile`《人才孵化器》与产品路线图清除章程禁止措辞（降本增效、AI 辅助、无指标的「优化」）改为可核算/可检查表述，`apps/qtrecurit` CLI 补章程边界注记（批量与统计属采集管道工程目标，不构成课题立项方向依据）
 
 - 实训基地管理职能从联盟主体分离：`defaults/quanttide-alliance` 四个子仓（`context`、`brochure`、`journal`、`profile`）的 `qtacademy/` 全部内容按资产类型移入 `defaults/quanttide-academy` 对应仓的 `default/`，联盟侧不保留副本；联盟 README 补边界声明，两仓 CHANGELOG 同步
