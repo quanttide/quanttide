@@ -24,6 +24,8 @@
 
 ### 变更
 
+- 联盟侧文档对齐《量潮招聘考核课题立项评审章程》：`data/roadmap` 选题制考核条目挂章程指针（双轴独立评审），`data/profile`《人才孵化器》与产品路线图清除章程禁止措辞（降本增效、AI 辅助、无指标的「优化」）改为可核算/可检查表述，`apps/qtrecurit` CLI 补章程边界注记（批量与统计属采集管道工程目标，不构成课题立项方向依据）
+
 - 实训基地管理职能从联盟主体分离：`defaults/quanttide-alliance` 四个子仓（`context`、`brochure`、`journal`、`profile`）的 `qtacademy/` 全部内容按资产类型移入 `defaults/quanttide-academy` 对应仓的 `default/`，联盟侧不保留副本；联盟 README 补边界声明，两仓 CHANGELOG 同步
 - `defaults/quanttide-academy` 配齐 `data/`（11 个）与 `docs/`（6 个）子模块，按命名契约 `quanttide-{类型}-of-training-base` 新建；`apps/` 与 `examples/` 保持原样。`data/library` 与 `data/profile` 由仓库内直接组织改为子模块，原各一份文档迁入对应新仓
 - 领域更名：`quanttide-language` 的领域名由「语言分析」（`language-analysis`）改为「语用工程」（`pragmatic-engineering`）。领域仓 README 概述重写为「语言在实际使用情境中的意义与效果」，语境仓更名为 `quanttide-context-of-pragmatic-engineering`，登记表与目录树同步；缩写与目录名仍为 `language`
