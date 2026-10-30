@@ -19,6 +19,7 @@
 - 子模块独立维护，父仓库只追踪引用
 - **禁止**：直接在父仓库修改子模块文件
 - **必须**：在子模块仓库独立提交推送，父仓库只更新引用
+- **新增子模块仓库**：初始化规则（样本、流程、禁止）以 [CONTRIBUTING.md](CONTRIBUTING.md) 的「新仓初始化」节为准，本文件不重复
 
 ### 关键文档索引
 
@@ -56,6 +57,7 @@
 | **修改文档/添加内容** | [CONTRIBUTING.md](CONTRIBUTING.md) | 文件命名规范、Markdown风格、目录结构规范 |
 | **提交代码** | [CONTRIBUTING.md](CONTRIBUTING.md) | 提交信息格式、提交流程 |
 | **更新子模块** | [CONTRIBUTING.md](CONTRIBUTING.md) | 子模块更新流程、最佳实践 |
+| **新增/初始化仓库** | [CONTRIBUTING.md](CONTRIBUTING.md) | 新仓初始化的样本、流程与禁止事项 |
 | **运行测试** | [README.md](README.md) | 构建命令、测试命令 |
 | **发布版本** | [CHANGELOG.md](CHANGELOG.md) | 版本记录格式、最新版本 |
 | **了解变更历史** | [CHANGELOG.md](CHANGELOG.md) | 历史变更记录 |
