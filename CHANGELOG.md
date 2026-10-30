@@ -25,6 +25,7 @@
 
 ### 变更
 
+- 招聘手册两篇归档联盟：问卷调研手册与招聘手册（均描述已废弃流程）零改动归档至联盟归档站 `handbook/qtrecurit/`，human 侧删除；human 侧招聘痕迹清零
 - 招聘解耦收尾：招聘评估操作手册与人事云 AI 初筛三件套归档至联盟归档仓（零改动）；`domains/quanttide-human` 摘除 `apps/qtrecurit` 挂载，招聘正本统一在联盟
 - 招聘内容迁入联盟收尾：《报名方式与简历、求职信要求》《招聘即人才供应链》平移至联盟档案/洞察仓（零改动）；招聘意图新建联盟意图仓（quanttide-intention-of-innovation-alliance，`data/intention`）迁入；大连医科大学课题组招聘启事用户判过时，直接删除不留归档
 - 考核方式档案迁入联盟：《考核方式》（「微型创业」式考核正本）自 quanttide-human 档案仓平移至联盟 `data/profile/qtrecurit/assessment.md`，问卷旧口径同步更新为「投递后直接进群」；源侧索引与两链指针同步
