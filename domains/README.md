@@ -82,6 +82,7 @@ domains/
 | 文档工程 | document-engineering | `docs` | 文档的写作、组织、发布与访问工程化实践。 |
 | 安全工程 | security-engineering | `sec` | 网络、应用与数据安全的防护与运营工程化实践。 |
 | 交互设计 | interaction-design | `ixd` | 产品界面布局与交互流程的设计工程化实践。 |
+| 兵旗推演 | war-gaming | `war` | 兵棋推演的想定、规则、裁决与复盘。 |
 | **沟通与管理** |
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |
