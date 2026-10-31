@@ -6,7 +6,7 @@
 
 - [ ] 创建 `quanttide-wechat` 第二大脑（来源：`data/context/work/TODO.md`）
 - [ ] 创建 `quanttide-create` 创意工作第二大脑，全名 creative-work（来源：`data/context/work/TODO.md`）
-- [ ] 创建 `quanttide-store` 第二大脑（store management 门店管理）
+- [x] 创建 `quanttide-store` 第二大脑（store management 门店管理）
 - [ ] 创建 `quanttide-retail` 第二大脑（retail management 零售管理）
 - [ ] 创建 `quanttide-war` 第二大脑（war gaming 兵棋推演）
 - [ ] 创建 `quanttide-drama` 第二大脑（drama production 戏剧制作）

@@ -47,6 +47,7 @@ domains/
 ├── quanttide-search/      # 搜索工程
 ├── quanttide-secret/      # 密码管理
 ├── quanttide-security/    # 安全工程
+├── quanttide-store/       # 门店管理
 ├── quanttide-strategy/    # 战略管理
 ├── quanttide-think/       # 认知工程
 ├── quanttide-work/        # 知识工作
@@ -111,6 +112,7 @@ domains/
 | 新媒体运营 | social-media | `media` | 社交媒体矩阵运营。 |
 | 社群运营 | social-group | `group` | 私域社群组织与运营。 |
 | 品牌管理 | brand-management | `brand` | 品牌定位与视觉识别。 |
+| 门店管理 | store-management | `store` | 门店的选址、开办、运营与顾客体验。 |
 | 公共关系 | public-relations | `pr` | 媒体关系与危机应对。 |
 
 ## 子模块使用
