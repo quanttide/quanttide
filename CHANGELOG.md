@@ -12,6 +12,7 @@
 
 ### 新增
 
+- 新媒体运营领域新增三资产仓并注册子模块：`docs/gallery`（quanttide-gallery-of-social-media 案例集）、`docs/essay`（quanttide-essay-of-social-media 随笔）、`docs/bylaw`（quanttide-bylaw-of-social-media 章程），骨架照同类样本仓初始化；media 指针更新
 - 新增领域仓库 `domains/quanttide-store`（量潮门店管理）：初始化领域仓，注册应用 `apps/qtstore`（量潮门店中心）；`qtstore` 的 `examples/site` 迁入四页门店中心 HTML（自 quanttide-founder context 仓 `default/laboratory/`，先写后删）；领域数 47 → 48，领域清单表补登门店管理（store-management，`store`），TODO 勾选
 - 云计算领域资产随领域规范改名并入 `domains/quanttide-infra`：`quanttide-{profile,tutorial,handbook,specification}-of-cloud-computing` → `*-of-infrastructure`，`quanttide-usercase-of-cloud-computing` → `quanttide-gallery-of-infrastructure`，`quanttide-industry-report-of-cloud-computing` → `quanttide-essay-of-infrastructure`；六仓入库 infra 领域仓（data/profile + docs/tutorial、handbook、specification、gallery、essay），各仓标题与 GitHub 描述同步，教程/档案/标准三个聚合仓的子模块引用同步改名
 - 招聘考核课题立项评审章程归位联盟：《量潮招聘考核课题立项评审章程》自 `domains/quanttide-human` 的章程仓（`recuritment/proposal.md`）迁入 `defaults/quanttide-alliance` 章程仓 `qtrecurit/proposal.md`，与招聘审计章程同区；两主体指针同步
