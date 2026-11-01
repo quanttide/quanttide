@@ -32,6 +32,7 @@ domains/
 ├── quanttide-human/       # 人力资源
 ├── quanttide-innov/       # 创新管理
 ├── quanttide-infra/       # 基础设施
+├── quanttide-investor/    # 投资者关系
 ├── quanttide-knowl/       # 知识工程
 ├── quanttide-language/    # 语用工程
 ├── quanttide-learn/       # 学习管理
@@ -110,6 +111,7 @@ domains/
 | 信用管理 | credit-management | `credit` | 主体与交易的信用评价、信用记录与信用治理。 |
 | 客户关系 | customer-relations | `crm` | 客户信息与销售过程管理。 |
 | 咨询管理 | consulting-management | `consult` | 咨询关系的接洽、记录与维护——对标心理咨询，核心资产是关系本身，会话只是关系里的事件。 |
+| 投资者关系 | investor-relations | `ir` | 面向投资者与资本方的沟通：融资叙事、信息披露与长期价值对齐。 |
 | **品牌与运营** |
 | 新媒体运营 | social-media | `media` | 社交媒体矩阵运营。 |
 | 社群运营 | social-group | `group` | 私域社群组织与运营。 |
