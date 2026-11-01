@@ -207,3 +207,6 @@
 [submodule "domains/quanttide-consult"]
 	path = domains/quanttide-consult
 	url = https://github.com/quanttide/quanttide-consult.git
+[submodule "domains/quanttide-investor"]
+	path = domains/quanttide-investor
+	url = https://github.com/quanttide/quanttide-investor.git
