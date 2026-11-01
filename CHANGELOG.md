@@ -28,6 +28,7 @@
 
 ### 变更
 
+- `apps/qtrecurit` 发布 site/v0.3.0：招聘官网增加实训基地主体（教学实习），岗位档案按 2026-11 政策重排（公司 5 岗高级岗位、基地 14 岗细分全量；兼职删除改走渠道合作）；Deploy Site 工作流自动部署
 - 招聘门户落地路线（portal.md）删除：多租户三期随商业模式暂缓、dmu 已下线；`docs/specification/recruitment` 用户裁决保留 human 侧
 - 招聘手册两篇归档联盟：问卷调研手册与招聘手册（均描述已废弃流程）零改动归档至联盟归档站 `handbook/qtrecurit/`，human 侧删除；human 侧招聘痕迹清零
 - 招聘解耦收尾：招聘评估操作手册与人事云 AI 初筛三件套归档至联盟归档仓（零改动）；`domains/quanttide-human` 摘除 `apps/qtrecurit` 挂载，招聘正本统一在联盟
