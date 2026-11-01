@@ -13,6 +13,7 @@ domains/
 ├── quanttide-business/    # 商务拓展
 ├── quanttide-code/        # 软件工程
 ├── quanttide-connect/     # 沟通管理
+├── quanttide-consult/     # 咨询管理
 ├── quanttide-course/      # 课程研发
 ├── quanttide-credit/      # 信用管理
 ├── quanttide-crowd/       # 众包管理
@@ -108,6 +109,7 @@ domains/
 | 众包管理 | crowd-sourcing | `crowd` | 众包市场的发单、接单、标准交易与信用沉淀。 |
 | 信用管理 | credit-management | `credit` | 主体与交易的信用评价、信用记录与信用治理。 |
 | 客户关系 | customer-relations | `crm` | 客户信息与销售过程管理。 |
+| 咨询管理 | consulting-management | `consult` | 咨询关系的接洽、记录与维护——对标心理咨询，核心资产是关系本身，会话只是关系里的事件。 |
 | **品牌与运营** |
 | 新媒体运营 | social-media | `media` | 社交媒体矩阵运营。 |
 | 社群运营 | social-group | `group` | 私域社群组织与运营。 |
