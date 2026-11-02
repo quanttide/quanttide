@@ -12,6 +12,7 @@
 
 ### 新增
 
+- `domains/quanttide-investor` 注册教程子模块 `docs/tutorial` → quanttide-tutorial-of-investor-relations，首篇《怎么根据问题判断投资人的水平与偏好》（判读投资人问题：当场记打在哪、隔天回看往哪钻）；教程聚合仓新增 `intro/investor-relations`（通识层 4 → 5，教程 74 → 75）
 - `domains/quanttide-investor` 冷启动入口：注册语境子模块 `data/context`（quanttide-context-of-investor-relations，驱动层），照 relation/legal 惯例；其余资产按需创建不预建
 - 新增领域仓库 `domains/quanttide-investor`（量潮投资者关系，investor-relations，`ir`）：初始化领域仓；领域清单表「业务与客户」组补登（仓名用完整单词 investor，不用缩写）；领域数 49 → 50
 - `defaults/quanttide-alliance` 新增子模块 `apps/qtcrowd`（quanttide/qtcrowd，量潮众包平台），与 qtrecurit 同属联盟培养体系
