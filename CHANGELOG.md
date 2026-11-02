@@ -12,7 +12,8 @@
 
 ### 新增
 
-- 新增领域仓库 `domains/quanttide-investor`（量潮投资者关系，investor-relations，`ir`）：初始化领域仓，数据与文档资产暂未创建；领域清单表「业务与客户」组补登（仓名用完整单词 investor，不用缩写）；领域数 49 → 50
+- `domains/quanttide-investor` 冷启动入口：注册语境子模块 `data/context`（quanttide-context-of-investor-relations，驱动层），照 relation/legal 惯例；其余资产按需创建不预建
+- 新增领域仓库 `domains/quanttide-investor`（量潮投资者关系，investor-relations，`ir`）：初始化领域仓；领域清单表「业务与客户」组补登（仓名用完整单词 investor，不用缩写）；领域数 49 → 50
 - `defaults/quanttide-alliance` 新增子模块 `apps/qtcrowd`（quanttide/qtcrowd，量潮众包平台），与 qtrecurit 同属联盟培养体系
 - 新增领域仓库 `domains/quanttide-consult`（量潮咨询管理）：初始化领域仓，注册档案仓 `data/profile`（quanttide-profile-of-consulting-management，关系档案）；领域数 48 → 49，领域清单表补登咨询管理（consulting-management，`consult`）
 - 新媒体运营领域新增三资产仓并注册子模块：`docs/gallery`（quanttide-gallery-of-social-media 案例集）、`docs/essay`（quanttide-essay-of-social-media 随笔）、`docs/bylaw`（quanttide-bylaw-of-social-media 章程），骨架照同类样本仓初始化；media 指针更新
