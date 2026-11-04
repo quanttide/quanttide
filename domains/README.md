@@ -118,6 +118,7 @@ domains/
 | 品牌管理 | brand-management | `brand` | 品牌定位与视觉识别。 |
 | 门店管理 | store-management | `store` | 门店的选址、开办、运营与顾客体验。 |
 | 公共关系 | public-relations | `pr` | 媒体关系与危机应对。 |
+| 营销管理 | market-management | `market` | 管理内容、活动、渠道等。 |
 
 ## 子模块使用
 

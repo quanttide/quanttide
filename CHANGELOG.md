@@ -12,6 +12,7 @@
 
 ### 新增
 
+- 新建领域仓库 `domains/quanttide-market`（quanttide-market，营销管理）：注册 `data/context`（quanttide-context-of-market-management，冷启动入口）与 `docs/tutorial`（quanttide-tutorial-of-market-management，教程聚合仓已有仓双挂）；领域清单归「品牌与运营」组，领域数 50 → 51
 - `domains/quanttide-product` 补三子模块：`data/intention`（产品研发意图）、`data/roadmap`（产品研发路线图）、`docs/essay`（产品研发札记），三仓骨架初始化后注册
 - `domains/quanttide-investor` 注册教程子模块 `docs/tutorial` → quanttide-tutorial-of-investor-relations，首篇《怎么根据问题判断投资人的水平与偏好》（判读投资人问题：当场记打在哪、隔天回看往哪钻）；教程聚合仓新增 `intro/investor-relations`（通识层 4 → 5，教程 74 → 75）
 - `domains/quanttide-investor` 冷启动入口：注册语境子模块 `data/context`（quanttide-context-of-investor-relations，驱动层），照 relation/legal 惯例；其余资产按需创建不预建
