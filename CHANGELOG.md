@@ -12,6 +12,7 @@
 
 ### 新增
 
+- `domains/quanttide-crowd` 新增子模块 `apps/qtclass`（quanttide/qtclass，量潮课堂）：任务书归位课堂侧
 - 新建领域仓库 `domains/quanttide-market`（quanttide-market，营销管理）：注册 `data/context`（quanttide-context-of-market-management，冷启动入口）与 `docs/tutorial`（quanttide-tutorial-of-market-management，教程聚合仓已有仓双挂）；领域清单归「品牌与运营」组，领域数 50 → 51
 - `domains/quanttide-market` 补齐全套 20 类标准资产子模块（照量潮第二大脑 20 类定义）：`apps/qtcloud-market`、`packages/quanttide-market-toolkit`、`examples/quanttide-market-lab`、`data/` 新增十个、`docs/` 新增五个
 - market 资产注册进范畴聚合仓：journal、roadmap、intention、insight、bylaw、specification、profile、handbook 八仓挂 `domains/market`（intention 为 `assets/market`），toolkit、laboratory 挂仓名路径，platform 挂 `apps/qtcloud-market`（教程聚合仓已有）
@@ -37,6 +38,7 @@
 
 ### 变更
 
+- qtcrowd 六篇任务书全部下线：正文迁移至 qtclass lite（`src/lite/data/tasks`，任务书 12 → 18 篇），quanttide-crowd `data/profile` 档案删除、站点任务清单清空（0 任务）
 - `apps/qtrecurit` 发布 site/v0.3.0：招聘官网增加实训基地主体（教学实习），岗位档案按 2026-11 政策重排（公司 5 岗高级岗位、基地 14 岗细分全量；兼职删除改走渠道合作）；Deploy Site 工作流自动部署
 - 招聘门户落地路线（portal.md）删除：多租户三期随商业模式暂缓、dmu 已下线；`docs/specification/recruitment` 用户裁决保留 human 侧
 - 招聘手册两篇归档联盟：问卷调研手册与招聘手册（均描述已废弃流程）零改动归档至联盟归档站 `handbook/qtrecurit/`，human 侧删除；human 侧招聘痕迹清零
