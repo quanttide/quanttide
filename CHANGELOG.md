@@ -38,6 +38,7 @@
 
 ### 变更
 
+- `apps/qtclass` 发布 lite/v0.1.4：任务书 12 → 19 篇（qtcrowd 六篇 + academy study 迁入，正文与档案字节一致），两把尺 tags 19/19 全量标注，Deploy Lite 已部署 OSS/CDN
 - qtcrowd 任务书下线站点、集中入档并上线 qtclass lite：站点任务清单清空（0 任务，站点与 `data/profile` 解耦），`data/profile` 为事实源（六篇保留，集中 learn 十篇、academy 三篇），lite 任务书 12 → 19 篇
 - `apps/qtrecurit` 发布 site/v0.3.0：招聘官网增加实训基地主体（教学实习），岗位档案按 2026-11 政策重排（公司 5 岗高级岗位、基地 14 岗细分全量；兼职删除改走渠道合作）；Deploy Site 工作流自动部署
 - 招聘门户落地路线（portal.md）删除：多租户三期随商业模式暂缓、dmu 已下线；`docs/specification/recruitment` 用户裁决保留 human 侧
