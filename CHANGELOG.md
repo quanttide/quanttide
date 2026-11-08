@@ -56,6 +56,10 @@
 - `quanttide-devops` 生命周期「开发」阶段名由 `code` 改为 `develop`，与 `quanttide-code`（软件工程）区分：手册 `stage/code.md` 更名 `stage/develop.md`，生命周期索引、站内链接、`myst.yml` 与意图仓阶段表同步。命令改名 `code` → `develop` 单独排期，已在 `qtcloud-devops` 的 `src/cli/ROADMAP.md` 立项，当前命令仍为 `code`
 - 主体目录更名：`defaults/quanttide-innovation-alliance` → `defaults/quanttide-alliance`。GitHub 仓库 `quanttide/quanttide-innovation-alliance` 同步更名为 `quanttide/quanttide-alliance`，`.gitmodules` 段名、路径、URL 与 `defaults/README.md` 主体清单一并更新；子模块内容不变
 
+### 移除
+
+- `domains/quanttide-crowd` 移除子模块 `apps/qtcrowd`（量潮众包平台网站仓）：站点任务书下线、与 `data/profile` 解耦后不再挂载；qtcrowd 仓保留（另挂 defaults/quanttide-alliance、categories/quanttide-platform）
+
 ## [1.3.0] - 2026-10-15
 
 ### 变更
