@@ -12,6 +12,8 @@
 
 ### 新增
 
+- `domains/quanttide-business` 新增子模块 `examples/quanttide-business-lab`（quanttide-business-lab，商务拓展实验室）：商务云示例原型三页（p07-quotation-pricing、p10-quotation-tutorial、p14-customer-tier）自 `apps/qtcloud-business/examples/` 平移，源侧不留副本；实验室元仓 `categories/quanttide-laboratory` 双登记（`domains/quanttide-business-lab` + 实验室清单表），实验室 44 → 45
+
 - `domains/quanttide-business` 新增子模块 `docs/bylaw`（quanttide-bylaw-of-business-development，商务拓展章程）：商务章程三篇（quotation、negotiation、payment-engineering）自 quanttide-bylaw-of-business-entity 的 `business/` 平移至 `intro/`；主体仓 bylaw 指针、导航与目录树同步
 
 - `domains/quanttide-business` 新增子模块 `docs/handbook`（quanttide-handbook-of-business-development，商务拓展手册）：商务工作手册五篇（index、clarify、quotation、contract、negotiation）自 quanttide-handbook-of-business-entity 的 `qtdata/business/` 平移至 `intro/`，移除章程对照信息；主体仓 handbook 指针与导航同步
