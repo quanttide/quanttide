@@ -12,6 +12,8 @@
 
 ### 新增
 
+- `domains/quanttide-business` 新增子模块 `docs/essay`（quanttide-essay-of-business-development，商务拓展札记）：首篇工作论文提案《建立对客户的同理心》（商务谈判方法论，`negotitaion/customer-empathy.md`），自 `data/context/methodology/customer-perspective.md`《客户视角的关联性重构》重组迁入，源侧不留副本，context 指针同步
+
 - `domains/quanttide-business` 新增子模块 `docs/gallery`（quanttide-gallery-of-business-development，商务拓展案例集）：业务线档案 `data/profile/quanttide-tech/`（qtclass、qtcloud、qtdata 共五篇）自 profile 仓迁入，源侧不留副本，profile 指针同步
 - `domains/quanttide-crowd` 新增子模块 `apps/qtclass`（quanttide/qtclass，量潮课堂）：任务书归位课堂侧
 - 新建领域仓库 `domains/quanttide-market`（quanttide-market，营销管理）：注册 `data/context`（quanttide-context-of-market-management，冷启动入口）与 `docs/tutorial`（quanttide-tutorial-of-market-management，教程聚合仓已有仓双挂）；领域清单归「品牌与运营」组，领域数 50 → 51
