@@ -12,6 +12,7 @@
 
 ### 新增
 
+- `domains/quanttide-business` 新增子模块 `docs/gallery`（quanttide-gallery-of-business-development，商务拓展案例集）：业务线档案 `data/profile/quanttide-tech/`（qtclass、qtcloud、qtdata 共五篇）自 profile 仓迁入，源侧不留副本，profile 指针同步
 - `domains/quanttide-crowd` 新增子模块 `apps/qtclass`（quanttide/qtclass，量潮课堂）：任务书归位课堂侧
 - 新建领域仓库 `domains/quanttide-market`（quanttide-market，营销管理）：注册 `data/context`（quanttide-context-of-market-management，冷启动入口）与 `docs/tutorial`（quanttide-tutorial-of-market-management，教程聚合仓已有仓双挂）；领域清单归「品牌与运营」组，领域数 50 → 51
 - `domains/quanttide-market` 补齐全套 20 类标准资产子模块（照量潮第二大脑 20 类定义）：`apps/qtcloud-market`、`packages/quanttide-market-toolkit`、`examples/quanttide-market-lab`、`data/` 新增十个、`docs/` 新增五个
