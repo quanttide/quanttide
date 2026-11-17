@@ -9,6 +9,7 @@ domains/
 ├── quanttide-agent/       # 智能体工程
 ├── quanttide-algorithm/   # 算法工程
 ├── quanttide-asset/       # 资产管理
+├── quanttide-audit/       # 审计管理
 ├── quanttide-auth/        # 身份认证
 ├── quanttide-business/    # 商务拓展
 ├── quanttide-code/        # 软件工程
@@ -38,6 +39,7 @@ domains/
 ├── quanttide-learn/       # 学习管理
 ├── quanttide-legal/       # 法务管理
 ├── quanttide-media/       # 新媒体运营
+├── quanttide-market/      # 营销管理
 ├── quanttide-meta/        # 元工程
 ├── quanttide-org/         # 组织管理
 ├── quanttide-pay/         # 支付工程
@@ -95,7 +97,8 @@ domains/
 | 人力资源 | human-resources | `hr` | 组织架构、招聘、绩效管理。 |
 | 健康管理 | health-management | `health` | 身心健康平衡管理，面向个人、家庭与企业。 |
 | 财务管理 | finance-management | `finance` | 预算、核算、税务管理。 |
-| 法务管理 | legal-management | `legal` | 合同、合规与风险控制。 |
+| 法务管理 | legal-management | `legal` | 合同、合规与风险控制。
+| 审计管理 | audit-management | `audit` | 审计计划、执行、报告与整改的标准化管理。 |
 | 项目管理 | project-management | `project` | 项目全周期管理。 |
 | 学习管理 | learning-management | `learn` | 学习路径、进度与效果的标准化管理。 |
 | 增长管理 | growth-management | `growth` | 增长策略、增长实验与增长效果的标准化管理。 |

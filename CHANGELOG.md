@@ -12,6 +12,7 @@
 
 ### 新增
 
+- 新建领域 `domains/quanttide-audit`（quanttide-audit，审计管理）并注册：域仓挂载既有三仓——`docs/bylaw`（quanttide-bylaw-of-audit-management）、`packages/quanttide-audit-toolkit`（量潮审计工具箱）、`apps/qtcloud-audit`（量潮审计云）；domains/README 领域清单「职能与人力」组加行、目录树补 audit 并补回 market 漏行，根 README 领域数 51 → 52
 - `domains/quanttide-business` 新增子模块 `examples/quanttide-business-lab`（quanttide-business-lab，商务拓展实验室）：商务云示例原型三页（p07-quotation-pricing、p10-quotation-tutorial、p14-customer-tier）自 `apps/qtcloud-business/examples/` 平移，源侧不留副本；实验室元仓 `categories/quanttide-laboratory` 双登记（`domains/quanttide-business-lab` + 实验室清单表），实验室 44 → 45
 
 - `domains/quanttide-business` 新增子模块 `docs/bylaw`（quanttide-bylaw-of-business-development，商务拓展章程）：商务章程三篇（quotation、negotiation、payment-engineering）自 quanttide-bylaw-of-business-entity 的 `business/` 平移至 `intro/`；主体仓 bylaw 指针、导航与目录树同步
