@@ -12,6 +12,7 @@
 
 ### 新增
 
+- 新建领域 `domains/quanttide-game`（quanttide-game，游戏研发）并注册：挂载既有 `qtgame-tycoon`（模拟经营）与 `qtgame-war`（战旗，与兵旗推演域双挂）、新建业务入口 `qtgame`（React 网站：`/` 首页双游戏导航，`/tycoon` 模拟经营页收 HTML 版漫画手册链接）；domains/README 领域清单「核心技术工程」组课程研发后加行，根 README 领域数 52 → 53
 - 新建领域 `domains/quanttide-audit`（quanttide-audit，审计管理）并注册：域仓挂载既有三仓——`docs/bylaw`（quanttide-bylaw-of-audit-management）、`packages/quanttide-audit-toolkit`（量潮审计工具箱）、`apps/qtcloud-audit`（量潮审计云）；domains/README 领域清单「职能与人力」组加行、目录树补 audit 并补回 market 漏行，根 README 领域数 51 → 52
 - `domains/quanttide-business` 新增子模块 `examples/quanttide-business-lab`（quanttide-business-lab，商务拓展实验室）：商务云示例原型三页（p07-quotation-pricing、p10-quotation-tutorial、p14-customer-tier）自 `apps/qtcloud-business/examples/` 平移，源侧不留副本；实验室元仓 `categories/quanttide-laboratory` 双登记（`domains/quanttide-business-lab` + 实验室清单表），实验室 44 → 45
 

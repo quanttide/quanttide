@@ -28,6 +28,7 @@ domains/
 ├── quanttide-entrep/      # 创业管理
 ├── quanttide-execute/     # 执行管理
 ├── quanttide-finance/     # 财务管理
+├── quanttide-game/          # 游戏研发
 ├── quanttide-growth/      # 增长管理
 ├── quanttide-health/      # 健康管理
 ├── quanttide-human/       # 人力资源
@@ -83,6 +84,7 @@ domains/
 | DevOps 工程 | devops-engineering | `devops` | 从开发到运维的生命周期治理与发布工程化实践。 |
 | 搜索工程 | search-engineering | `search` | 索引、召回与排序的工程化实践。 |
 | 课程研发 | course-development | `course` | 课程研发全生命周期的工程化实践。 |
+| 游戏研发 | game-development | `game` | 游戏研发全生命周期的工程化实践。 |
 | 写作管理 | narrative-engineering | `writing` | 面向内容创作者的写作流程管理。 |
 | 文档工程 | document-engineering | `docs` | 文档的写作、组织、发布与访问工程化实践。 |
 | 安全工程 | security-engineering | `sec` | 网络、应用与数据安全的防护与运营工程化实践。 |
