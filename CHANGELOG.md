@@ -9,6 +9,7 @@
 ---
 
 ## [Unreleased]
+- 新建领域：quanttide-create（creative-work 创意工作）、quanttide-drama（drama-production 戏剧制作），注册入 domains 清单；勾选 TODO 中 quanttide-war 条目（已建）
 
 ### 新增
 
