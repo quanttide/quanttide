@@ -91,7 +91,7 @@ domains/
 | 交互设计 | interaction-design | `ixd` | 产品界面布局与交互流程的设计工程化实践。 |
 | 兵旗推演 | war-gaming | `war` | 兵棋推演的想定、规则、裁决与复盘。 |
 | 创意工作 | creative-work | `create` | 创意构思、设计与内容创作的全过程管理。 |
-| 戏剧制作 | drama-production | `drama` | 剧本、排演、演出与复盘的全过程管理。 |
+| 戏剧制作 | drama-production | `drama` | AI 短剧（含中长剧）的剧本、生成、成片、上架与复盘的全过程管理。 |
 | **沟通与管理** |
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |

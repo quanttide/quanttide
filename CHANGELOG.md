@@ -13,6 +13,7 @@
 
 ### 新增
 
+- 修订 `quanttide-drama` 领域定义：戏剧制作＝AI 短剧（含中长剧）的剧本、生成、成片、上架与复盘，原「排演、演出」舞台口径替换；domains 清单行与域仓 README/CHANGELOG 同步
 - `domains/quanttide-create` 新增子模块 `examples/quanttide-create-lab`（quanttide-create-lab，创意工作实验室）：仓库初始化为骨架（README、CHANGELOG、LICENSE/Apache 2.0）；实验室元仓 `categories/quanttide-laboratory` 双登记（`domains/quanttide-create-lab` + 实验室清单表），实验室 45 → 46
 - 新建领域 `domains/quanttide-game`（quanttide-game，游戏研发）并注册：挂载既有 `qtgame-tycoon`（模拟经营）与 `qtgame-war`（战旗，与兵旗推演域双挂）、新建业务入口 `qtgame`（React 网站：`/` 首页双游戏导航，`/tycoon` 模拟经营页收 HTML 版漫画手册链接）；站点按 quanttide-platform static-site 模式部署至 `game.quanttide.com`（OSS + CDN + 泛证书，main 提交自动发布）；domains/README 领域清单「核心技术工程」组课程研发后加行，根 README 领域数 52 → 53
 - 新建领域 `domains/quanttide-audit`（quanttide-audit，审计管理）并注册：域仓挂载既有三仓——`docs/bylaw`（quanttide-bylaw-of-audit-management）、`packages/quanttide-audit-toolkit`（量潮审计工具箱）、`apps/qtcloud-audit`（量潮审计云）；domains/README 领域清单「职能与人力」组加行、目录树补 audit 并补回 market 漏行，根 README 领域数 51 → 52
