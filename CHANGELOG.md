@@ -16,6 +16,7 @@
 
 ### 新增
 
+- `domains/quanttide-create` 新增子模块 `assets/fictions/founder`（quanttide-fiction-of-founder，量潮创始人网络文学）：小说原文（校园言情、职场言情、重生言情）供剧本改写——create 链路补源头：小说 → 剧本（scripts/）→ 图 → 视频
 - `domains/quanttide-create` 新增子模块 `data/library`（quanttide-library-of-creative-work，创意工作图书馆）：工具介绍四篇（EchoShot 多镜头同角色、Phantom 主体一致性、VACE 参考图控视频、FlowEdit/FlowAlign 免训练改视频），2026-11-21 查证带出处；仓内不记本机信息
 - 修订 `quanttide-drama` 领域定义：戏剧制作＝AI 短剧（含中长剧）的剧本、生成、成片、上架与复盘，原「排演、演出」舞台口径替换；domains 清单行与域仓 README/CHANGELOG 同步
 - `domains/quanttide-create` 新增子模块 `examples/quanttide-create-lab`（quanttide-create-lab，创意工作实验室）：仓库初始化为骨架（README、CHANGELOG、LICENSE/Apache 2.0）；实验室元仓 `categories/quanttide-laboratory` 双登记（`domains/quanttide-create-lab` + 实验室清单表），实验室 45 → 46
