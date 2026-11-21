@@ -9,6 +9,7 @@
 ---
 
 ## [Unreleased]
+- quanttide-create 定位补理由：高频迭代与中间过程记录，明确与 fiction（原文）、drama（成片）的分工
 - 修订 quanttide-create 领域定位：用 AI 做内容的作坊（方法、半成品、未成形的项目），成片与上架归 drama；domains 清单行与域仓 README 同步
 - 新建领域：quanttide-create（creative-work 创意工作）、quanttide-drama（drama-production 戏剧制作），注册入 domains 清单；勾选 TODO 中 quanttide-war 条目（已建）
 
