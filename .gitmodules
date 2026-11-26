@@ -225,6 +225,6 @@
 [submodule "domains/quanttide-drama"]
 	path = domains/quanttide-drama
 	url = https://github.com/quanttide/quanttide-drama.git
-[submodule "domains/quanttide-comic-production"]
+[submodule "domains/quanttide-comic"]
 	path = domains/quanttide-comic
 	url = https://github.com/quanttide/quanttide-comic.git
