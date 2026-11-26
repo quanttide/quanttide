@@ -9,6 +9,7 @@
 ---
 
 ## [Unreleased]
+- `domains/quanttide-game` 的 `apps/qtgame-tycoon` 发布 **v0.1.1**：一套源码多平台发布（自己官网 `dist/`、小红书 `dist-xhs/` + zip、TapTap `dist-taptap/` 三目标构建），移除 4399 渠道文案，小红书容器适配合入；GitHub Release v0.1.1
 - `domains/quanttide-game` 新增子模块 `data/library`（quanttide-library-of-game-development，量潮游戏研发图书馆）：首收 `taptap/` 上架参考（H5 小游戏通道、上架流程、前置备案、物料规格、包体与 MCP 工具）与《TapTap 认证申请公函》模板
 - 新增领域 `quanttide-comic`（漫画制作，英文名 comic-production）：领域第二大脑骨架并注册，参考 quanttide-drama
 - quanttide-drama 中文命名改「影视制作」（原「戏剧制作」与 AI 短剧定位不符）：domains 清单行、域仓 README/AGENTS、TODO 同步；英文与仓名不变
