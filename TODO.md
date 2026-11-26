@@ -10,4 +10,5 @@
 - [ ] 创建 `quanttide-retail` 第二大脑（retail management 零售管理）
 - [x] 创建 `quanttide-war` 第二大脑（war gaming 兵棋推演）
 - [x] 创建 `quanttide-drama` 第二大脑（drama production 影视制作）
+- [x] 创建 `quanttide-comic-production` 第二大脑（comic production 漫画制作）
 - [ ] 创建 `quanttide-info` 第二大脑（information management 量潮信息管理）

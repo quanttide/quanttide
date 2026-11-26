@@ -9,6 +9,7 @@
 ---
 
 ## [Unreleased]
+- 新增领域 `quanttide-comic-production`（漫画制作）：领域第二大脑骨架并注册，参考 quanttide-drama
 - quanttide-drama 中文命名改「影视制作」（原「戏剧制作」与 AI 短剧定位不符）：domains 清单行、域仓 README/AGENTS、TODO 同步；英文与仓名不变
 - quanttide-create 定位补理由：高频迭代与中间过程记录，明确与 fiction（原文）、drama（成片）的分工
 - 修订 quanttide-create 领域定位：用 AI 做内容的作坊（方法、半成品、未成形的项目），成片与上架归 drama；domains 清单行与域仓 README 同步
