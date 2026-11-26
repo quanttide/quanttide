@@ -172,6 +172,10 @@ docs: 更新数据工程教程
 2. 推 GitHub：`gh repo create quanttide/<仓名> --public --description "<定位>" --source . --push`
 3. 父仓注册：`git submodule add https://github.com/quanttide/<仓名>.git <路径>`，同步更新父仓 README 清单（目录树、计数）与 CHANGELOG
 
+### 注册位置：领域轴与范畴轴
+
+通常每个标准化单元都是一个领域轴和一个范畴轴：单元同时注册进所属领域仓与所属范畴仓。例如 `qtcloud-consult` 属于 consult 领域和 platform 范畴——分别挂 `domains/quanttide-consult` 的 `apps/` 与 `categories/quanttide-platform` 的 `apps/`（产品清单同步登记）。两处各自提交推送，父仓逐层 bump。
+
 ### 禁止
 
 - **禁止自创骨架文件**：样本里没有的文件不加，样本里有的逐个抄全
