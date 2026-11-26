@@ -92,7 +92,7 @@ domains/
 | 兵旗推演 | war-gaming | `war` | 兵棋推演的想定、规则、裁决与复盘。 |
 | 创意工作 | creative-work | `create` | 用 AI 做内容的高频迭代作坊：方法、半成品、未成形的项目与中间过程记录；成片与上架归 drama。 |
 | 影视制作 | drama-production | `drama` | AI 短剧（含中长剧）的剧本、生成、成片、上架与复盘的全过程管理。 |
-| 漫画制作 | comic-production | `comic-production` | AI 漫画的剧本、生成、成片、上架与复盘的全过程管理。 |
+| 漫画制作 | comic-production | `comic` | AI 漫画的剧本、生成、成片、上架与复盘的全过程管理。 |
 | **沟通与管理** |
 | 议事管理 | deliberation-management | `delib` | 会议、决议与集体决策过程管理。 |
 | 行政管理 | administration-management | `admin` | 日常行政事务、资产管理。 |
